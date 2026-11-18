@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T13:52-07:00",
+"updated": "2026-11-18T14:08-07:00",
 "sources": {
 "Visit Fort Collins": {
 "ok": true,
@@ -20,7 +20,6 @@
 }
 },
 "categories": [
-"Community",
 "Music",
 "Comedy",
 "Theater & Dance",
@@ -30,7 +29,8 @@
 "Family & Kids",
 "Outdoors & Active",
 "Sports",
-"Classes & Workshops"
+"Classes & Workshops",
+"Community"
 ],
 "events": [
 {
@@ -7349,7 +7349,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
@@ -7799,7 +7799,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
@@ -19265,7 +19265,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
@@ -19517,7 +19517,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
@@ -23315,7 +23315,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
@@ -23423,7 +23423,7 @@
 "end": "18:00",
 "venue": "Avogadro's Number",
 "address": "605 South Mason",
-"city": "Fort",
+"city": "Fort Collins",
 "category": "Music",
 "url": "http://www.operafortcollins.org/guild",
 "infoUrl": "https://www.visitftcollins.com/event/arias-%40-avos/18453/",
