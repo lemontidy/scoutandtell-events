@@ -132,7 +132,7 @@ def local_dt(iso: str | None) -> datetime | None:
 
 _CITY_FIX = {
     "ft collins": "Fort Collins", "ft. collins": "Fort Collins", "fort collind": "Fort Collins",
-    "ftc": "Fort Collins", "foco": "Fort Collins", "estes": "Estes Park", "la porte": "Laporte",
+    "ftc": "Fort Collins", "fort": "Fort Collins", "foco": "Fort Collins", "estes": "Estes Park", "la porte": "Laporte",
 }
 
 
@@ -535,7 +535,7 @@ def main() -> int:
     OUT.write_text(json.dumps({
         "updated": datetime.now(TZ).isoformat(timespec="minutes"),
         "sources": status,
-        "categories": list(dict.fromkeys(c for c, _ in CATEGORIES)),
+        "categories": [c for c in dict.fromkeys(c for c, _ in CATEGORIES) if c != "Community"] + ["Community"],
         "events": events,
     }, ensure_ascii=False, indent=0))
     print(f"Wrote {len(events)} events to {OUT}")
