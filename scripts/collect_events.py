@@ -6,7 +6,7 @@ Pulls upcoming events from:
   - Visit Fort Collins  (Simpleview API)
   - Visit Estes Park    (Simpleview API)
   - Visit Greeley       (Simpleview API)
-  - Visit Loveland      (Yodel widget, read with a headless browser)
+  - Visit Loveland      (off: its Yodel widget blocks GitHub's servers)
 
 Writes docs/events.json, which the calendar page reads.
 Runs nightly from .github/workflows/update-events.yml.
@@ -46,6 +46,7 @@ SIMPLEVIEW_SOURCES = [
     {"key": "estespark", "name": "Visit Estes Park", "base": "https://www.visitestespark.com", "city": "Estes Park"},
     {"key": "greeley", "name": "Visit Greeley", "base": "https://www.visitgreeley.com", "city": "Greeley"},
 ]
+INCLUDE_LOVELAND = False
 LOVELAND = {
     "key": "loveland",
     "name": "Visit Loveland",
@@ -510,7 +511,10 @@ def main() -> int:
 
     all_events, status = [], {}
     jobs = [(s["name"], (lambda s=s: collect_simpleview(s))) for s in SIMPLEVIEW_SOURCES]
-    jobs.append((LOVELAND["name"], lambda: collect_loveland(LOVELAND)))
+    # Visit Loveland is turned off: its calendar host (Yodel) blocks GitHub's servers.
+    # To try it again, set INCLUDE_LOVELAND = True near the top of this file.
+    if INCLUDE_LOVELAND:
+        jobs.append((LOVELAND["name"], lambda: collect_loveland(LOVELAND)))
 
     for name, job in jobs:
         try:
