@@ -19,6 +19,8 @@ a { color: var(--clay); }
 button { font: inherit; color: inherit; cursor: pointer; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 [hidden] { display: none !important; }
+html.st-embedded, html.st-embedded body { overflow: hidden; height: auto; }
+html.st-embedded .st-day-head { position: static; }
 
 .st-cal { max-width: 1180px; margin: 0 auto; padding: 32px 20px 48px; }
 
@@ -110,7 +112,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .st-ongoing summary span { font: 400 14px var(--sans); color: var(--muted); }
 .st-ongoing .st-list { margin-top: 14px; }
 
-.st-foot { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 
 /* modals */
 .st-modal { border: 0; border-radius: 12px; padding: 0; width: min(640px, calc(100vw - 24px)); max-height: calc(100vh - 40px); background: var(--paper); color: var(--ink); box-shadow: 0 30px 60px -20px rgb(0 0 0 / .45); }

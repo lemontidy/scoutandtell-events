@@ -335,11 +335,16 @@
 
   // ---------------------------------------------------------------- embed
   // Tell the Scout & Tell page how tall the calendar is, so the iframe fits.
+  // When embedded, the page around us scrolls, never the calendar itself.
+  if (EMBEDDED) document.documentElement.classList.add("st-embedded");
   let lastH = 0;
   function postHeight() {
+    if (!EMBEDDED) return;
     requestAnimationFrame(() => {
-      const h = Math.ceil(document.documentElement.scrollHeight);
-      if (window.parent !== window && Math.abs(h - lastH) > 4) { lastH = h; window.parent.postMessage({ type: "st-cal-height", height: h }, "*"); }
+      // Measure the content itself; the document's scrollHeight never drops below the frame's height.
+      const app = document.getElementById("app");
+      const h = Math.ceil(app.getBoundingClientRect().bottom + window.scrollY);
+      if (h !== lastH) { lastH = h; window.parent.postMessage({ type: "st-cal-height", height: h }, "*"); }
     });
   }
   function track(name, e) { try { window.parent.postMessage({ type: "st-cal-event", name, title: e.title }, "*"); } catch (_) {} }
@@ -354,7 +359,13 @@
       dlg.style.maxHeight = "none";
     }
     dlg.showModal();
-    if (EMBEDDED) dlg.scrollIntoView({ block: "nearest" });
+    if (EMBEDDED) {
+      // Keep the whole pop-up inside the frame so nothing gets cut off at the bottom.
+      const frameBottom = document.getElementById("app").getBoundingClientRect().bottom + window.scrollY;
+      const over = dlg.offsetTop + dlg.offsetHeight + 16 - frameBottom;
+      if (over > 0) dlg.style.top = Math.max(16, dlg.offsetTop - over) + "px";
+      dlg.scrollIntoView({ block: "nearest" });
+    }
   }
   document.addEventListener("pointerdown", (ev) => { lastClickY = ev.pageY; }, true);
 
