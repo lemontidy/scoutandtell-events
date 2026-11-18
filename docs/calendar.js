@@ -11,7 +11,9 @@
   const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? u : "");
 
   const CITY_ORDER = ["Fort Collins", "Loveland", "Greeley", "Estes Park", "Windsor", "Berthoud"];
-  const LIST_PAGE = 120;
+  const LIST_PAGE = 60;
+  const EMBEDDED = window.parent !== window;
+  let lastClickY = 0;
 
   const state = {
     events: [], ongoing: [], categories: [], cities: [],
@@ -251,7 +253,7 @@
         <p class="st-src">Listed by ${info && info !== link ? `<a href="${esc(info)}" target="_blank" rel="noopener">${esc(e.source)}</a>` : esc(e.source)}. Confirm details with the host before you go.</p>
       </div>`;
     $("#addCalBtn").onclick = (ev) => toggleAddCal(ev.currentTarget.parentElement, e);
-    $("#eventModal").showModal();
+    openDialog($("#eventModal"));
     track("event_open", e);
   }
 
@@ -342,6 +344,20 @@
   }
   function track(name, e) { try { window.parent.postMessage({ type: "st-cal-event", name, title: e.title }, "*"); } catch (_) {} }
 
+  // When embedded, the calendar frame is as tall as the whole page, so a centered
+  // dialog would open far from where the reader is. Open it next to the click instead.
+  function openDialog(dlg) {
+    if (EMBEDDED) {
+      dlg.style.position = "absolute";
+      dlg.style.margin = "0 auto";
+      dlg.style.top = Math.max(16, lastClickY - 140) + "px";
+      dlg.style.maxHeight = "none";
+    }
+    dlg.showModal();
+    if (EMBEDDED) dlg.scrollIntoView({ block: "nearest" });
+  }
+  document.addEventListener("pointerdown", (ev) => { lastClickY = ev.pageY; }, true);
+
   // ---------------------------------------------------------------- wire up
   document.addEventListener("click", (ev) => {
     const id = ev.target.closest("[data-id]")?.dataset.id;
@@ -356,7 +372,7 @@
       return;
     }
     if (ev.target.closest("[data-close]")) ev.target.closest("dialog").close();
-    if (ev.target.closest("[data-open=submit]")) { ev.preventDefault(); $("#submitModal").showModal(); }
+    if (ev.target.closest("[data-open=submit]")) { ev.preventDefault(); openDialog($("#submitModal")); }
     if (ev.target.tagName === "DIALOG") ev.target.close(); // click on backdrop
   });
   $$(".st-views button").forEach((b) => (b.onclick = () => { state.view = b.dataset.view; render(); }));
