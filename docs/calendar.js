@@ -234,7 +234,6 @@
     const where = [e.venue, e.address, e.city].filter(Boolean);
     const map = where.length ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(where.join(", ") + ", CO")}` : "";
     const link = safeUrl(e.url);
-    const info = safeUrl(e.infoUrl);
     $("#eventBody").innerHTML = `
       ${safeUrl(e.image) ? `<img class="st-ev-img" src="${esc(e.image)}" alt="" onerror="this.remove()">` : ""}
       <div class="st-ev">
@@ -250,7 +249,6 @@
           ${link ? `<a class="st-btn st-btn-solid" href="${esc(link)}" target="_blank" rel="noopener">Event details &amp; tickets →</a>` : ""}
           <div class="st-addcal"><button class="st-btn st-btn-ghost" type="button" id="addCalBtn">Add to calendar</button></div>
         </div>
-        <p class="st-src">Listed by ${info && info !== link ? `<a href="${esc(info)}" target="_blank" rel="noopener">${esc(e.source)}</a>` : esc(e.source)}. Confirm details with the host before you go.</p>
       </div>`;
     $("#addCalBtn").onclick = (ev) => toggleAddCal(ev.currentTarget.parentElement, e);
     openDialog($("#eventModal"));

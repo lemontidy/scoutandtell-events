@@ -132,7 +132,6 @@ html.st-embedded .st-day-head { position: static; }
 .st-addcal-menu { position: absolute; top: 110%; z-index: 3; left: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 12px 24px -12px rgb(0 0 0 / .3); padding: 6px; display: grid; min-width: 170px; }
 .st-addcal-menu a { padding: 8px 10px; color: var(--ink); text-decoration: none; border-radius: 6px; font-size: 14px; }
 .st-addcal-menu a:hover { background: var(--cream); }
-.st-src { font-size: 13px; color: var(--muted); margin-top: 14px !important; }
 .st-muted { color: var(--muted); }
 
 /* form */
