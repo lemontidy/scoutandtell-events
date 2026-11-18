@@ -130,6 +130,23 @@ def local_dt(iso: str | None) -> datetime | None:
     return dt.astimezone(TZ)
 
 
+_CITY_FIX = {
+    "ft collins": "Fort Collins", "ft. collins": "Fort Collins", "fort collind": "Fort Collins",
+    "ftc": "Fort Collins", "foco": "Fort Collins", "estes": "Estes Park", "la porte": "Laporte",
+}
+
+
+def norm_city(c: str | None) -> str:
+    c = clean_text(c, 60).strip(" ,.")
+    if not c:
+        return ""
+    c = re.sub(r",?\s*(co|colorado)(\s+\d{5})?$", "", c, flags=re.I).strip()
+    fixed = _CITY_FIX.get(c.lower())
+    if fixed:
+        return fixed
+    return " ".join(w.capitalize() if w.isupper() or w.islower() else w for w in c.split())
+
+
 def norm_title(t: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", t.lower())
 
@@ -160,43 +177,59 @@ def day_boundary(d: datetime) -> str:
 
 
 def collect_simpleview(src: dict) -> list[dict]:
+    """
+    Simpleview returns each event once per requested date range, so a daily
+    exhibit would only show on its first day. Asking one day at a time returns
+    every event happening that day, which gives us each date it runs.
+    """
     s = session()
     base = src["base"]
     tok = s.get(f"{base}/plugins/core/get_simple_token/", timeout=30).text.strip()
     if not re.fullmatch(r"[A-Za-z0-9]{16,64}", tok):
         raise RuntimeError(f"{src['name']}: unexpected token response")
 
-    now = datetime.now(TZ)
-    start, end = day_boundary(now), day_boundary(now + timedelta(days=DAYS_AHEAD))
-    events, skip, page = [], 0, 100
-    while True:
-        q = {
-            "filter": {"active": True, "date_range": {"start": {"$date": start}, "end": {"$date": end}}},
-            "options": {
-                "limit": page, "skip": skip, "count": True, "castDocs": False,
-                "fields": SV_FIELDS, "sort": {"date": 1, "rank": 1, "title_sort": 1},
-            },
-        }
-        url = (f"{base}/includes/rest_v2/plugins_events_events_by_date/find/"
-               f"?json={quote(json.dumps(q, separators=(',', ':')))}&token={tok}")
-        r = s.get(url, timeout=60)
-        r.raise_for_status()
-        data = r.json()["docs"]
-        docs = data.get("docs", [])
-        for d in docs:
-            ev = simpleview_to_event(d, src)
-            if ev:
-                events.append(ev)
-        skip += page
-        if not docs or skip >= data.get("count", 0) or skip > 5000:
-            break
-        time.sleep(0.5)
+    today = datetime.now(TZ)
+    events, failures = [], 0
+    for offset in range(DAYS_AHEAD):
+        day = today + timedelta(days=offset)
+        start, end = day_boundary(day), day_boundary(day + timedelta(days=1))
+        skip, page = 0, 100
+        while True:
+            q = {
+                "filter": {"active": True, "date_range": {"start": {"$date": start}, "end": {"$date": end}}},
+                "options": {
+                    "limit": page, "skip": skip, "count": True, "castDocs": False,
+                    "fields": SV_FIELDS, "sort": {"date": 1, "rank": 1, "title_sort": 1},
+                },
+            }
+            url = (f"{base}/includes/rest_v2/plugins_events_events_by_date/find/"
+                   f"?json={quote(json.dumps(q, separators=(',', ':')))}&token={tok}")
+            try:
+                r = s.get(url, timeout=60)
+                r.raise_for_status()
+                data = r.json()["docs"]
+            except Exception as e:
+                failures += 1
+                if failures > 10:
+                    raise RuntimeError(f"too many failed requests ({e})")
+                time.sleep(3)
+                break
+            docs = data.get("docs", [])
+            day_iso = day.date().isoformat()
+            for d in docs:
+                ev = simpleview_to_event(d, src, day_iso)
+                if ev:
+                    events.append(ev)
+            skip += page
+            if not docs or skip >= data.get("count", 0):
+                break
+        time.sleep(0.3)
     return events
 
 
-def simpleview_to_event(d: dict, src: dict) -> dict | None:
+def simpleview_to_event(d: dict, src: dict, day_iso: str | None = None) -> dict | None:
     title = clean_text(d.get("title"), 160)
-    date = local_date(d.get("date"))
+    date = day_iso or local_date(d.get("date"))
     if not title or not date:
         return None
     detail = urljoin(src["base"], d.get("url") or "")
@@ -217,7 +250,7 @@ def simpleview_to_event(d: dict, src: dict) -> dict | None:
         "end": hhmm(d.get("endTime")),
         "venue": venue,
         "address": clean_text(d.get("address1"), 160),
-        "city": clean_text(d.get("city"), 60) or src["city"],
+        "city": norm_city(d.get("city")) or src["city"],
         "category": pick_category(cats, title, desc),
         "url": link or detail,          # the organizer's own page when there is one
         "infoUrl": detail,              # the Visit [city] listing, as a backup
@@ -240,7 +273,12 @@ def collect_loveland(src: dict) -> list[dict]:
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA)
-        page.goto(src["widget"], wait_until="networkidle", timeout=90_000)
+        page.goto(src["widget"], wait_until="domcontentloaded", timeout=90_000)
+        try:
+            page.wait_for_selector('a[href*="/y/event/"]', timeout=45_000)
+        except Exception:
+            print(f"  Loveland: no event links after load; title={page.title()!r} "
+                  f"text={page.inner_text('body')[:200]!r}", file=sys.stderr)
         stalls = 0
         for _ in range(60):  # each click loads roughly 24 more events
             before = page.locator('a[href*="/y/event/"]').count()
@@ -261,6 +299,7 @@ def collect_loveland(src: dict) -> list[dict]:
             if last_month_day and _card_date(last_month_day) and _card_date(last_month_day) > horizon.date():
                 break
         cards = page.evaluate(_CARDS_JS)
+        print(f"  Loveland: {len(cards)} event links found in widget", file=sys.stderr)
         browser.close()
 
     for c in cards:
@@ -385,7 +424,7 @@ def loveland_to_event(url: str, card: dict, ld: dict | None, src: dict) -> dict 
         loc = loc[0] if loc else {}
     addr = loc.get("address") if isinstance(loc, dict) else None
     street = addr.get("streetAddress") if isinstance(addr, dict) else (addr if isinstance(addr, str) else "")
-    city = (addr.get("addressLocality") if isinstance(addr, dict) else None) or src["city"]
+    city = norm_city(addr.get("addressLocality") if isinstance(addr, dict) else None) or src["city"]
     venue = clean_text(loc.get("name") if isinstance(loc, dict) else "", 120)
     if not venue:
         promoted = next((l for l in lines if l.lower().startswith("promoted by")), "")
