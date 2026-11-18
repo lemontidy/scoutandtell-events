@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northern Colorado Events Calendar | Scout &amp; Tell</title>
+<meta name="description" content="Things to do in Fort Collins, Loveland, Greeley and Estes Park, updated every night.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+<main class="st-cal" id="app">
+  <header class="st-head">
+    <p class="st-eyebrow">Scout &amp; Tell · Events</p>
+    <h1>Things to do in <em>Northern Colorado</em></h1>
+    <p class="st-lede">Concerts, markets, shows and more from Fort Collins, Loveland, Greeley and Estes Park, all in one place and updated every night.</p>
+    <div class="st-head-actions">
+      <button class="st-btn st-btn-solid" data-open="submit">Submit an event</button>
+      <span class="st-updated" id="updated"></span>
+    </div>
+  </header>
+
+  <section class="st-controls" aria-label="Filter events">
+    <div class="st-row">
+      <div class="st-views" role="tablist" aria-label="Calendar view">
+        <button role="tab" data-view="list" aria-selected="true">List</button>
+        <button role="tab" data-view="week" aria-selected="false">Week</button>
+        <button role="tab" data-view="month" aria-selected="false">Month</button>
+      </div>
+      <label class="st-search">
+        <span class="sr-only">Search events</span>
+        <input type="search" id="q" placeholder="Search events, venues…" autocomplete="off">
+      </label>
+    </div>
+
+    <div class="st-row st-quick" id="quick" aria-label="When">
+      <button data-when="all" class="on">Everything</button>
+      <button data-when="today">Today</button>
+      <button data-when="weekend">This weekend</button>
+      <button data-when="7">Next 7 days</button>
+      <button data-when="free">Free</button>
+    </div>
+
+    <div class="st-filter">
+      <span class="st-filter-label">Town</span>
+      <div class="st-chips" id="cities"></div>
+    </div>
+    <div class="st-filter">
+      <span class="st-filter-label">Type</span>
+      <div class="st-chips" id="cats"></div>
+    </div>
+  </section>
+
+  <section class="st-nav" id="nav" hidden>
+    <button class="st-icon" id="prev" aria-label="Previous">‹</button>
+    <h2 id="range"></h2>
+    <button class="st-icon" id="next" aria-label="Next">›</button>
+    <button class="st-btn st-btn-ghost" id="todayBtn">Today</button>
+  </section>
+
+  <p class="st-count" id="count" aria-live="polite"></p>
+  <section id="view" class="st-view"></section>
+
+  <details class="st-ongoing" id="ongoingWrap" hidden>
+    <summary>Ongoing exhibits &amp; runs <span id="ongoingCount"></span></summary>
+    <div id="ongoing" class="st-list"></div>
+  </details>
+
+  <footer class="st-foot">
+    Listings gathered nightly from
+    <a href="https://www.visitftcollins.com/events/" target="_blank" rel="noopener">Visit Fort Collins</a>,
+    <a href="https://visitloveland.com/events-calendar/" target="_blank" rel="noopener">Visit Loveland</a>,
+    <a href="https://www.visitgreeley.com/events/" target="_blank" rel="noopener">Visit Greeley</a> and
+    <a href="https://www.visitestespark.com/events-calendar/" target="_blank" rel="noopener">Visit Estes Park</a>,
+    plus events submitted by readers. Always confirm details with the host before you go.
+  </footer>
+</main>
+
+<!-- Event detail -->
+<dialog class="st-modal" id="eventModal" aria-labelledby="evTitle">
+  <button class="st-close" data-close aria-label="Close">×</button>
+  <div id="eventBody"></div>
+</dialog>
+
+<!-- Submit an event -->
+<dialog class="st-modal" id="submitModal" aria-labelledby="subTitle">
+  <button class="st-close" data-close aria-label="Close">×</button>
+  <h2 id="subTitle">Submit an event</h2>
+  <p class="st-muted">Hosting something in Northern Colorado? Send it in. We review every submission, and approved events show up on the calendar right away.</p>
+  <form id="submitForm" class="st-form">
+    <label>Event name<input name="title" required maxlength="160"></label>
+    <div class="st-2col">
+      <label>Date<input name="date" type="date" required></label>
+      <label>Ends (optional)<input name="endDate" type="date"></label>
+    </div>
+    <div class="st-2col">
+      <label>Start time<input name="start" type="time"></label>
+      <label>End time<input name="end" type="time"></label>
+    </div>
+    <label>Venue<input name="venue" required maxlength="120"></label>
+    <div class="st-2col">
+      <label>Address<input name="address" maxlength="160"></label>
+      <label>Town
+        <select name="city" required>
+          <option value="">Choose…</option>
+          <option>Fort Collins</option><option>Loveland</option><option>Greeley</option>
+          <option>Windsor</option><option>Berthoud</option><option>Estes Park</option>
+          <option>Wellington</option><option>Timnath</option><option>Johnstown</option>
+          <option>Evans</option><option>Other</option>
+        </select>
+      </label>
+    </div>
+    <div class="st-2col">
+      <label>Type<select name="category" id="subCat" required></select></label>
+      <label>Price<input name="price" placeholder="Free, $10, $15–25…" maxlength="80"></label>
+    </div>
+    <label>Event link (tickets or info page)<input name="url" type="url" required placeholder="https://"></label>
+    <label>Short description<textarea name="desc" rows="3" maxlength="600"></textarea></label>
+    <div class="st-2col">
+      <label>Your name<input name="contactName" required maxlength="80"></label>
+      <label>Your email<input name="contactEmail" type="email" required maxlength="120"></label>
+    </div>
+    <input name="website" class="st-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="st-btn st-btn-solid" type="submit">Send for review</button>
+    <p class="st-form-msg" id="submitMsg" role="status"></p>
+  </form>
+</dialog>
+
+<script src="calendar.js"></script>
+</body>
+</html>
