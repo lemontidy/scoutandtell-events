@@ -204,3 +204,8 @@ html.st-embedded, html.st-embedded body { overflow: hidden; height: auto; }
 .j-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .j-hp { position: absolute; left: -9999px; }
 @media (max-width: 600px) { .j-form-row { grid-template-columns: 1fr; } }
+
+/* about these listings */
+.j-about { padding: 36px 0 48px; color: var(--muted); font-size: 15px; }
+.j-about h2 { font: 400 24px/1.2 var(--serif); color: var(--ink); margin: 0 0 10px; }
+.j-about p { max-width: 820px; margin: 0 0 10px; }
