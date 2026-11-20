@@ -349,22 +349,30 @@ def collect_serpapi(state: dict, force: bool) -> list[dict]:
     if left <= 0:
         raise SkipSource(f"monthly budget used ({state['used']} searches in {month})")
 
-    jobs = []
+    jobs, r = [], None
     for q, town in SERPAPI_SEARCHES[: max(0, left)]:
-        r = s.get(
-            "https://serpapi.com/search.json",
-            params={
-                "engine": "google_jobs", "q": f"{q} {town} CO",
-                "location": f"{town}, Colorado, United States",
-                "hl": "en", "gl": "us", "chips": "date_posted:week", "api_key": key,
-            },
-            timeout=60,
-        )
-        state["used"] += 1
-        if r.status_code == 429:
+        params = {
+            "engine": "google_jobs", "q": f"{q} {town} CO",
+            "location": f"{town}, Colorado, United States",
+            "hl": "en", "gl": "us", "chips": "date_posted:week", "api_key": key,
+        }
+        data = None
+        for attempt in (1, 2):   # one retry; a slow search shouldn't sink the whole run
+            state["used"] += 1   # count every try, even ones that time out
+            r = None
+            try:
+                r = s.get("https://serpapi.com/search.json", params=params, timeout=90)
+                if r.status_code == 429:
+                    break
+                r.raise_for_status()
+                data = r.json()
+                break
+            except Exception as e:
+                print(f"  search '{q} {town}' attempt {attempt} failed: {e}")
+        if r is not None and getattr(r, "status_code", 0) == 429:
+            print("  SerpApi says the monthly searches are used up; stopping")
             break
-        r.raise_for_status()
-        for d in r.json().get("jobs_results", []):
+        for d in (data or {}).get("jobs_results", []):
             job = serp_to_job(d)
             if job:
                 jobs.append(job)
@@ -435,12 +443,12 @@ def main() -> int:
             print(f"{name}: {len(got)} jobs")
         except SkipSource as e:
             prev = (old.get("sources") or {}).get(name, {})
-            status[name] = {**prev, "skipped": str(e)}
+            status[name] = {k: v for k, v in prev.items() if k in ("count", "ran")} | {"skipped": str(e)}
             print(f"{name}: skipped ({e})")
         except Exception as e:
             traceback.print_exc()
             prev = (old.get("sources") or {}).get(name, {})
-            status[name] = {**prev, "ok": False, "error": str(e)[:200], "failed": today}
+            status[name] = {k: v for k, v in prev.items() if k in ("count", "ran")} | {"ok": False, "error": str(e)[:200], "failed": today}
 
     # Start from last run's jobs, then lay this run's on top.
     merged: dict[str, dict] = {}
