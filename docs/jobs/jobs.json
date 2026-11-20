@@ -1,0 +1,15 @@
+{
+"updated": "2026-11-19T20:59-07:00",
+"sources": {
+"Adzuna": {
+"skipped": "no ADZUNA_APP_ID / ADZUNA_APP_KEY secret yet"
+},
+"Google Jobs": {
+"skipped": "no SERPAPI_KEY secret yet"
+}
+},
+"serpapi_usage": {},
+"towns": [],
+"categories": [],
+"jobs": []
+}

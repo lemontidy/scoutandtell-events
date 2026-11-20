@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northern Colorado Jobs | Scout &amp; Tell</title>
+<meta name="description" content="Local jobs in Fort Collins, Loveland, Greeley, Windsor, Estes Park and around Northern Colorado, updated every day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="jobs.css">
+</head>
+<body>
+<main id="app">
+
+  <!-- hero + search -->
+  <header class="j-hero">
+    <div class="j-wrap">
+      <div class="j-hero-top">
+        <div>
+          <p class="j-kicker">Scout &amp; Tell job board</p>
+          <h1>Work close<br>to <em>home.</em></h1>
+        </div>
+        <div class="j-hero-side">
+          <p>Local openings across Fort Collins, Loveland, Greeley, Windsor, Estes Park and the rest of Northern Colorado. Updated every day, and standard listings are free to post.</p>
+          <div class="j-quick" id="quick">
+            <button data-type="Full time">Full time</button>
+            <button data-type="Part time">Part time</button>
+            <button data-cat="Restaurants &amp; Bars">Restaurants</button>
+            <button data-cat="Healthcare">Healthcare</button>
+          </div>
+        </div>
+      </div>
+      <form class="j-search" id="searchForm" role="search">
+        <label class="j-field j-field-q">
+          <span>Job or employer</span>
+          <input id="q" type="search" placeholder="Job title or company" autocomplete="off">
+        </label>
+        <label class="j-field j-field-where">
+          <span>Where</span>
+          <select id="where"><option value="">All of Northern Colorado</option></select>
+        </label>
+        <button class="j-search-btn" type="submit">Search jobs</button>
+      </form>
+      <p class="j-meta" id="meta"></p>
+    </div>
+  </header>
+
+  <div class="j-wrap">
+    <!-- spotlight -->
+    <section class="j-section" id="spotlightSec">
+      <div class="j-sec-head">
+        <h2>Spotlight roles</h2>
+        <span class="j-tag-line">Premium · top of the board</span>
+      </div>
+      <div class="j-spot-grid" id="spotlight"></div>
+    </section>
+
+    <!-- featured -->
+    <section class="j-section" id="featuredSec">
+      <div class="j-sec-head">
+        <h2>Featured this week</h2>
+        <span class="j-tag-line">Also in Wednesday's newsletter</span>
+      </div>
+      <div class="j-feat-row" id="featured"></div>
+    </section>
+
+    <!-- list + sidebar -->
+    <div class="j-main">
+      <section class="j-list-col" id="listSec" aria-labelledby="listTitle">
+        <p class="j-mono">All open jobs</p>
+        <div class="j-list-head">
+          <h2 id="listTitle">Just posted</h2>
+          <div class="j-seg" id="typeSeg" role="group" aria-label="Job type">
+            <button data-type="">All</button>
+            <button data-type="Full time">Full time</button>
+            <button data-type="Part time">Part time</button>
+          </div>
+        </div>
+        <div class="j-list-tools">
+          <div class="j-chips" id="cats" aria-label="Category"></div>
+          <label class="j-sort">Sort
+            <select id="sort">
+              <option value="new">Newest first</option>
+              <option value="pay">Highest pay</option>
+              <option value="az">Title A–Z</option>
+            </select>
+          </label>
+        </div>
+        <p class="j-count" id="count"></p>
+        <ol class="j-list" id="list"></ol>
+        <button class="j-btn j-btn-ghost j-more" id="more" hidden>Show more jobs</button>
+      </section>
+
+      <aside class="j-side">
+        <div class="j-ad">
+          <p class="j-mono">For employers</p>
+          <h3>Hiring in Northern Colorado?</h3>
+          <p>Post a job free. Upgrade to put it in front of Scout &amp; Tell readers every Wednesday.</p>
+          <a class="j-btn j-btn-clay" href="#employers">See the options</a>
+        </div>
+        <div class="j-sub">
+          <p class="j-mono">The newsletter</p>
+          <h3>Get Northern Colorado in your inbox</h3>
+          <p>The people, places and things that make NoCo wonderful, plus new jobs, every Wednesday.</p>
+          <a class="j-btn j-btn-solid" href="https://www.scoutandtell.com/subscribe" target="_top">Subscribe free</a>
+        </div>
+      </aside>
+    </div>
+
+    <!-- browse -->
+    <section class="j-section" id="browseSec">
+      <div class="j-sec-head"><h2>More ways to browse</h2></div>
+      <div class="j-browse" id="browse"></div>
+    </section>
+  </div>
+
+  <!-- employers -->
+  <section class="j-employers" id="employers">
+    <div class="j-wrap">
+      <p class="j-kicker">For employers</p>
+      <h2>Every level gets seen. The more you do, the more the page works for you.</h2>
+      <div class="j-tiers">
+        <div class="j-tier"><p class="j-mono">Free</p><h3>Standard</h3><p>A clean row in the list, up for 30 days.</p></div>
+        <div class="j-tier j-tier-gold"><p class="j-mono">Gold row</p><h3>Stand out in the list</h3><p>A clay outline and warm highlight on your row, wherever it lands.</p></div>
+        <div class="j-tier j-tier-feat"><p class="j-mono">Featured</p><h3>Framed card</h3><p>Above the list for a week, and in Wednesday's newsletter.</p></div>
+        <div class="j-tier j-tier-spot"><p class="j-mono">Spotlight</p><h3>Top of the board</h3><p>A big card at the very top. Only 2 at a time.</p></div>
+      </div>
+      <p class="j-presenting">Want the whole board? <a id="presentingLink" href="#">Become the presenting sponsor</a> and put your logo at the top for a month.</p>
+      <div class="j-emp-actions">
+        <a class="j-btn j-btn-cream" id="postLink" href="#">Post a job free</a>
+        <a class="j-btn j-btn-outline" id="featureLink" href="#">Get featured</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog class="j-modal" id="jobModal" aria-labelledby="mTitle">
+  <button class="j-close" data-close aria-label="Close">×</button>
+  <div id="mBody"></div>
+</dialog>
+
+<script src="jobs.js"></script>
+</body>
+</html>

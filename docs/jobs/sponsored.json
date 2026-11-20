@@ -1,0 +1,17 @@
+{
+"_how_to": "Paid placements. Add a job to spotlight (max 2), featured, or gold. Each entry shows until its 'ends' date (YYYY-MM-DD), then hides itself. For 'gold', list the job's company name exactly as it appears on the board; every job from that employer gets the gold row.",
+"contact": "jobs@scoutandtell.com",
+"spotlight": [],
+"featured": [],
+"gold": [],
+"_example_spotlight_or_featured": {
+  "title": "Line Cook",
+  "company": "Ember & Oak Smokehouse",
+  "town": "Fort Collins",
+  "type": "Full time",
+  "pay": "$18–$22/hr",
+  "blurb": "Wood-fired kitchen, family meal every shift, Sundays off.",
+  "apply_url": "https://example.com/apply",
+  "ends": "2026-12-31"
+}
+}
