@@ -1,0 +1,1467 @@
+{
+ "City of Fort Collins": {
+  "tried": [
+   [
+    "https://www.fcgov.com/jobs",
+    403,
+    "https://www.fortcollins.gov/Government/City-Careers"
+   ],
+   [
+    "https://fcgov.csod.com/ux/ats/careersite/12/home?c=fcgov",
+    200,
+    "https://fcgov.csod.com/ux/ats/careersite/12/home?c=fcgov"
+   ]
+  ],
+  "found": {
+   "cornerstone": [
+    "https://fcgov.csod.com/ux/ats/careersite/12/home?c=fcgov",
+    "https://us.api.csod.com/"
+   ]
+  }
+ },
+ "Larimer County": {
+  "tried": [
+   [
+    "https://www.larimer.gov/jobs",
+    403,
+    "https://www.larimer.gov/jobs"
+   ]
+  ],
+  "found": {}
+ },
+ "City of Loveland": {
+  "tried": [
+   [
+    "https://www.lovelandco.gov/jobs",
+    "ERR",
+    "HTTPSConnectionPool(host='www.lovelandco.gov', port=443): Max retries exceeded with url: /jobs (Caused by NameResolution"
+   ],
+   [
+    "https://www.lovelandco.gov",
+    "ERR",
+    "HTTPSConnectionPool(host='www.lovelandco.gov', port=443): Max retries exceeded with url: / (Caused by NameResolutionErro"
+   ]
+  ],
+  "found": {}
+ },
+ "City of Greeley": {
+  "tried": [
+   [
+    "https://greeleyco.gov/jobs",
+    404,
+    "https://greeleyco.gov/jobs"
+   ],
+   [
+    "https://greeleygov.com/jobs",
+    404,
+    "https://greeleyco.gov/jobs"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Windsor": {
+  "tried": [
+   [
+    "https://www.windsorgov.com/jobs",
+    403,
+    "https://www.windsorco.gov/jobs"
+   ],
+   [
+    "https://www.windsorgov.com",
+    403,
+    "https://www.windsorco.gov"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Estes Park": {
+  "tried": [
+   [
+    "https://www.estespark.colorado.gov/jobs",
+    "ERR",
+    "HTTPSConnectionPool(host='www.estespark.colorado.gov', port=443): Max retries exceeded with url: /jobs (Caused by NameRe"
+   ],
+   [
+    "https://estespark.colorado.gov",
+    200,
+    "https://estespark.colorado.gov/"
+   ],
+   [
+    "https://estespark.colorado.gov/jobs",
+    200,
+    "https://estespark.colorado.gov/jobs"
+   ],
+   [
+    "https://estespark.colorado.gov/eppdcareer",
+    200,
+    "https://estespark.colorado.gov/eppdcareer"
+   ]
+  ],
+  "found": {
+   "neogov": [
+    "https://www.governmentjobs.com/careers/estespark"
+   ]
+  }
+ },
+ "Weld County": {
+  "tried": [
+   [
+    "https://www.weld.gov/Government/Departments/Human-Resources",
+    403,
+    "https://www.weld.gov/Government/Departments/Human-Resources"
+   ],
+   [
+    "https://www.weld.gov",
+    403,
+    "https://www.weld.gov/"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Wellington": {
+  "tried": [
+   [
+    "https://www.wellingtoncolorado.gov",
+    200,
+    "https://www.wellingtoncolorado.gov/"
+   ],
+   [
+    "https://www.wellingtoncolorado.gov/jobs.aspx",
+    200,
+    "https://www.wellingtoncolorado.gov/jobs.aspx"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Timnath": {
+  "tried": [
+   [
+    "https://timnath.org",
+    200,
+    "https://timnath.org/"
+   ],
+   [
+    "https://timnath.org/job-openings/",
+    200,
+    "https://timnath.org/job-openings/"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Berthoud": {
+  "tried": [
+   [
+    "https://www.berthoud.org",
+    200,
+    "https://www.berthoud.org/"
+   ],
+   [
+    "https://www.berthoud.org/187/Employment-Opportunities",
+    200,
+    "https://www.berthoud.org/187/Employment-Opportunities"
+   ]
+  ],
+  "found": {}
+ },
+ "Town of Johnstown": {
+  "tried": [
+   [
+    "https://www.townofjohnstown.com",
+    "ERR",
+    "HTTPSConnectionPool(host='www.townofjohnstown.com', port=443): Max retries exceeded with url: / (Caused by NameResolutio"
+   ]
+  ],
+  "found": {}
+ },
+ "Colorado State University": {
+  "tried": [
+   [
+    "https://hr.colostate.edu/prospective-employees/",
+    200,
+    "https://hr.colostate.edu/prospective-employees/"
+   ],
+   [
+    "https://jobs.colostate.edu",
+    200,
+    "https://jobs.colostate.edu/"
+   ],
+   [
+    "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers",
+    200,
+    "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers"
+   ],
+   [
+    "https://colostate.joinhandshake.com/login",
+    200,
+    "https://colostate.joinhandshake.com/login"
+   ],
+   [
+    "https://jobs.colostate.edu/",
+    200,
+    "https://jobs.colostate.edu/"
+   ],
+   [
+    "https://jobs.colostate.edu/postings/search",
+    200,
+    "https://jobs.colostate.edu/postings/search"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers",
+    "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/assets/logo"
+   ]
+  }
+ },
+ "University of Northern Colorado": {
+  "tried": [
+   [
+    "https://www.unco.edu/human-resources/careers/",
+    200,
+    "https://www.unco.edu/human-resources/careers/"
+   ],
+   [
+    "https://www.unco.edu/jobs",
+    404,
+    "https://www.unco.edu/jobs"
+   ],
+   [
+    "https://www.unco.edu/career-readiness/",
+    200,
+    "https://www.unco.edu/career-readiness/"
+   ],
+   [
+    "https://www.unco.edu/human-resources/careers/careerhub/",
+    200,
+    "https://www.unco.edu/human-resources/careers/careerhub/"
+   ],
+   [
+    "https://unco.csod.com/ux/ats/careersite/6/home?c=unco",
+    200,
+    "https://unco.csod.com/ux/ats/careersite/6/home?c=unco"
+   ],
+   [
+    "https://unco.csod.com/ux/ats/careersite/4/home?c=unco",
+    200,
+    "https://unco.csod.com/ux/ats/careersite/4/home?c=unco"
+   ],
+   [
+    "https://unco.csod.com/ux/ats/careersite/5/home?c=unco",
+    200,
+    "https://unco.csod.com/ux/ats/careersite/5/home?c=unco"
+   ],
+   [
+    "https://unco.csod.com/ux/ats/careersite/7/home?c=unco",
+    200,
+    "https://unco.csod.com/ux/ats/careersite/7/home?c=unco"
+   ]
+  ],
+  "found": {
+   "cornerstone": [
+    "https://unco.csod.com/ux/ats/careersite/1/home?c=unco",
+    "https://unco.csod.com/ux/ats/careersite/4/home?c=unco",
+    "https://unco.csod.com/ux/ats/careersite/5/home?c=unco",
+    "https://unco.csod.com/ux/ats/careersite/6/home?c=unco",
+    "https://unco.csod.com/ux/ats/careersite/7/home?c=unco",
+    "https://us.api.csod.com/"
+   ]
+  }
+ },
+ "Aims Community College": {
+  "tried": [
+   [
+    "https://www.aims.edu/about/employment",
+    404,
+    "https://www.aims.edu/about/employment"
+   ],
+   [
+    "https://www.aims.edu",
+    200,
+    "https://www.aims.edu/"
+   ],
+   [
+    "https://www.aims.edu/careers",
+    200,
+    "https://www.aims.edu/careers"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://aims.wd1.myworkdayjobs.com/Jobs",
+    "https://aims.wd1.myworkdayjobs.com/en-US/Jobs/jobs",
+    "https://aims.wd1.myworkdayjobs.com/en-US/Jobs/jobs/details/Building-Maintenance-Technician-I_R1860-1",
+    "https://aims.wd1.myworkdayjobs.com/en-US/Jobs/jobs/details/Registration---Records-Generalist_R1890-1",
+    "https://aims.wd1.myworkdayjobs.com/en-US/Jobs/jobs/details/Trades-Specialist--Plumber_R1891-1"
+   ]
+  }
+ },
+ "Front Range Community College": {
+  "tried": [
+   [
+    "https://www.frontrange.edu/about/employment",
+    200,
+    "https://www.frontrange.edu/about/employment"
+   ],
+   [
+    "https://www.frontrange.edu",
+    200,
+    "https://www.frontrange.edu/"
+   ],
+   [
+    "https://www.frontrange.edu/student-experience/career-services/index.html",
+    200,
+    "https://www.frontrange.edu/student-experience/career-services/index.html"
+   ],
+   [
+    "https://www.frontrange.edu/careers/index.html",
+    200,
+    "https://www.frontrange.edu/careers/index.html"
+   ]
+  ],
+  "found": {}
+ },
+ "Poudre School District": {
+  "tried": [
+   [
+    "https://www.psdschools.org/careers",
+    200,
+    "https://www.psdschools.org/careers"
+   ],
+   [
+    "https://www.psdfutureready.org/careerpathways/",
+    200,
+    "https://www.psdfutureready.org/careerpathways/"
+   ],
+   [
+    "https://www.psdschools.org/academics/college-and-career-readiness",
+    200,
+    "https://www.psdschools.org/academics/college-and-career-readiness"
+   ],
+   [
+    "https://www.psdschools.org/academics/psd-career-tech-center",
+    200,
+    "https://www.psdschools.org/academics/psd-career-tech-center"
+   ],
+   [
+    "https://psdschools.schoolspring.com/",
+    200,
+    "https://psdschools.schoolspring.com/"
+   ],
+   [
+    "https://www.psdschools.org/careers/job-fairs-events",
+    200,
+    "https://www.psdschools.org/careers/job-fairs-events"
+   ],
+   [
+    "https://www.psdschools.org/careers/new-employee-resources",
+    200,
+    "https://www.psdschools.org/careers/new-employee-resources"
+   ],
+   [
+    "https://www.psdschools.org/careers/substitute-teaching",
+    200,
+    "https://www.psdschools.org/careers/substitute-teaching"
+   ]
+  ],
+  "found": {
+   "schoolspring": [
+    "https://psdschools.schoolspring.com/",
+    "https://psdschools.schoolspring.com/?jobid=5889006",
+    "https://psdschools.schoolspring.com?jobid=5941871",
+    "https://psdschools.schoolspring.com/."
+   ]
+  }
+ },
+ "Thompson School District": {
+  "tried": [
+   [
+    "https://www.tsd.org/careers",
+    404,
+    "https://www.tsd.org/careers"
+   ],
+   [
+    "https://www.tsd.org",
+    200,
+    "https://www.tsd.org/"
+   ],
+   [
+    "https://www.tsd.org/boe/policy/a/ac-r-2",
+    200,
+    "https://www.tsd.org/boe/policy/a/ac-r-2"
+   ],
+   [
+    "https://www.tsd.org/boe/policy/b/bdfd",
+    200,
+    "https://www.tsd.org/boe/policy/b/bdfd"
+   ],
+   [
+    "https://www.tsd.org/boe/policy/g/gba",
+    200,
+    "https://www.tsd.org/boe/policy/g/gba"
+   ],
+   [
+    "https://www.tsd.org/boe/policy/i/ihai-ihaq",
+    200,
+    "https://www.tsd.org/boe/policy/i/ihai-ihaq"
+   ],
+   [
+    "https://www.tsd.org/boe/policy/i/ikf-e1",
+    200,
+    "https://www.tsd.org/boe/policy/i/ikf-e1"
+   ],
+   [
+    "https://www.tsd.org/academics/career-college-readiness",
+    200,
+    "https://www.tsd.org/academics/career-college-readiness"
+   ]
+  ],
+  "found": {}
+ },
+ "Greeley-Evans School District 6": {
+  "tried": [
+   [
+    "https://www.greeleyschools.org/careers",
+    404,
+    "https://www.greeleyschools.org/careers"
+   ],
+   [
+    "https://www.greeleyschools.org",
+    200,
+    "https://www.greeleyschools.org/"
+   ],
+   [
+    "https://cte.greeleyschools.org",
+    200,
+    "https://cte.greeleyschools.org/"
+   ],
+   [
+    "https://www.greeleyschools.org/career-college-readiness",
+    200,
+    "https://www.greeleyschools.org/career-college-readiness"
+   ],
+   [
+    "https://www.greeleyschools.org/career-college-readiness/cte",
+    200,
+    "https://www.greeleyschools.org/career-college-readiness/cte"
+   ],
+   [
+    "https://www.greeleyschools.org/career-college-readiness/internships",
+    200,
+    "https://www.greeleyschools.org/career-college-readiness/internships"
+   ],
+   [
+    "https://www.greeleyschools.org/career-college-readiness/concurrent-enrollment",
+    200,
+    "https://www.greeleyschools.org/career-college-readiness/concurrent-enrollment"
+   ],
+   [
+    "https://www.greeleyschools.org/career-college-readiness/ptech-programs",
+    200,
+    "https://www.greeleyschools.org/career-college-readiness/ptech-programs"
+   ]
+  ],
+  "found": {
+   "applitrack": [
+    "http://www.applitrack.com/greeley/onlineapp/",
+    "https://www.applitrack.com/greeley/onlineapp/default.aspx"
+   ]
+  }
+ },
+ "Weld RE-4 School District": {
+  "tried": [
+   [
+    "https://www.weldre4.org",
+    200,
+    "https://www.weldre4.org/en-US"
+   ]
+  ],
+  "found": {}
+ },
+ "Poudre Fire Authority": {
+  "tried": [
+   [
+    "https://www.poudre-fire.org/careers",
+    403,
+    "https://www.poudre-fire.org/careers"
+   ],
+   [
+    "https://www.poudre-fire.org",
+    403,
+    "https://www.poudre-fire.org/"
+   ]
+  ],
+  "found": {}
+ },
+ "Poudre River Public Library": {
+  "tried": [
+   [
+    "https://www.poudrelibraries.org/about/jobs",
+    200,
+    "https://poudrelibraries.org/jobs/"
+   ],
+   [
+    "https://www.poudrelibraries.org",
+    200,
+    "https://poudrelibraries.org/"
+   ],
+   [
+    "https://poudrelibraries.org/cohs/",
+    200,
+    "https://poudrelibraries.org/cohs/"
+   ],
+   [
+    "https://poudrelibraries.org/careers/",
+    200,
+    "https://poudrelibraries.org/careers/"
+   ],
+   [
+    "https://poudrelibraries.org/common/jobs/pdf/hourly.pdf",
+    200,
+    "https://poudrelibraries.org/common/jobs/pdf/hourly.pdf"
+   ],
+   [
+    "https://poudrelibraries.org/common/jobs/pdf/classified.pdf",
+    200,
+    "https://poudrelibraries.org/common/jobs/pdf/classified.pdf"
+   ],
+   [
+    "https://poudrelibraries.org/common/jobs/pdf/contractual.pdf",
+    200,
+    "https://poudrelibraries.org/common/jobs/pdf/contractual.pdf"
+   ],
+   [
+    "https://poudrelibraries.org/jobs/",
+    200,
+    "https://poudrelibraries.org/jobs/"
+   ]
+  ],
+  "found": {}
+ },
+ "Platte River Power Authority": {
+  "tried": [
+   [
+    "https://www.prpa.org/careers",
+    200,
+    "https://prpa.org/careers/"
+   ],
+   [
+    "https://www.prpa.org",
+    200,
+    "https://prpa.org/"
+   ],
+   [
+    "https://prpa.org/careers/",
+    200,
+    "https://prpa.org/careers/"
+   ],
+   [
+    "https://prpa.org/careers/benefits/",
+    200,
+    "https://prpa.org/careers/benefits/"
+   ],
+   [
+    "https://prpa.org/careers/internships/",
+    200,
+    "https://prpa.org/careers/internships/"
+   ],
+   [
+    "https://prpa.org/careers/careers-faq/",
+    200,
+    "https://prpa.org/careers/careers-faq/"
+   ],
+   [
+    "https://prpa.org/careers/career-paths/",
+    200,
+    "https://prpa.org/careers/career-paths/"
+   ],
+   [
+    "https://prpa.org/careers/our-culture/",
+    200,
+    "https://prpa.org/careers/our-culture/"
+   ]
+  ],
+  "found": {}
+ },
+ "UCHealth": {
+  "tried": [
+   [
+    "https://www.uchealth.org/careers/",
+    403,
+    "https://careers.uchealth.org/"
+   ],
+   [
+    "https://careers.uchealth.org",
+    403,
+    "https://careers.uchealth.org/"
+   ]
+  ],
+  "found": {}
+ },
+ "Banner Health": {
+  "tried": [
+   [
+    "https://www.bannerhealth.com/careers",
+    200,
+    "https://www.bannerhealth.com/careers"
+   ],
+   [
+    "https://jobs.bannerhealth.com",
+    200,
+    "https://www.bannerhealth.com/careers/job-search"
+   ],
+   [
+    "https://bannerhealth.wd108.myworkdayjobs.com/Careers",
+    200,
+    "https://bannerhealth.wd108.myworkdayjobs.com/Careers"
+   ],
+   [
+    "https://jobs-bannerhealth.icims.com/jobs/intro?mobile=false&amp;width=1323&amp;height=500&amp;bga=true&amp;needsRedirect=false&amp;jan1offset=-300&amp;jun1offset=-240",
+    404,
+    "https://jobs-bannerhealth.icims.com/jobs/intro?mobile=false&amp;width=1323&amp;height=500&amp;bga=true&amp;needsRedirect=false&amp;jan1offset=-300&amp;jun1offset=-240"
+   ],
+   [
+    "https://app.careerarc.com/job_maps/36",
+    200,
+    "https://app.careerarc.com/job_maps/36"
+   ],
+   [
+    "https://www.practicelink.com/JobBoard/PoweredByFilteredJobSearchResults?Members=103&amp;ShowFilters=True&amp;AcademicOpportunities=1&amp;J1=4860&amp;H1B=54661&amp;Countries=1&amp;States=254,255,256,282,286,306&amp;Facilities=24681,45036,43847&amp;pbToken=981ff551-65d3-4bef-98f3-751516b0475d",
+    403,
+    "https://jobs.practicelink.com/JobBoard/PoweredByFilteredJobSearchResults"
+   ],
+   [
+    "https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&amp;cfdd[0][id]=227&amp;cfdd[0][options][0]=347&amp;cfdd[0][options][1]=306&amp;cfdd[0][options][2]=346",
+    200,
+    "https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&amp;cfdd%5B0%5D%5Bid%5D=227&amp;cfdd%5B0%5D%5Boptions%5D%5B0%5D=347&amp;cfdd%5B0%5D%5Boptions%5D%5B1%5D=306&amp;cfdd%5B0%5D%5Boptions%5D%5B2%5D=346"
+   ],
+   [
+    "https://bannerhealth.wd108.myworkdayjobs.com/sonoraquestcareers",
+    200,
+    "https://bannerhealth.wd108.myworkdayjobs.com/sonoraquestcareers"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://bannerhealth.wd108.myworkdayjobs.com/Careers",
+    "https://bannerhealth.wd108.myworkdayjobs.com/sonoraquestcareers",
+    "https://bannerhealth.wd108.myworkdayjobs.com/Careers/assets/logo",
+    "https://bannerhealth.wd108.myworkdayjobs.com/sonoraquestcareers/assets/logo"
+   ],
+   "icims": [
+    "https://jobs-bannerhealth.icims.com/jobs/intro",
+    "https://careers.icims.com/careers-home/",
+    "https://cdn13.icims.com/icims-branding/0.6.0/assets/error-page-400x400.png",
+    "https://cdn13.icims.com/icims-branding/0.6.0/assets/favicon.ico",
+    "https://cdn13.icims.com/icims-branding/0.6.0/assets/logo-tagline-200x53.png",
+    "https://cdn13.icims.com/icims-branding/0.6.0/assets/main.css"
+   ],
+   "cornerstone": [
+    "https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&amp",
+    "https://us.api.csod.com/"
+   ]
+  }
+ },
+ "Columbine Health Systems": {
+  "tried": [
+   [
+    "https://www.columbinehealth.com/careers",
+    "ERR",
+    "HTTPSConnectionPool(host='www.columbinehealth.com', port=443): Max retries exceeded with url: /careers (Caused by SSLErr"
+   ],
+   [
+    "https://www.columbinehealth.com",
+    "ERR",
+    "HTTPSConnectionPool(host='www.columbinehealth.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLE"
+   ]
+  ],
+  "found": {}
+ },
+ "SummitStone Health Partners": {
+  "tried": [
+   [
+    "https://summitstonehealth.org/careers",
+    200,
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US"
+   ],
+   [
+    "https://summitstonehealth.org",
+    200,
+    "https://www.summitstone.org/"
+   ],
+   [
+    "https://www.summitstone.org/careers/student-learning/",
+    200,
+    "https://www.summitstone.org/careers/student-learning/"
+   ],
+   [
+    "https://summitstone.org/join-our-team/",
+    200,
+    "https://www.summitstone.org/join-our-team/"
+   ],
+   [
+    "https://careers.summitstonehealth.org/",
+    200,
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US"
+   ],
+   [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&amp;ccId=19000101_000001&amp;lang=en_US",
+    200,
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&amp;ccId=19000101_000001&amp;lang=en_US"
+   ]
+  ],
+  "found": {
+   "adp": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&amp"
+   ]
+  }
+ },
+ "Woodward": {
+  "tried": [
+   [
+    "https://www.woodward.com/en/careers",
+    200,
+    "https://www.woodward.com/careers/"
+   ],
+   [
+    "https://www.woodward.com",
+    200,
+    "https://www.woodward.com/"
+   ],
+   [
+    "https://www.woodward.com/careers/",
+    200,
+    "https://www.woodward.com/careers/"
+   ],
+   [
+    "https://www.woodward.com/careers/equal-opportunity/",
+    200,
+    "https://www.woodward.com/careers/equal-opportunity/"
+   ],
+   [
+    "https://woodward.wd5.myworkdayjobs.com/woodward",
+    200,
+    "https://woodward.wd5.myworkdayjobs.com/woodward"
+   ],
+   [
+    "https://woodward.wd5.myworkdayjobs.com/woodward?workerSubType=6da8ebec461a1000e0b55f324cda0000&amp;workerSubType=6da8ebec461a1000e0b55d635b0d0000",
+    200,
+    "https://woodward.wd5.myworkdayjobs.com/woodward?workerSubType=6da8ebec461a1000e0b55f324cda0000&amp;workerSubType=6da8ebec461a1000e0b55d635b0d0000"
+   ],
+   [
+    "https://www.woodward.com/news/inside-woodwards-rotation-program-gabriellas-experience/",
+    200,
+    "https://www.woodward.com/news/inside-woodwards-rotation-program-gabriellas-experience/"
+   ],
+   [
+    "https://www.woodward.com/news/exposure-beyond-a-single-role-how-woodwards-rotation-program-accelerates-growth/",
+    200,
+    "https://www.woodward.com/news/exposure-beyond-a-single-role-how-woodwards-rotation-program-accelerates-growth/"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://woodward.wd5.myworkdayjobs.com/en-US/woodward",
+    "https://woodward.wd5.myworkdayjobs.com/woodward"
+   ]
+  }
+ },
+ "New Belgium Brewing": {
+  "tried": [
+   [
+    "https://www.newbelgium.com/company/careers/",
+    200,
+    "https://www.newbelgium.com/company/careers/"
+   ],
+   [
+    "https://www.newbelgium.com",
+    200,
+    "https://www.newbelgium.com/"
+   ],
+   [
+    "https://www.newbelgium.com/company/careers/?c=newbelgium",
+    200,
+    "https://www.newbelgium.com/company/careers/?c=newbelgium"
+   ],
+   [
+    "https://newbelgium.wd108.myworkdayjobs.com/NBBCareers",
+    200,
+    "https://newbelgium.wd108.myworkdayjobs.com/NBBCareers"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://newbelgium.wd108.myworkdayjobs.com/NBBCareers",
+    "https://newbelgium.wd108.myworkdayjobs.com/NBBCareers/assets/logo"
+   ]
+  }
+ },
+ "Odell Brewing": {
+  "tried": [
+   [
+    "https://www.odellbrewing.com/careers",
+    404,
+    "https://www.odellbrewing.com/404-page/?avia_forced_reroute=1"
+   ],
+   [
+    "https://www.odellbrewing.com",
+    200,
+    "https://www.odellbrewing.com/"
+   ],
+   [
+    "https://www.odellbrewing.com/jobs/",
+    200,
+    "https://www.odellbrewing.com/jobs/"
+   ]
+  ],
+  "found": {
+   "adp": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d30b7861-ea36-4a20-9426-8f090e74d18a&amp"
+   ]
+  }
+ },
+ "Broadcom": {
+  "tried": [
+   [
+    "https://www.broadcom.com/company/careers",
+    200,
+    "https://www.broadcom.com/company/careers"
+   ]
+  ],
+  "found": {}
+ },
+ "JBS USA": {
+  "tried": [
+   [
+    "https://jbssa.com/careers",
+    200,
+    "https://jbsfoodsgroup.com"
+   ],
+   [
+    "https://jbssa.com",
+    200,
+    "https://jbsfoodsgroup.com"
+   ],
+   [
+    "https://jbsfoodsgroup.com/careers",
+    200,
+    "https://jbsfoodsgroup.com/careers"
+   ],
+   [
+    "https://jbsfoodsgroup.com/articles/from-summer-intern-to-head-of-us-sustainability-how-jbs-s-management-trainee-program-shaped-one-career",
+    200,
+    "https://jbsfoodsgroup.com/articles/from-summer-intern-to-head-of-us-sustainability-how-jbs-s-management-trainee-program-shaped-one-career"
+   ]
+  ],
+  "found": {}
+ },
+ "Leprino Foods": {
+  "tried": [
+   [
+    "https://www.leprinofoods.com/careers",
+    200,
+    "https://leprino.com/careers/"
+   ],
+   [
+    "https://www.leprinofoods.com",
+    200,
+    "https://leprino.com/"
+   ],
+   [
+    "https://leprino.com/careers/",
+    200,
+    "https://leprino.com/careers/"
+   ],
+   [
+    "https://leprino.com/careers/culture/",
+    200,
+    "https://leprino.com/careers/culture/"
+   ],
+   [
+    "https://leprino.com/careers/benefits/",
+    200,
+    "https://leprino.com/careers/benefits/"
+   ],
+   [
+    "https://leprino.com/careers/locations/",
+    200,
+    "https://leprino.com/careers/locations/"
+   ],
+   [
+    "https://example.com/",
+    200,
+    "https://example.com/"
+   ],
+   [
+    "https://leprino.com/es/careers/",
+    200,
+    "https://leprino.com/es/careers/"
+   ]
+  ],
+  "found": {}
+ },
+ "Vestas": {
+  "tried": [
+   [
+    "https://www.vestas.com/en/careers",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas"
+   ],
+   [
+    "javascript:;",
+    "ERR",
+    "No connection adapters were found for 'javascript:;'"
+   ],
+   [
+    "https://www.vestas.com/en/careers/life-at-vestas",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas"
+   ],
+   [
+    "https://www.vestas.com/en/careers/job-openings",
+    200,
+    "https://careers.vestas.com/search/?q=&locationsearch="
+   ],
+   [
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/office"
+   ],
+   [
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/office",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/office"
+   ],
+   [
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/site",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/site"
+   ],
+   [
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/production-facility",
+    200,
+    "https://www.vestas.com/en/careers/life-at-vestas/career-directions/production-facility"
+   ]
+  ],
+  "found": {
+   "successfactors": [
+    "https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js",
+    "https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js",
+    "https://rmkcdn.successfactors.com/81de82ba/7b25e701-4ada-448f-8544-4.png",
+    "https://rmkcdn.successfactors.com/81de82ba/c09d6a1a-f092-4589-89f1-1.jpg"
+   ]
+  }
+ },
+ "Advanced Energy": {
+  "tried": [
+   [
+    "https://www.advancedenergy.com/en-us/about/careers/",
+    404,
+    "https://www.advancedenergy.com/en-us/about/careers/"
+   ],
+   [
+    "https://www.advancedenergy.com",
+    200,
+    "https://www.advancedenergy.com/en-us/"
+   ],
+   [
+    "https://www.advancedenergy.com/en-us/about/working-at-advanced-energy/",
+    200,
+    "https://www.advancedenergy.com/en-us/about/working-at-advanced-energy/"
+   ]
+  ],
+  "found": {}
+ },
+ "OtterBox": {
+  "tried": [
+   [
+    "https://www.otterbox.com/en-us/careers.html",
+    200,
+    "https://www.otterbox.com/pages/careers"
+   ],
+   [
+    "https://careers.otterbox.com",
+    "ERR",
+    "HTTPSConnectionPool(host='careers.otterbox.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionEr"
+   ],
+   [
+    "https://www.otterbox.com/customer_authentication/login?return_to=%2Fpages%2Fcareers&locale=en&ui_hint=full&region_country=US",
+    406,
+    "https://shopify.com/authentication/68143218875/oauth/authorize?_cs=&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwbmR3YzMtYXIubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbIntcImZsYWdcIjp7XCJsb3dpZFwiOlwiMTI0OTU2NjkzODg4MzMzNTU1NDNcIixcImhpZ2hpZFwiOlwiNTQ3NDE5ODQzNTgyNDQ1NTQ2XCJ9LFwiZXhwb3NlZFwiOnRydWV9Il0sImV4cCI6MTc5NTc5Njg4NywibmJmIjoxNzk1MTkyMDg3fQ.938aNzqpjPXiT5-1F_ibWlRlkiSXY8TvGQv9Or4yCD8&client_id=e3333723-b38d-4d13-a1cb-224795148502&locale=en&nonce=16a5d52f-4c50-48b3-9f23-cc3e60200831&redirect_uri=https%3A%2F%2Fwww.otterbox.com%2Fcustomer_authentication%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api&state=hWNJN5rbUqDQAiOBwPmNFTov&ui_hint=full"
+   ],
+   [
+    "https://careers-otterproducts.icims.com/jobs/intro",
+    200,
+    "https://careers-otterproducts.icims.com/jobs/intro"
+   ],
+   [
+    "https://www.otterbox.com/pages/careers",
+    200,
+    "https://www.otterbox.com/pages/careers"
+   ]
+  ],
+  "found": {
+   "icims": [
+    "https://careers-otterproducts.icims.com/jobs/intro",
+    "https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/common/icims.js",
+    "https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/lib/domreplacement/domReplacement.js",
+    "https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/portal/utils.js",
+    "https://otterproducts.icims.com/icims2/servlet/icims2"
+   ]
+  }
+ },
+ "Water Pik": {
+  "tried": [
+   [
+    "https://www.waterpik.com/careers/",
+    200,
+    "https://www.waterpik.com/careers/"
+   ],
+   [
+    "https://www.waterpik.com",
+    200,
+    "https://www.waterpik.com/"
+   ],
+   [
+    "https://churchdwight.wd1.myworkdayjobs.com/waterpikcareers",
+    429,
+    "https://churchdwight.wd1.myworkdayjobs.com/waterpikcareers"
+   ]
+  ],
+  "found": {
+   "workday": [
+    "https://churchdwight.wd1.myworkdayjobs.com/waterpikcareers"
+   ]
+  }
+ },
+ "Hach": {
+  "tried": [
+   [
+    "https://www.hach.com/careers",
+    200,
+    "https://www.hach.com/careers"
+   ],
+   [
+    "https://jobs.danaher.com",
+    200,
+    "https://jobs.danaher.com/global/en"
+   ],
+   [
+    "https://jobs.veralto.com/global/en/hach?origin=dropdown&amp;c1=careers&amp;clickedon=careers",
+    200,
+    "https://jobs.veralto.com/global/en/hach?origin=dropdown&amp;c1=careers&amp;clickedon=careers"
+   ],
+   [
+    "https://jobs.veralto.com/global/en/hach-search-results",
+    200,
+    "https://jobs.veralto.com/global/en/hach-search-results"
+   ],
+   [
+    "https://jobs.veralto.com/global/en/hach?origin=footer&amp;c1=about-us&amp;c2=careers&amp;clickedon=careers",
+    200,
+    "https://jobs.veralto.com/global/en/hach?origin=footer&amp;c1=about-us&amp;c2=careers&amp;clickedon=careers"
+   ],
+   [
+    "https://jobs.danaher.com/global/en/life-sciences-search-results",
+    200,
+    "https://jobs.danaher.com/global/en/life-sciences-search-results"
+   ],
+   [
+    "https://jobs.danaher.com/global/en/diagnostics-search-results",
+    200,
+    "https://jobs.danaher.com/global/en/diagnostics-search-results"
+   ],
+   [
+    "https://jobs.danaher.com/global/en/biotechnology-search-results",
+    200,
+    "https://jobs.danaher.com/global/en/biotechnology-search-results"
+   ]
+  ],
+  "found": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phenompeople"
+   ],
+   "workday": [
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/Berlin-Germany/Operator-Logistik--m-w-d-_R10262062/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/Loveland-Colorado-United-States/Full-Stack---Digital-Commerce-Software-Engineer-II_R10267898/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/Rio-de-Janeiro-Brazil/Service-Technician-II_R10264855/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/THA---Pattanakarn-Suanluang---3403-Hach-Thailand-Ltd/Service-Manager_R10268273/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/THA---Remote/Label-Graphics-Coordinator_R10267859-2/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/Chhattisgarh-India/Engineer---Service-and-Service-Contract-Sales_R10265256/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/Geneva-Switzerland/Intern-R-D_R10268404/apply",
+    "https://veralto.wd1.myworkdayjobs.com/HachJobs/job/IND---Remote/Business-Systems-Developer_R10268188/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Boston-Massachusetts-United-States/Account-Manager_R1316184/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Boston-Massachusetts-United-States/Senior-Sales-Territory-Manager---Mass-Spectrometry--Eastern-MA_R1316152/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Coralville-Iowa-United-States/Account-Representative---Collections_R1316375/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Diadema-So-Paulo-Brazil/Technical-Solutions-Specialist_R1317126-1/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Marlborough-Massachusetts-United-States/Director--Global-Key-Account-Management_R1315578/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Austin-Texas-United-States/Sr-Director--Medical---Scientific-Affairs---Specialty-Testing----USA-REMOTE-_R1315146-1/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Senior-Electrical-Engineer_R1316106/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Senior-Mechanical-Engineer_R1316103-1/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Chaska-Minnesota-United-States/Engineering-Careers---Be-Part-of-Our-2026-Growth--Engineer-_R1301757/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/OCallaghan-Mills-Ireland/Senior-Manager-Technical-Project-Management_R1297825/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/FP-A-Analyst---A-D-MCS-UFMR-D_R1319760-1/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Senior-Technical-Writer_R1318553/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Sr-Project-Manager--PDS--APAC-_R1322204/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Supplier-Quality-Operations-Data-Specialist_R1318510/apply",
+    "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Braunton-United-Kingdom/Engineering-Technician---12-hrs--4-on-4-off-_R1319830/apply"
+   ]
+  }
+ },
+ "Heska": {
+  "tried": [
+   [
+    "https://www.heska.com/careers",
+    200,
+    "https://www.antechdiagnostics.com/in-house-diagnostics/"
+   ],
+   [
+    "https://www.heska.com",
+    200,
+    "https://www.antechdiagnostics.com/in-house-diagnostics/"
+   ],
+   [
+    "https://careers.antechdiagnostics.com/us/en/home",
+    200,
+    "https://careers.antechdiagnostics.com/us/en/home"
+   ]
+  ],
+  "found": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phenompeople"
+   ]
+  }
+ },
+ "Hewlett Packard Enterprise": {
+  "tried": [
+   [
+    "https://careers.hpe.com",
+    200,
+    "https://careers.hpe.com/us/en"
+   ],
+   [
+    "https://careers.hpe.com/us/en/home",
+    200,
+    "https://careers.hpe.com/us/en/home"
+   ],
+   [
+    "https://careers.hpe.com/us/en/careers-in-tech",
+    200,
+    "https://careers.hpe.com/us/en/careers-in-tech"
+   ],
+   [
+    "https://careers.hpe.com/us/en/networking",
+    200,
+    "https://careers.hpe.com/us/en/networking"
+   ],
+   [
+    "https://careers.hpe.com/us/en/hpe-financial-services-team",
+    200,
+    "https://careers.hpe.com/us/en/hpe-financial-services-team"
+   ],
+   [
+    "https://careers.hpe.com/us/en/hpe-operations",
+    200,
+    "https://careers.hpe.com/us/en/hpe-operations"
+   ],
+   [
+    "https://careers.hpe.com/us/en/c/human-resources-talent-development-jobs",
+    200,
+    "https://careers.hpe.com/us/en/c/human-resources-talent-development-jobs"
+   ],
+   [
+    "https://careers.hpe.com/us/en/c/legal-jobs",
+    200,
+    "https://careers.hpe.com/us/en/c/legal-jobs"
+   ]
+  ],
+  "found": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phenompeople"
+   ],
+   "workday": [
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/All-Virginia-United-States-of-America/Senior-Federal-Technical-Consultant_1204941-3/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bristol-Avon-United-Kingdom/Public-Sector---Technology-Consultant-Architect-Kubernetes-and-Apps_1204303-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Houston-Texas/Job-Posting-Title-HPC-Applications---Performance-Engineer_1208387-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Hyderabad-Andhra-Pradesh/Principal-Cloud-Developer_1204920-3/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Munich-Bavaria-Germany/Manager-Cybersecurity-Presales---DACH-Region--f-m-d-_1211840-1/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Alleroed-Capital-Denmark/Sales-Associate---HPE-Financial-Services_1217887-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karnataka-India/Compliance-Officer---APJ_1217397-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Berkeley-Heights-New-Jersey-United-States-of-America/Senior-Director-of-Service-Excellence--HPEFS-North-America_1214713-3/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Boeblingen-Baden-Wurttemberg-Germany/Digital-Sales-Representative--w-m-d--HPE-Financial-Services---Germany_1217108-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electrical-R-D-Lab-Technician---Onsite-in-Chippewa-Falls--WI_1213687-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Aguadilla-Puerto-Rico-Puerto-Rico/EMEA-Regional-Test-Engineer_1206648-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ariana-Ariana-Tunisia/Solution-Architect_1203808-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Dalian-Liaoning-China/Account-Support-Manager_1203438-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Heredia-Heredia-Costa-Rica/NPI-Service-Program-Manager_1210923-1/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Singapore-Central-Singapore-Singapore/AI-workflow-Designer_1208358-3/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/All-California-United-States-of-America/HPE-Aruba-Networking-Certification-Developer_1212157-1/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Heredia-Heredia-Costa-Rica/L-D-Delivery-Specialist-III_1207709/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/L-D-Design---Development-Graduate_1213483/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Country-HR-US-Business-Integrator_1210826-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Country-HR-US-Program-Integrator_1212344/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/CX---Strategy-and-Business-Ops-OPEX_1214350-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/CX---Strategy-and-Business-Ops-OPEX_1214351-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Contract-Negotiator_1217592-3/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas/Counsel---HPE-Financial-Services_1215434-2/apply",
+    "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Tokyo-Tokyo-Japan/Legal-Counsel_1217595-3/apply"
+   ]
+  }
+ },
+ "Elevations Credit Union": {
+  "tried": [
+   [
+    "https://www.elevationscu.com/careers",
+    403,
+    "https://www.elevationscu.com/careers"
+   ],
+   [
+    "https://www.elevationscu.com",
+    403,
+    "https://www.elevationscu.com/"
+   ]
+  ],
+  "found": {}
+ },
+ "Canvas Credit Union": {
+  "tried": [
+   [
+    "https://www.canvas.org/careers",
+    200,
+    "https://www.canvas.org/about-us/careers"
+   ],
+   [
+    "https://www.canvas.org",
+    200,
+    "https://www.canvas.org/"
+   ]
+  ],
+  "found": {}
+ },
+ "Bank of Colorado": {
+  "tried": [
+   [
+    "https://www.bankofcolorado.com/careers",
+    200,
+    "https://www.bankofcolorado.com/careers"
+   ],
+   [
+    "https://www.bankofcolorado.com",
+    200,
+    "https://www.bankofcolorado.com/"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/jobs",
+    200,
+    "https://www.bankofcolorado.com/careers/jobs"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/teller",
+    200,
+    "https://www.bankofcolorado.com/careers/teller"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/branch-president",
+    200,
+    "https://www.bankofcolorado.com/careers/branch-president"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/mortgage-originator",
+    200,
+    "https://www.bankofcolorado.com/careers/mortgage-originator"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/business-online-banking-support",
+    200,
+    "https://www.bankofcolorado.com/careers/business-online-banking-support"
+   ],
+   [
+    "https://www.bankofcolorado.com/careers/jobs?careers%5BhierarchicalMenu%5D%5Blocation.lvl0%5D%5B0%5D=Colorado",
+    200,
+    "https://www.bankofcolorado.com/careers/jobs?careers%5BhierarchicalMenu%5D%5Blocation.lvl0%5D%5B0%5D=Colorado"
+   ]
+  ],
+  "found": {}
+ },
+ "Kaiser Permanente": {
+  "tried": [
+   [
+    "https://www.kaiserpermanentejobs.org",
+    200,
+    "https://www.kaiserpermanentejobs.org/"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/career-growth",
+    200,
+    "https://www.kaiserpermanentejobs.org/career-growth"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/clinical-careers",
+    200,
+    "https://www.kaiserpermanentejobs.org/clinical-careers"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/en/care-at-home-careers",
+    200,
+    "https://www.kaiserpermanentejobs.org/en/care-at-home-careers"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/mentalhealthcareers",
+    200,
+    "https://www.kaiserpermanentejobs.org/mentalhealthcareers"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/nursing-careers",
+    200,
+    "https://www.kaiserpermanentejobs.org/nursing-careers"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/rn-management ",
+    200,
+    "https://www.kaiserpermanentejobs.org/"
+   ],
+   [
+    "https://www.kaiserpermanentejobs.org/en/pharmacy-careers",
+    200,
+    "https://www.kaiserpermanentejobs.org/en/pharmacy-careers"
+   ]
+  ],
+  "found": {
+   "taleo": [
+    "https://kp.taleo.net/careersection/external/mysubmissions.ftl?lang=en"
+   ],
+   "radancy": [
+    "radancy",
+    "tbcdn.talentbrew.com"
+   ]
+  }
+ },
+ "Envision / Front Range Clinic": {
+  "tried": [
+   [
+    "https://www.frontrangeclinic.com/careers",
+    "ERR",
+    "HTTPSConnectionPool(host='www.frontrangeclinic.com', port=443): Max retries exceeded with url: /careers (Caused by SSLEr"
+   ]
+  ],
+  "found": {}
+ },
+ "Sunrise Community Health": {
+  "tried": [
+   [
+    "https://www.sunrisecommunityhealth.org/careers",
+    200,
+    "https://www.sunrisecommunityhealth.org/careers"
+   ],
+   [
+    "https://www.sunrisecommunityhealth.org",
+    200,
+    "https://www.sunrisecommunityhealth.org/"
+   ]
+  ],
+  "found": {
+   "adp": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&amp",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&type=JS&lang=en_US"
+   ]
+  }
+ },
+ "Salud Family Health": {
+  "tried": [
+   [
+    "https://www.saludclinic.org/careers",
+    200,
+    "https://www.saludclinic.org/careers"
+   ],
+   [
+    "https://www.saludclinic.org",
+    200,
+    "https://www.saludclinic.org/"
+   ],
+   [
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/provider-positions",
+    200,
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/provider-positions"
+   ],
+   [
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/non-provider-jobs",
+    200,
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/non-provider-jobs"
+   ],
+   [
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/all-other-positions",
+    200,
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/all-other-positions"
+   ],
+   [
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/management-positions",
+    200,
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters/management-positions"
+   ]
+  ],
+  "found": {
+   "smartrecruiters": [
+    "https://careers.smartrecruiters.com/SaludFamilyHealthCenters",
+    "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters"
+   ]
+  }
+ },
+ "Colorado Department of Transportation": {
+  "tried": [
+   [
+    "https://www.governmentjobs.com/careers/colorado",
+    200,
+    "https://www.governmentjobs.com/careers/colorado"
+   ],
+   [
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado",
+    200,
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/colorado/applications/submitted",
+    200,
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado%2Fapplications%2Fsubmitted"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/colorado/inbox",
+    200,
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado%2Finbox"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/colorado/profilesettings",
+    200,
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado%2Fprofilesettings"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/colorado/applications/accountsettings",
+    200,
+    "https://www.governmentjobs.com/app/signin?returnUrl=%2Fcareers%2Fcolorado%2Fapplications%2Faccountsettings"
+   ],
+   [
+    "https://www.colorado.gov/pacific/dhr/state-employment-faq",
+    200,
+    "https://careers.colorado.gov/how-to-apply"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/colorado/privacypolicy",
+    200,
+    "https://www.governmentjobs.com/careers/colorado/privacypolicy"
+   ]
+  ],
+  "found": {
+   "neogov": [
+    "https://www.governmentjobs.com/careers/colorado",
+    "https://www.governmentjobs.com/careers/Colorado"
+   ]
+  }
+ },
+ "Vail Resorts / Estes": {
+  "tried": [],
+  "found": {}
+ }
+}
