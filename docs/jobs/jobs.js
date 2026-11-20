@@ -29,10 +29,10 @@
   function flush() {
     if (!ENDPOINT || !queue.length) { queue.length = 0; return; }
     const body = JSON.stringify({ kind: "event", events: queue.splice(0, 25) });
+    // Google Apps Script answers with a redirect, which sendBeacon drops, so use fetch.
     try {
-      if (!(navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, new Blob([body], { type: "text/plain" })))) {
-        fetch(ENDPOINT, { method: "POST", body, mode: "no-cors", keepalive: true });
-      }
+      fetch(ENDPOINT, { method: "POST", body, mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain" } })
+        .catch(() => { try { navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, body); } catch (_) {} });
     } catch (_) {}
     if (queue.length) flush();
   }
