@@ -423,7 +423,9 @@ def main() -> int:
 
     by_source: dict[str, list[dict]] = {}
     status: dict[str, dict] = {}
-    for name, fn in (("Adzuna", lambda: collect_adzuna(adz_state, force_adz)), ("Google Jobs", lambda: collect_serpapi(serp_state, force_serp))):
+    # Adzuna is switched off (Matt chose public-sector + employer feeds instead).
+    # To turn it back on, add ("Adzuna", lambda: collect_adzuna(adz_state, force_adz)) here.
+    for name, fn in (("Google Jobs", lambda: collect_serpapi(serp_state, force_serp)),):
         try:
             got = fn()
             for j in got:

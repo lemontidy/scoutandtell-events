@@ -34,7 +34,7 @@ The job board at **lemontidy.github.io/scoutandtell-events/jobs/** (to be shown 
 | Piece | Where | What it does |
 |---|---|---|
 | Collector | `scripts/collect_jobs.py` | Pulls Northern Colorado openings, drops recruiters/staffing agencies and anything outside NoCo, removes duplicates, and writes `docs/jobs/jobs.json`. |
-| Daily job | `.github/workflows/update-jobs.yml` | Runs every morning on GitHub's servers. Adzuna runs Sundays only; Google Jobs (SerpApi) only Mondays and Thursdays. Both stay inside their free plans. |
+| Daily job | `.github/workflows/update-jobs.yml` | Runs every morning on GitHub's servers. Google Jobs (SerpApi) runs only Mondays and Thursdays to stay inside the free plan. (Adzuna support is in the code but switched off.) |
 | Board page | `docs/jobs/` | Search (job/employer + town), Spotlight, Featured, the full list with filters, browse boxes, and the employer tiers. |
 | Paid placements | `docs/jobs/sponsored.json` | Spotlight (max 2), Featured and Gold-row employers. Each entry hides itself after its `ends` date. |
 
