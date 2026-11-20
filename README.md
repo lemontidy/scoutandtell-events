@@ -65,3 +65,7 @@ The free plan is 250 searches a month. The collector does 22 searches per run, o
 - **Hide an employer:** add its name to `HIDE_COMPANIES` in the collector. Recruiter keywords are in `STAFFING`.
 - **Sell a placement:** add an entry to `docs/jobs/sponsored.json` (an example is in the file) and commit. It shows up within a minute or two.
 - **Link to a filtered view** (great for the newsletter): `…/jobs/?where=Loveland`, `?type=Part time`, `?cat=Healthcare`, `?q=barista`.
+
+## Hiring history (for trend reports)
+
+Every run also updates `data/jobs_history.json` (every posting ever seen: employer, title, town, category, pay, first and last day seen) and `data/daily_counts.csv` (open and new jobs per day). Nothing is deleted from these, so after a few months they show which local businesses hire consistently, for what roles, and how long jobs stay open.

@@ -41,6 +41,8 @@ import employer_feeds  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs" / "jobs.json"
+HISTORY = ROOT / "data" / "jobs_history.json"     # every job ever seen, for trend reports
+DAILY = ROOT / "data" / "daily_counts.csv"         # one line per run
 TZ = ZoneInfo("America/Denver")
 
 # ---------------------------------------------------------------- settings
@@ -515,8 +517,44 @@ def main() -> int:
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=0))
+    record_history(keep, today)
     print(f"Wrote {len(keep)} jobs to {OUT.relative_to(ROOT)}")
     return 0
+
+
+def record_history(jobs: list[dict], today: str) -> None:
+    """Keep a running record of every posting, so we can see who hires, for what, and how often."""
+    HISTORY.parent.mkdir(parents=True, exist_ok=True)
+    hist = {}
+    if HISTORY.exists():
+        try:
+            hist = json.loads(HISTORY.read_text())
+        except Exception:
+            hist = {}
+    for j in jobs:
+        h = hist.get(j["id"])
+        if not h:
+            h = hist[j["id"]] = {
+                "title": j["title"], "company": j["company"], "town": j["town"],
+                "category": j.get("category", ""), "type": j.get("type", ""),
+                "pay": j.get("pay", ""), "pay_sort": j.get("pay_sort", 0),
+                "source": j.get("source", ""), "posted": j.get("posted"),
+                "first_seen": today, "days_seen": 0,
+            }
+        if h.get("last_seen") != today:
+            h["days_seen"] = h.get("days_seen", 0) + 1
+        h["last_seen"] = today
+        if j.get("pay") and not h.get("pay"):
+            h["pay"], h["pay_sort"] = j["pay"], j.get("pay_sort", 0)
+    HISTORY.write_text(json.dumps(hist, ensure_ascii=False, separators=(",", ":")))
+    new_today = sum(1 for h in hist.values() if h["first_seen"] == today)
+    by_src = {}
+    for j in jobs:
+        by_src[j.get("source", "")] = by_src.get(j.get("source", ""), 0) + 1
+    line = f'{today},{len(jobs)},{new_today},{by_src.get("Employer sites", 0)},{by_src.get("Google Jobs", 0)}\n'
+    rows = DAILY.read_text().splitlines(keepends=True) if DAILY.exists() else ["date,open_jobs,new_jobs,employer_feed,google_jobs\n"]
+    rows = [r for r in rows if not r.startswith(today + ",")] + [line]
+    DAILY.write_text("".join(rows))
 
 
 if __name__ == "__main__":
