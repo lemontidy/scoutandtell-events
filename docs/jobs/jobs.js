@@ -265,11 +265,19 @@
   }
   document.addEventListener("pointerdown", (ev) => { lastClickY = ev.pageY; }, true);
 
+  // Inside the website's frame the board can't scroll itself (and Safari won't let it
+  // move the outer page), so ask the website to scroll to the spot.
+  function scrollToEl(el) {
+    if (!EMBEDDED) { el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    const top = Math.round(el.getBoundingClientRect().top + window.scrollY);
+    try { window.parent.postMessage({ type: "st-jobs-scroll", top }, "*"); } catch (_) {}
+  }
+
   // ---------------------------------------------------------------- wire up
   function set(patch, scroll) {
     Object.assign(state, patch, { limit: PAGE });
     render();
-    if (scroll) $("#listSec").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (scroll) scrollToEl($("#listSec"));
   }
   document.addEventListener("click", (ev) => {
     const t = ev.target;
@@ -287,7 +295,7 @@
     const hash = t.closest('a[href^="#"]');
     if (hash && hash.getAttribute("href").length > 1) {
       const target = document.querySelector(hash.getAttribute("href"));
-      if (target) { ev.preventDefault(); target.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+      if (target) { ev.preventDefault(); scrollToEl(target); return; }
     }
     if (t.closest("[data-close]")) t.closest("dialog").close();
     if (t.tagName === "DIALOG") t.close();
