@@ -36,6 +36,9 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import employer_feeds  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs" / "jobs.json"
 TZ = ZoneInfo("America/Denver")
@@ -74,7 +77,7 @@ SERPAPI_DAYS = {0, 3}          # Monday, Thursday (Mountain time)
 SERPAPI_BUDGET = 230           # hard stop per calendar month; leaves ~20 for testing
 
 # How long a job stays after its source last showed it.
-KEEP_DAYS = {"Adzuna": 9, "Google Jobs": 9}
+KEEP_DAYS = {"Adzuna": 9, "Google Jobs": 9, "Employer sites": 2}
 MAX_AGE_DAYS = 45              # drop anything posted longer ago than this
 
 # Recruiters and staffing agencies are left off (they aren't local employers).
@@ -110,6 +113,8 @@ CATEGORIES = [
     ("Office & Admin", ["admin", "office", "receptionist", "assistant", "coordinator", "bookkeep", "account",
                         "customer service", "clerk", "manager", "hr ", "human resources", "billing", "payroll"]),
     ("Tech & Engineering", ["software", "developer", "engineer", "it ", "data", "analyst", "cyber", "network"]),
+    ("Government & Public Service", ["police", "officer", "firefighter", "dispatcher", "public works", "utilities",
+                                     "city of", "county", "librar", "parks", "planner", "inspector"]),
 ]
 
 AGGREGATORS = ["indeed", "linkedin", "ziprecruiter", "glassdoor", "monster", "simplyhired", "talent.com",
@@ -442,7 +447,15 @@ def main() -> int:
     status: dict[str, dict] = {}
     # Adzuna is switched off (Matt chose public-sector + employer feeds instead).
     # To turn it back on, add ("Adzuna", lambda: collect_adzuna(adz_state, force_adz)) here.
-    for name, fn in (("Google Jobs", lambda: collect_serpapi(serp_state, force_serp)),):
+    old_by_id = {j["id"]: j for j in old.get("jobs", [])}
+    this_module = sys.modules[__name__]
+    sources = [
+        ("Employer sites", lambda: employer_feeds.collect_all(this_module, old_by_id)),
+        ("Google Jobs", lambda: collect_serpapi(serp_state, force_serp)),
+    ]
+    if os.environ.get("ONLY_EMPLOYERS") == "true":
+        sources = sources[:1]
+    for name, fn in sources:
         try:
             got = fn()
             for j in got:
@@ -482,7 +495,8 @@ def main() -> int:
     for j in merged.values():
         days = KEEP_DAYS.get(j.get("source"), 7)
         ok_seen = j.get("last_seen", "") >= (stamp - timedelta(days=days)).date().isoformat()
-        ok_age = (j.get("posted") or j.get("first_seen") or today) >= cutoff_posted
+        # Employer feeds only list open jobs, so an old posting date is fine there.
+        ok_age = j.get("source") == "Employer sites" or (j.get("posted") or j.get("first_seen") or today) >= cutoff_posted
         if ok_seen and ok_age:
             j["apply_url"] = with_utm(j.get("apply_url", "")) if j.get("direct") else j.get("apply_url", "")
             keep.append(j)
