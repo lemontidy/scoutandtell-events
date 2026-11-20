@@ -27,7 +27,7 @@
     flushTimer = setTimeout(flush, 1500);
   }
   function flush() {
-    if (!ENDPOINT || !queue.length) { queue.length = 0; return; }
+    if (!ENDPOINT || !queue.length) return; // keep events until the endpoint is known
     const body = JSON.stringify({ kind: "event", events: queue.splice(0, 25) });
     // Google Apps Script answers with a redirect, which sendBeacon drops, so use fetch.
     try {
@@ -78,14 +78,18 @@
     ]);
     ENDPOINT = cfg.endpoint || "";
     state.jobs = jobs.jobs || [];
+    // Count the visit first, so a slow Google response never loses it.
+    const ref = (() => { try { return document.referrer ? new URL(document.referrer).host : ""; } catch (_) { return ""; } })();
+    stat("page_view", { referrer: ref, utm: new URLSearchParams(location.search).get("utm_source") || "" });
     if (ENDPOINT) {
       try {
-        const posted = await fetch(ENDPOINT + "?action=jobs").then((r) => r.json());
+        const ctl = "AbortController" in window ? new AbortController() : null;
+        const timer = ctl && setTimeout(() => ctl.abort(), 6000);
+        const posted = await fetch(ENDPOINT + "?action=jobs", ctl ? { signal: ctl.signal } : {}).then((r) => r.json());
+        clearTimeout(timer);
         state.jobs = (posted.jobs || []).map((j) => ({ ...j, category: j.category || "Other" })).concat(state.jobs);
       } catch (_) {}
     }
-    const ref = (() => { try { return document.referrer ? new URL(document.referrer).host : ""; } catch (_) { return ""; } })();
-    stat("page_view", { referrer: ref, utm: new URLSearchParams(location.search).get("utm_source") || "" });
     state.sponsored = { spotlight: [], featured: [], gold: [], ...sponsored };
     const towns = jobs.towns || [...new Set(state.jobs.map((j) => j.town))];
     $("#where").insertAdjacentHTML("beforeend", towns.map((t) => `<option>${esc(t)}</option>`).join(""));
