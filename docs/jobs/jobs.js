@@ -31,10 +31,8 @@
     const body = JSON.stringify({ kind: "event", events: queue.splice(0, 25) });
     // Google Apps Script answers with a redirect, which sendBeacon drops, so use fetch.
     try {
-      const dbg = (m) => { try { EMBEDDED && parent.postMessage({ type: "st-jobs-debug", m }, "*"); } catch (_) {} };
       fetch(ENDPOINT, { method: "POST", body, mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain" } })
-        .then(() => dbg("sent"))
-        .catch((e) => { dbg("fail " + e); try { navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, body); } catch (_) {} });
+        .catch(() => { try { navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, body); } catch (_) {} });
     } catch (_) {}
     if (queue.length) flush();
   }
@@ -82,7 +80,6 @@
     state.jobs = jobs.jobs || [];
     // Count the visit first, so a slow Google response never loses it.
     const ref = (() => { try { return document.referrer ? new URL(document.referrer).host : ""; } catch (_) { return ""; } })();
-    try { EMBEDDED && parent.postMessage({ type: "st-jobs-debug", m: "pv " + !!ENDPOINT }, "*"); } catch (_) {}
     stat("page_view", { referrer: ref, utm: new URLSearchParams(location.search).get("utm_source") || "" });
     if (ENDPOINT) {
       try {
