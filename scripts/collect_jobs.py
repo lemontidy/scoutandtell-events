@@ -36,6 +36,9 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import employer_feeds  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs" / "jobs.json"
 TZ = ZoneInfo("America/Denver")
@@ -74,7 +77,7 @@ SERPAPI_DAYS = {0, 3}          # Monday, Thursday (Mountain time)
 SERPAPI_BUDGET = 230           # hard stop per calendar month; leaves ~20 for testing
 
 # How long a job stays after its source last showed it.
-KEEP_DAYS = {"Adzuna": 9, "Google Jobs": 9}
+KEEP_DAYS = {"Adzuna": 9, "Google Jobs": 9, "Employer sites": 2}
 MAX_AGE_DAYS = 45              # drop anything posted longer ago than this
 
 # Recruiters and staffing agencies are left off (they aren't local employers).
@@ -86,7 +89,12 @@ STAFFING = [
     "trusted health", "vivian health", "medical solutions", "fusion medical", "incredible health",
     "lucid staffing", "actalent", "apex systems", "peopleready", "trueblue", "snagajob",
     "jobs for humanity", "dice", "clickjobs", "lensa", "joblist", "talentify",
+    "prn healthcare", "nomad health", "host healthcare", "travel nurse", "triage staffing",
+    # gig apps aren't local jobs
+    "doordash", "uber", "instacart", "grubhub", "shipt", "roadie", "spark driver", "gopuff", "lyft",
 ]
+# Job titles that are never local jobs.
+SKIP_TITLES = re.compile(r"^travel\b|\btravel (rn|nurse|tech|therapist)|locum|\bdelivery driver - be your own boss", re.I)
 # Leave national chains on (they hire locally). Add names here to hide one.
 HIDE_COMPANIES: list[str] = []
 
@@ -105,6 +113,8 @@ CATEGORIES = [
     ("Office & Admin", ["admin", "office", "receptionist", "assistant", "coordinator", "bookkeep", "account",
                         "customer service", "clerk", "manager", "hr ", "human resources", "billing", "payroll"]),
     ("Tech & Engineering", ["software", "developer", "engineer", "it ", "data", "analyst", "cyber", "network"]),
+    ("Government & Public Service", ["police", "officer", "firefighter", "dispatcher", "public works", "utilities",
+                                     "city of", "county", "librar", "parks", "planner", "inspector"]),
 ]
 
 AGGREGATORS = ["indeed", "linkedin", "ziprecruiter", "glassdoor", "monster", "simplyhired", "talent.com",
@@ -146,6 +156,10 @@ def find_town(*texts: str) -> str:
             if re.search(r"\b" + re.escape(town.lower()) + r"\b", low):
                 return town
     return ""
+
+
+def skip_title(title: str) -> bool:
+    return bool(SKIP_TITLES.search(title or ""))
 
 
 def is_staffing(company: str) -> bool:
@@ -191,14 +205,14 @@ def fmt_pay(lo: float | None, hi: float | None, unit: str = "") -> tuple[str, fl
     lo, hi = min(vals), max(vals)
     if not unit:
         unit = "hr" if hi < 200 else "yr"
-    yearly = hi * 2080 if unit == "hr" else hi
+    yearly = hi * {"hr": 2080, "wk": 52, "mo": 12}.get(unit, 1)
     label = money(lo) if lo == hi else f"{money(lo)}–{money(hi)}"
     return f"{label}/{unit}", yearly
 
 
 _PAY_RE = re.compile(
     r"\$\s?(\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(k)?\s*(?:-|–|to)\s*\$?\s?(\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(k)?"
-    r"(?:\s*(?:per|an|a|/)\s*(hour|hr|year|yr|annually|annual))?",
+    r"(?:\s*(?:per|an|a|/)\s*(hour|hr|year|yr|annually|annual|week|wk|month|mo))?",
     re.I,
 )
 
@@ -212,7 +226,7 @@ def pay_from_text(text: str) -> tuple[str, float]:
     if lo <= 0 or hi < lo or hi > 1_000_000:
         return "", 0
     unit = (m.group(5) or "").lower()
-    unit = "hr" if unit.startswith("h") else "yr" if unit else ""
+    unit = {"h": "hr", "w": "wk", "m": "mo"}.get(unit[:1], "yr" if unit else "")
     if not unit and hi < 200:
         unit = "hr"
     if unit == "hr" and hi < 7:     # not a wage
@@ -299,7 +313,7 @@ def adzuna_to_job(d: dict) -> dict | None:
     company = clean((d.get("company") or {}).get("display_name"), 80)
     loc = d.get("location") or {}
     town = find_town(loc.get("display_name", ""), " ".join(loc.get("area") or []))
-    if not (title and company and town) or is_staffing(company):
+    if not (title and company and town) or is_staffing(company) or skip_title(title):
         return None
     desc = clean(d.get("description"), 600)
     if str(d.get("salary_is_predicted")) == "1":
@@ -349,22 +363,30 @@ def collect_serpapi(state: dict, force: bool) -> list[dict]:
     if left <= 0:
         raise SkipSource(f"monthly budget used ({state['used']} searches in {month})")
 
-    jobs = []
+    jobs, r = [], None
     for q, town in SERPAPI_SEARCHES[: max(0, left)]:
-        r = s.get(
-            "https://serpapi.com/search.json",
-            params={
-                "engine": "google_jobs", "q": f"{q} {town} CO",
-                "location": f"{town}, Colorado, United States",
-                "hl": "en", "gl": "us", "chips": "date_posted:week", "api_key": key,
-            },
-            timeout=60,
-        )
-        state["used"] += 1
-        if r.status_code == 429:
+        params = {
+            "engine": "google_jobs", "q": f"{q} {town} CO",
+            "location": f"{town}, Colorado, United States",
+            "hl": "en", "gl": "us", "chips": "date_posted:week", "api_key": key,
+        }
+        data = None
+        for attempt in (1, 2):   # one retry; a slow search shouldn't sink the whole run
+            state["used"] += 1   # count every try, even ones that time out
+            r = None
+            try:
+                r = s.get("https://serpapi.com/search.json", params=params, timeout=90)
+                if r.status_code == 429:
+                    break
+                r.raise_for_status()
+                data = r.json()
+                break
+            except Exception as e:
+                print(f"  search '{q} {town}' attempt {attempt} failed: {e}")
+        if r is not None and getattr(r, "status_code", 0) == 429:
+            print("  SerpApi says the monthly searches are used up; stopping")
             break
-        r.raise_for_status()
-        for d in r.json().get("jobs_results", []):
+        for d in (data or {}).get("jobs_results", []):
             job = serp_to_job(d)
             if job:
                 jobs.append(job)
@@ -375,7 +397,7 @@ def serp_to_job(d: dict) -> dict | None:
     title = clean(d.get("title"), 120)
     company = clean(d.get("company_name"), 80)
     town = find_town(d.get("location", ""))
-    if not (title and company and town) or is_staffing(company):
+    if not (title and company and town) or is_staffing(company) or skip_title(title):
         return None
     ext = d.get("detected_extensions") or {}
     desc = clean(d.get("description"), 600)
@@ -425,7 +447,15 @@ def main() -> int:
     status: dict[str, dict] = {}
     # Adzuna is switched off (Matt chose public-sector + employer feeds instead).
     # To turn it back on, add ("Adzuna", lambda: collect_adzuna(adz_state, force_adz)) here.
-    for name, fn in (("Google Jobs", lambda: collect_serpapi(serp_state, force_serp)),):
+    old_by_id = {j["id"]: j for j in old.get("jobs", [])}
+    this_module = sys.modules[__name__]
+    sources = [
+        ("Employer sites", lambda: employer_feeds.collect_all(this_module, old_by_id)),
+        ("Google Jobs", lambda: collect_serpapi(serp_state, force_serp)),
+    ]
+    if os.environ.get("ONLY_EMPLOYERS") == "true":
+        sources = sources[:1]
+    for name, fn in sources:
         try:
             got = fn()
             for j in got:
@@ -435,12 +465,12 @@ def main() -> int:
             print(f"{name}: {len(got)} jobs")
         except SkipSource as e:
             prev = (old.get("sources") or {}).get(name, {})
-            status[name] = {**prev, "skipped": str(e)}
+            status[name] = {k: v for k, v in prev.items() if k in ("count", "ran")} | {"skipped": str(e)}
             print(f"{name}: skipped ({e})")
         except Exception as e:
             traceback.print_exc()
             prev = (old.get("sources") or {}).get(name, {})
-            status[name] = {**prev, "ok": False, "error": str(e)[:200], "failed": today}
+            status[name] = {k: v for k, v in prev.items() if k in ("count", "ran")} | {"ok": False, "error": str(e)[:200], "failed": today}
 
     # Start from last run's jobs, then lay this run's on top.
     merged: dict[str, dict] = {}
@@ -465,7 +495,8 @@ def main() -> int:
     for j in merged.values():
         days = KEEP_DAYS.get(j.get("source"), 7)
         ok_seen = j.get("last_seen", "") >= (stamp - timedelta(days=days)).date().isoformat()
-        ok_age = (j.get("posted") or j.get("first_seen") or today) >= cutoff_posted
+        # Employer feeds only list open jobs, so an old posting date is fine there.
+        ok_age = j.get("source") == "Employer sites" or (j.get("posted") or j.get("first_seen") or today) >= cutoff_posted
         if ok_seen and ok_age:
             j["apply_url"] = with_utm(j.get("apply_url", "")) if j.get("direct") else j.get("apply_url", "")
             keep.append(j)
