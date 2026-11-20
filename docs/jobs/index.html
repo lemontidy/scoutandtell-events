@@ -97,7 +97,7 @@
           <p class="j-mono">For employers</p>
           <h3>Hiring in Northern Colorado?</h3>
           <p>Post a job free. Upgrade to put it in front of Scout &amp; Tell readers every Wednesday.</p>
-          <a class="j-btn j-btn-clay" href="#employers">See the options</a>
+          <a class="j-btn j-btn-clay" data-cta="sidebar_options" href="#employers">See the options</a>
         </div>
         <div class="j-sub">
           <p class="j-mono">The newsletter</p>
@@ -138,6 +138,33 @@
 <dialog class="j-modal" id="jobModal" aria-labelledby="mTitle">
   <button class="j-close" data-close aria-label="Close">×</button>
   <div id="mBody"></div>
+</dialog>
+
+<dialog class="j-modal" id="postModal" aria-labelledby="postTitle">
+  <button class="j-close" data-close aria-label="Close">×</button>
+  <div class="j-m-head"><p class="j-mono">For employers</p><h2 id="postTitle">Post a job</h2>
+    <div class="j-m-facts"><span>Standard listings are free for 30 days.</span></div></div>
+  <div class="j-m-body">
+    <form id="postForm" class="j-form">
+      <label>Job title<input name="title" required maxlength="120"></label>
+      <label>Business name<input name="company" required maxlength="100"></label>
+      <div class="j-form-row">
+        <label>Town<select name="town" required><option value="">Choose…</option><option>Fort Collins</option><option>Loveland</option><option>Greeley</option><option>Windsor</option><option>Estes Park</option><option>Berthoud</option><option>Wellington</option><option>Timnath</option><option>Johnstown</option><option>Evans</option><option>Severance</option><option>Laporte</option></select></label>
+        <label>Type<select name="type"><option>Full time</option><option>Part time</option><option>Contract / Seasonal</option></select></label>
+      </div>
+      <label>Pay range <small>(Colorado requires it)</small><input name="pay" required maxlength="60" placeholder="$18–$22/hr"></label>
+      <label>Where to apply <small>(link or email)</small><input name="applyUrl" required maxlength="500" placeholder="https://… or hiring@…"></label>
+      <label>About the job<textarea name="description" rows="4" maxlength="1500"></textarea></label>
+      <label>Listing level<select name="tierWanted"><option>Standard (free)</option><option>Gold row</option><option>Featured</option><option>Spotlight</option></select></label>
+      <div class="j-form-row">
+        <label>Your name<input name="contactName" required maxlength="80"></label>
+        <label>Your email<input name="contactEmail" type="email" required maxlength="120"></label>
+      </div>
+      <label class="j-hp">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+      <button class="j-btn j-btn-clay" type="submit">Submit job</button>
+    </form>
+    <p class="j-m-small" id="postMsg" role="status"></p>
+  </div>
 </dialog>
 
 <script src="jobs.js"></script>

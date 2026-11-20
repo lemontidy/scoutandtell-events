@@ -194,3 +194,13 @@ html.st-embedded, html.st-embedded body { overflow: hidden; height: auto; }
   .j-list-tools { flex-direction: column; }
   .j-banner { flex-direction: column; align-items: flex-start; }
 }
+
+/* post-a-job form */
+.j-form { display: grid; gap: 14px; }
+.j-form label { display: grid; gap: 5px; font-weight: 600; font-size: 14px; }
+.j-form small { font-weight: 400; color: var(--muted); }
+.j-form input, .j-form select, .j-form textarea { font: inherit; font-weight: 400; padding: 10px 12px; border: 1px solid var(--line); background: #fff; color: var(--ink); }
+.j-form input:focus, .j-form select:focus, .j-form textarea:focus { outline: 2px solid var(--clay); outline-offset: -1px; }
+.j-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.j-hp { position: absolute; left: -9999px; }
+@media (max-width: 600px) { .j-form-row { grid-template-columns: 1fr; } }

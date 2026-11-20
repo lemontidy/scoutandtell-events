@@ -7,6 +7,51 @@
   const CONTACT = "jobs@scoutandtell.com";
 
   const state = { jobs: [], sponsored: { spotlight: [], featured: [], gold: [] }, q: "", where: "", type: "", cat: "", sort: "new", limit: PAGE };
+  let ENDPOINT = "";
+
+  // ---------------------------------------------------------------- stats
+  // Counts visits and clicks for sponsor reports. No names, emails or IPs:
+  // a visitor is a random ID kept in this browser only.
+  const visitor = (() => {
+    try {
+      let v = localStorage.getItem("st_jobs_v");
+      if (!v) { v = Math.random().toString(36).slice(2, 12); localStorage.setItem("st_jobs_v", v); }
+      return v;
+    } catch (_) { return "anon-" + Math.random().toString(36).slice(2, 8); }
+  })();
+  const queue = [];
+  let flushTimer;
+  function stat(event, data = {}) {
+    queue.push({ event, visitor, embedded: EMBEDDED, ...data });
+    clearTimeout(flushTimer);
+    flushTimer = setTimeout(flush, 1500);
+  }
+  function flush() {
+    if (!ENDPOINT || !queue.length) { queue.length = 0; return; }
+    const body = JSON.stringify({ kind: "event", events: queue.splice(0, 25) });
+    try {
+      if (!(navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, new Blob([body], { type: "text/plain" })))) {
+        fetch(ENDPOINT, { method: "POST", body, mode: "no-cors", keepalive: true });
+      }
+    } catch (_) {}
+    if (queue.length) flush();
+  }
+  addEventListener("pagehide", flush);
+  addEventListener("visibilitychange", () => document.visibilityState === "hidden" && flush());
+  const jobInfo = (j, extra = {}) => ({ jobId: j.id || "", company: j.company || "", title: j.title || "", ...extra });
+  // Sponsored cards count as "seen" once at least half of the card is on screen.
+  const seen = new Set();
+  const io = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target, key = el.dataset.imp;
+      if (seen.has(key)) return;
+      seen.add(key); io.unobserve(el);
+      const [tier, slot, company, title] = key.split("|");
+      stat("sponsored_view", { tier, slot, company, title });
+    });
+  }, { threshold: 0.5 }) : null;
+  function watchImpressions() { if (io) $$("[data-imp]").forEach((el) => !seen.has(el.dataset.imp) && io.observe(el)); }
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const todayIso = () => new Date().toLocaleDateString("en-CA", { timeZone: "America/Denver" });
@@ -26,11 +71,21 @@
 
   // ---------------------------------------------------------------- load
   async function load() {
-    const [jobs, sponsored] = await Promise.all([
+    const [jobs, sponsored, cfg] = await Promise.all([
       fetch("jobs.json", { cache: "no-cache" }).then((r) => r.json()),
       fetch("sponsored.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({})),
+      fetch("config.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({})),
     ]);
+    ENDPOINT = cfg.endpoint || "";
     state.jobs = jobs.jobs || [];
+    if (ENDPOINT) {
+      try {
+        const posted = await fetch(ENDPOINT + "?action=jobs").then((r) => r.json());
+        state.jobs = (posted.jobs || []).map((j) => ({ ...j, category: j.category || "Other" })).concat(state.jobs);
+      } catch (_) {}
+    }
+    const ref = (() => { try { return document.referrer ? new URL(document.referrer).host : ""; } catch (_) { return ""; } })();
+    stat("page_view", { referrer: ref, utm: new URLSearchParams(location.search).get("utm_source") || "" });
     state.sponsored = { spotlight: [], featured: [], gold: [], ...sponsored };
     const towns = jobs.towns || [...new Set(state.jobs.map((j) => j.town))];
     $("#where").insertAdjacentHTML("beforeend", towns.map((t) => `<option>${esc(t)}</option>`).join(""));
@@ -43,6 +98,7 @@
     renderSponsored();
     render();
     renderBrowse();
+    watchImpressions();
   }
 
   // ---------------------------------------------------------------- url state
@@ -66,11 +122,11 @@
         <p class="j-mono">Spotlight spot open</p>
         <h3>Your role here, above everyone.</h3>
         <p>Seen first on every visit and in the newsletter.</p>
-        <a class="j-btn j-btn-solid" href="${mail("Spotlight spot on the Scout & Tell job board")}">Reserve this spot</a>
+        <a class="j-btn j-btn-solid" data-cta="reserve_spotlight" href="${mail("Spotlight spot on the Scout & Tell job board")}">Reserve this spot</a>
       </div>`;
     $("#spotlight").innerHTML = spots.length
       ? spots.map((s, i) => `
-        <button class="j-spot" data-sp="spotlight:${i}">
+        <button class="j-spot" data-sp="spotlight:${i}" data-imp="spotlight|${i + 1}|${esc(s.company)}|${esc(s.title)}">
           <div class="j-spot-top">
             <div class="j-spot-co"><span>${esc(s.company)}</span><span class="j-badge">Spotlight</span></div>
             <h3>${esc(s.title)}</h3>
@@ -87,12 +143,12 @@
     $("#featured").className = feats.length ? "j-feat-row" : "";
     $("#featured").innerHTML = feats.length
       ? feats.map((f, i) => `
-        <button class="j-feat" data-sp="featured:${i}">
+        <button class="j-feat" data-sp="featured:${i}" data-imp="featured|${i + 1}|${esc(f.company)}|${esc(f.title)}">
           <span class="j-co">${esc(f.company)}</span>
           <h3>${esc(f.title)}</h3>
           <div class="j-feat-foot"><span>${esc(f.town)}</span><span>${esc(f.pay || f.type || "")}</span></div>
         </button>`).join("")
-      : `<div class="j-banner"><p>Featured spot open. Your job in the clay frame, and in Wednesday's newsletter.</p><a href="${mail("Featured job on Scout & Tell")}">Get featured →</a></div>`;
+      : `<div class="j-banner"><p>Featured spot open. Your job in the clay frame, and in Wednesday's newsletter.</p><a data-cta="featured_banner" href="${mail("Featured job on Scout & Tell")}">Get featured →</a></div>`;
   }
 
   // ---------------------------------------------------------------- list
@@ -116,7 +172,7 @@
     return list.map((j) => ({ ...j, gold: gold.has(j.company.toLowerCase()) })).sort(by);
   }
   function row(j) {
-    return `<li><button class="j-row${j.gold ? " gold" : ""}" data-id="${j.id}">
+    return `<li><button class="j-row${j.gold ? " gold" : ""}" data-id="${j.id}"${j.gold ? ` data-imp="gold|list|${esc(j.company)}|${esc(j.title)}"` : ""}>
       <div><h3>${esc(j.title)}</h3><div class="j-co-line">${esc(j.company)}${j.pay ? ` · <span class="j-pay">${esc(j.pay)}</span>` : ""}</div></div>
       ${j.type ? `<span class="j-pill">${esc(j.type)}</span>` : "<span></span>"}
       <span class="j-row-where">${esc(j.town)}<small>${esc(ago(j.posted || j.first_seen))}</small></span>
@@ -137,6 +193,7 @@
     $$("#quick button").forEach((b) => b.classList.toggle("on", (b.dataset.type && b.dataset.type === state.type) || (b.dataset.cat && b.dataset.cat === state.cat)));
     writeUrl();
     postHeight();
+    watchImpressions();
   }
 
   // ---------------------------------------------------------------- browse
@@ -158,7 +215,7 @@
   }
 
   // ---------------------------------------------------------------- job pop-up
-  function openJob(j, paid) {
+  function openJob(j, paid, tier) {
     const facts = [j.town, j.type, j.pay, j.posted || j.first_seen ? `Posted ${ago(j.posted || j.first_seen).toLowerCase()}` : ""].filter(Boolean);
     const url = j.apply_url || "";
     $("#mBody").innerHTML = `
@@ -176,9 +233,14 @@
         </div>
         <p class="j-m-small" style="margin-top:18px">Is this your job? <a href="${mail(`My listing: ${j.title} at ${j.company}`, `Job ID: ${j.id || "sponsored"}\n\nI'd like to (edit / upgrade / remove) this listing.`)}">Edit, upgrade or remove it</a>.</p>
       </div>`;
-    $("#applyBtn")?.addEventListener("click", () => track("apply", j));
+    const gold = !paid && goldSet().has((j.company || "").toLowerCase());
+    $("#applyBtn")?.addEventListener("click", () => {
+      track("apply", j);
+      stat(paid ? "sponsored_apply" : "apply_click", jobInfo(j, { tier: paid ? tier : gold ? "gold" : "" }));
+    });
     openDialog($("#jobModal"));
     track("view", j);
+    stat(paid ? "sponsored_open" : "job_open", jobInfo(j, { tier: paid ? tier : gold ? "gold" : "" }));
   }
 
   // ---------------------------------------------------------------- embed
@@ -210,9 +272,12 @@
     const id = t.closest("[data-id]")?.dataset.id;
     if (id) { const j = state.jobs.find((x) => x.id === id); if (j) openJob({ ...j }, false); return; }
     const sp = t.closest("[data-sp]")?.dataset.sp;
-    if (sp) { const [kind, i] = sp.split(":"); openJob(live(state.sponsored[kind])[+i], true); return; }
+    if (sp) { const [kind, i] = sp.split(":"); openJob(live(state.sponsored[kind])[+i], true, kind); return; }
     const br = t.closest("[data-browse]");
-    if (br) { set({ where: "", cat: "", q: "", type: "", [br.dataset.browse]: br.dataset.val }, true); $("#where").value = state.where; $("#q").value = ""; return; }
+    if (br) { stat("browse_click", { detail: br.dataset.browse + ":" + br.dataset.val }); set({ where: "", cat: "", q: "", type: "", [br.dataset.browse]: br.dataset.val }, true); $("#where").value = state.where; $("#q").value = ""; return; }
+    const cta = t.closest("[data-cta]");
+    if (cta) stat("cta_click", { detail: cta.dataset.cta });
+    if (t.closest("[data-open=post]")) { ev.preventDefault(); openPost(); return; }
     if (t.closest("[data-close]")) t.closest("dialog").close();
     if (t.tagName === "DIALOG") t.close();
   });
@@ -228,11 +293,45 @@
   let qTimer;
   $("#q").oninput = (ev) => { clearTimeout(qTimer); qTimer = setTimeout(() => set({ q: ev.target.value.trim() }), 160); };
   $("#where").onchange = (ev) => set({ where: ev.target.value });
-  $("#searchForm").onsubmit = (ev) => { ev.preventDefault(); set({ q: $("#q").value.trim(), where: $("#where").value }, true); };
+  let lastQ = "";
+  $("#searchForm").onsubmit = (ev) => {
+    ev.preventDefault();
+    set({ q: $("#q").value.trim(), where: $("#where").value }, true);
+    if (state.q !== lastQ || state.where) stat("search", { detail: [state.q, state.where].filter(Boolean).join(" @ ").slice(0, 120) });
+    lastQ = state.q;
+  };
+  $("#q").addEventListener("change", () => { const q = $("#q").value.trim(); if (q.length > 1 && q !== lastQ) { lastQ = q; stat("search", { detail: q }); } });
+  $("#where").addEventListener("change", (ev) => stat("filter", { detail: "town:" + ev.target.value }));
+  $("#typeSeg").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (b) stat("filter", { detail: "type:" + (b.dataset.type || "all") }); });
+  $("#cats").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (b) stat("filter", { detail: "cat:" + (b.dataset.cat || "all") }); });
+  $("#quick").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (b) stat("filter", { detail: "quick:" + (b.dataset.type || b.dataset.cat) }); });
 
   $("#postLink").href = mail("Post a job on Scout & Tell (free)", "Job title:\nCompany:\nTown:\nFull or part time:\nPay range:\nLink to apply:\n");
+  $("#postLink").dataset.open = "post";
+  function openPost() {
+    stat("post_job_open");
+    if (!ENDPOINT) { location.href = $("#postLink").href; return; }
+    $("#postMsg").textContent = ""; $("#postForm").hidden = false;
+    openDialog($("#postModal"));
+  }
+  $("#postForm").onsubmit = async (ev) => {
+    ev.preventDefault();
+    const f = ev.target, btn = f.querySelector("button[type=submit]"), msg = $("#postMsg");
+    const data = Object.fromEntries(new FormData(f).entries());
+    if (!/^https?:\/\//i.test(data.applyUrl) && !/@/.test(data.applyUrl)) { msg.textContent = "Add a link or email where people can apply."; return; }
+    btn.disabled = true; msg.textContent = "Sending…";
+    try {
+      await fetch(ENDPOINT, { method: "POST", mode: "no-cors", body: JSON.stringify({ kind: "job", ...data }) });
+      stat("post_job_submit", { company: data.company, title: data.title, tier: data.tierWanted });
+      f.reset(); f.hidden = true;
+      msg.textContent = "Thanks! We'll review it and email you when it's live, usually within a day.";
+    } catch (_) { msg.textContent = "Something went wrong. Please try again in a minute."; }
+    finally { btn.disabled = false; postHeight(); }
+  };
   $("#featureLink").href = mail("Featured job on Scout & Tell");
+  $("#featureLink").dataset.cta = "get_featured";
   $("#presentingLink").href = mail("Presenting sponsor: Scout & Tell job board");
+  $("#presentingLink").dataset.cta = "presenting_sponsor";
 
   window.addEventListener("resize", postHeight);
   new ResizeObserver(postHeight).observe(document.body);
