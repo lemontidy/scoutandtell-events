@@ -1,0 +1,490 @@
+{
+ "wd:csu:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:csu:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:csu:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:aims:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:aims:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:aims:Colorado": {
+  "status": 200,
+  "total": 58,
+  "sample": [
+   [
+    "Director II, CARE Case Management",
+    "Greeley, CO",
+    "Posted Today"
+   ],
+   [
+    "Program Coordinator II,  Academic Support & Tutoring Services",
+    "Greeley, CO",
+    "Posted Yesterday"
+   ],
+   [
+    "Program Coordinator I, Arty\u2019s Pantry & Student Basic Needs",
+    "Greeley, CO",
+    "Posted Yesterday"
+   ],
+   [
+    "Adjunct Faculty: Nursing",
+    "Greeley, CO",
+    "Posted 2 Days Ago"
+   ]
+  ]
+ },
+ "wd:banner:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:banner:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:banner:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:woodward:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:woodward:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:woodward:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:newbelgium:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:newbelgium:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:newbelgium:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:waterpik:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:waterpik:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:waterpik:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hach:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hach:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hach:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hpe:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hpe:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:hpe:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:uchealth_guess1:all": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:uchealth_guess1:Fort Collins": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "wd:uchealth_guess1:Colorado": {
+  "status": 429,
+  "total": null,
+  "sample": []
+ },
+ "sr:salud": {
+  "status": 200,
+  "total": 24,
+  "sample": [
+   [
+    "Pharmacy Technician Temporary",
+    "Commerce City"
+   ],
+   [
+    "Medical Assistant",
+    "Longmont"
+   ],
+   [
+    "Medical Assistant",
+    "Brighton"
+   ],
+   [
+    "Customer Service Associate",
+    "Commerce City"
+   ],
+   [
+    "Behavioral Health Provider",
+    "Fort Collins"
+   ]
+  ]
+ },
+ "adp:summitstone": {
+  "status": 200,
+  "n": 12,
+  "sample": [
+   [
+    "Crisis Therapist - Adolescent Unit",
+    [
+     "Fort Collins"
+    ]
+   ],
+   [
+    "Crisis Professional \u2013 Acute Care Unit ",
+    [
+     "Fort Collins"
+    ]
+   ],
+   [
+    "Case Manager PREVAIL - Data ",
+    [
+     "Fort Collins"
+    ]
+   ],
+   [
+    "Clinical Team Lead ",
+    [
+     "Fort Collins"
+    ]
+   ]
+  ]
+ },
+ "adp:odell": {
+  "status": 200,
+  "n": 3,
+  "sample": [
+   [
+    "PART-TIME LINE COOK | ODELL BREWING SLOAN'S LAKE",
+    [
+     "Denver"
+    ]
+   ],
+   [
+    "DENVER EVENTS AND MARKETING COORDINATOR - PART-TIME",
+    [
+     "Denver",
+     "Denver"
+    ]
+   ],
+   [
+    "BREWHOUSE AND CELLAR TECHNICIAN",
+    [
+     "Fort Collins"
+    ]
+   ]
+  ]
+ },
+ "adp:sunrise": {
+  "status": 200,
+  "n": 20,
+  "sample": [
+   [
+    "Dental Hygienist - Per-Diem",
+    [
+     "Greeley"
+    ]
+   ],
+   [
+    "Medical Assistant - Non-Certified ",
+    [
+     "Windsor"
+    ]
+   ],
+   [
+    "Medical Assistant - Certified",
+    [
+     "Windsor"
+    ]
+   ],
+   [
+    "Dental Assistant in Training",
+    [
+     "Greeley"
+    ]
+   ]
+  ]
+ },
+ "neogov:estespark": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=estespark (Caused by Connec"
+ },
+ "neogov:larimer": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=larimer (Caused by ConnectT"
+ },
+ "neogov:larimercounty": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=larimercounty (Caused by Co"
+ },
+ "neogov:weld": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=weld (Caused by ConnectTime"
+ },
+ "neogov:weldcounty": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=weldcounty (Caused by Conne"
+ },
+ "neogov:windsorco": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=windsorco (Caused by Connec"
+ },
+ "neogov:windsor": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=windsor (Caused by ConnectT"
+ },
+ "neogov:loveland": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=loveland (Caused by Connect"
+ },
+ "neogov:lovelandco": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=lovelandco (Caused by Conne"
+ },
+ "neogov:greeley": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=greeley (Caused by ConnectT"
+ },
+ "neogov:greeleyco": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=greeleyco (Caused by Connec"
+ },
+ "neogov:johnstown": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=johnstown (Caused by Connec"
+ },
+ "neogov:poudrefire": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=poudrefire (Caused by Conne"
+ },
+ "neogov:pfa": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=pfa (Caused by ConnectTimeo"
+ },
+ "neogov:colorado": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /SearchEngine/JobsFeed?agency=colorado (Caused by Connect"
+ },
+ "neogov:ajax": {
+  "error": "HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=estespark&sort=PositionTitle&isDescendingSort=false&_=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.governmentjobs.com', port=443) at 0x786810e51610>, 'Connection to www.governmentjobs.com timed out. (connect timeout=30)'))"
+ },
+ "applitrack:rss.asp": {
+  "status": 404,
+  "items": 0,
+  "postings": 0
+ },
+ "applitrack:Output.asp?all=1": {
+  "status": 200,
+  "items": 0,
+  "postings": 79
+ },
+ "applitrack:default.aspx?all=1": {
+  "status": 200,
+  "items": 0,
+  "postings": 0
+ },
+ "schoolspring:https://psdschools.schoolspring.com/": {
+  "status": 200,
+  "size": 3788,
+  "head": "<!doctype html><html lang=\"en\"><head><script src=\"/I-shou-with-much-cheereat-haue-that-I-Sister-bre\" async></script><meta charset=\"utf-8\"/><link rel=\""
+ },
+ "schoolspring:https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainNam": {
+  "status": 200,
+  "size": 10478,
+  "head": "{\"success\":true,\"message\":\"\",\"validationErrors\":[],\"value\":{\"page\":1,\"size\":50,\"jobsList\":[{\"jobId\":5999070,\"employer\":\"Polaris Expeditionary Lrn Sch\""
+ },
+ "schoolspring:https://thompson.schoolspring.com/": {
+  "status": 200,
+  "size": 3709,
+  "head": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><link rel=\"icon\" href=\"/favicon.ico\"/><meta name=\"viewport\" content=\"width=device-width,in"
+ },
+ "schoolspring:https://tsd.schoolspring.com/": {
+  "status": 200,
+  "size": 3787,
+  "head": "<!doctype html><html lang=\"en\"><head><script src=\"/I-shou-with-much-cheereat-haue-that-I-Sister-bre\" async></script><meta charset=\"utf-8\"/><link rel=\""
+ },
+ "csod:fortcollins": {
+  "status": 200,
+  "token": true
+ },
+ "csod:fortcollins:jobs": {
+  "status": 200,
+  "total": 19,
+  "sample": [
+   [
+    null,
+    [
+     {
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ],
+   [
+    null,
+    [
+     {
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ],
+   [
+    null,
+    [
+     {
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US"
+     },
+     {
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US"
+     },
+     {
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ]
+  ]
+ },
+ "csod:unco": {
+  "status": 200,
+  "token": true
+ },
+ "csod:unco:jobs": {
+  "status": 200,
+  "total": 81,
+  "sample": [
+   [
+    null,
+    [
+     {
+      "city": "Greeley",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ],
+   [
+    null,
+    [
+     {
+      "city": "Greeley",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ],
+   [
+    null,
+    [
+     {
+      "city": "Greeley",
+      "state": "CO",
+      "country": "US"
+     }
+    ]
+   ]
+  ]
+ },
+ "icims:otter": {
+  "status": 200,
+  "links": 0
+ },
+ "page:wellington": {
+  "status": 200,
+  "found": {}
+ },
+ "page:timnath": {
+  "status": 200,
+  "found": {
+   "indeed.com": [
+    "https://www.indeed.com/cmp/Town-of-Timnath/jobs"
+   ]
+  }
+ },
+ "page:berthoud": {
+  "status": 200,
+  "found": {}
+ },
+ "page:prpa": {
+  "status": 200,
+  "found": {
+   "dayforce": [
+    "https://www.dayforcehcm.com/CandidatePortal/en-US/prpa",
+    "https://www.dayforcehcm.com/CandidatePortal/en-US/prpa"
+   ]
+  }
+ },
+ "page:library": {
+  "status": 200,
+  "found": {
+   "applitrack": [],
+   "indeed.com": []
+  }
+ },
+ "page:frcc": {
+  "status": 200,
+  "found": {}
+ },
+ "page:canvas": {
+  "status": 200,
+  "found": {}
+ },
+ "page:bankofco": {
+  "status": 200,
+  "found": {}
+ }
+}
