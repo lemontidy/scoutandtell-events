@@ -282,6 +282,13 @@
     const cta = t.closest("[data-cta]");
     if (cta) stat("cta_click", { detail: cta.dataset.cta });
     if (t.closest("[data-open=post]")) { ev.preventDefault(); openPost(); return; }
+    // In-page links (#employers etc.). Inside the website's frame the board can't
+    // scroll itself, so scroll the target into view, which moves the outer page.
+    const hash = t.closest('a[href^="#"]');
+    if (hash && hash.getAttribute("href").length > 1) {
+      const target = document.querySelector(hash.getAttribute("href"));
+      if (target) { ev.preventDefault(); target.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    }
     if (t.closest("[data-close]")) t.closest("dialog").close();
     if (t.tagName === "DIALOG") t.close();
   });
