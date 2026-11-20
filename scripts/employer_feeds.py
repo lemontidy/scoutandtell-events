@@ -81,21 +81,29 @@ def _session():
     return s
 
 
+DEADLINE = [0.0]          # set by collect_all; every feed stops when time is up
+DETAIL_BUDGET = [60]      # Workday job-detail lookups per run (they're cached after)
+
+
+def out_of_time() -> bool:
+    return time.monotonic() > DEADLINE[0]
+
+
 def _get(s, url, tries=3, **kw):
     for i in range(tries):
-        r = s.get(url, timeout=40, **kw)
+        r = s.get(url, timeout=30, **kw)
         if r.status_code != 429:
             return r
-        time.sleep(8 * (i + 1))
+        time.sleep(4 * (i + 1))
     return r
 
 
-def _post(s, url, tries=4, **kw):
+def _post(s, url, tries=3, **kw):
     for i in range(tries):
-        r = s.post(url, timeout=40, **kw)
+        r = s.post(url, timeout=30, **kw)
         if r.status_code != 429:
             return r
-        time.sleep(8 * (i + 1))
+        time.sleep(4 * (i + 1))
     return r
 
 
@@ -117,8 +125,13 @@ def workday(c, old: dict, log) -> list[dict]:
             s.headers.update({"Content-Type": "application/json", "Origin": f"https://{host}", "Referer": base})
             api = f"https://{host}/wday/cxs/{tenant}/{site}"
             seen, n = set(), 0
+            max_pages = 20 if searches == [""] else 4
+            started = time.monotonic()
             for q in searches:
-                for page in range(20):
+                for page in range(max_pages):
+                    if out_of_time() or time.monotonic() - started > 240:
+                        log(f"    (stopped early to stay on schedule)")
+                        break
                     r = _post(s, api + "/jobs", json={"appliedFacets": {}, "limit": 20, "offset": page * 20, "searchText": q})
                     r.raise_for_status()
                     posts = r.json().get("jobPostings", [])
@@ -128,15 +141,27 @@ def workday(c, old: dict, log) -> list[dict]:
                             continue
                         seen.add(ep)
                         title = _clean(p.get("title"), 120)
-                        town = fixed_town or c.find_town(p.get("locationsText", ""))
-                        if not town and "location" not in (p.get("locationsText") or "").lower():
+                        loc_text = p.get("locationsText") or ""
+                        town = fixed_town or c.find_town(loc_text)
+                        multi = "location" in loc_text.lower()   # e.g. "3 Locations"
+                        if not town and not multi:
                             continue  # one location, and it isn't in NoCo
                         jid = c.make_id(title, name, town or "?")
                         prev = old.get(jid)
-                        if prev and prev.get("description") and town:
+                        if prev and town:
                             job = dict(prev)
+                        elif town and DETAIL_BUDGET[0] <= 0:
+                            job = {
+                                "title": title, "company": name, "town": town, "type": c.job_type(title),
+                                "category": c.pick_category(title), "pay": "", "pay_sort": 0,
+                                "posted": c.posted_from_relative(p.get("postedOn", "")), "description": "",
+                                "apply_url": f"https://{host}/{site}{ep}",
+                            }
+                        elif DETAIL_BUDGET[0] <= 0:
+                            continue
                         else:
-                            time.sleep(0.6)
+                            DETAIL_BUDGET[0] -= 1
+                            time.sleep(0.5)
                             d = _get(s, api + ep)
                             if not d.ok:
                                 continue
@@ -353,9 +378,15 @@ def applitrack(c, old, log) -> list[dict]:
     return out
 
 
-def collect_all(c, old: dict, log=print) -> list[dict]:
+def collect_all(c, old: dict, log=None, minutes: float = 12) -> list[dict]:
+    log = log or (lambda m: print(m, flush=True))
+    DEADLINE[0] = time.monotonic() + minutes * 60
     jobs = []
-    for fn in (workday, cornerstone, adp, smartrecruiters, schoolspring, applitrack):
+    # quick, reliable feeds first; Workday (slowest) last
+    for fn in (cornerstone, adp, smartrecruiters, schoolspring, applitrack, workday):
+        if out_of_time():
+            log(f"  skipped {fn.__name__}: out of time")
+            continue
         jobs += fn(c, old, log)
     for j in jobs:
         if j["category"] == "Other" and j["company"] in PUBLIC:
