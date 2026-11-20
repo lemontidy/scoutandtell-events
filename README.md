@@ -34,7 +34,7 @@ The job board at **lemontidy.github.io/scoutandtell-events/jobs/** (to be shown 
 | Piece | Where | What it does |
 |---|---|---|
 | Collector | `scripts/collect_jobs.py` | Pulls Northern Colorado openings, drops recruiters/staffing agencies and anything outside NoCo, removes duplicates, and writes `docs/jobs/jobs.json`. |
-| Daily job | `.github/workflows/update-jobs.yml` | Runs every morning on GitHub's servers. Adzuna runs daily; Google Jobs (SerpApi) only Mondays and Thursdays. |
+| Daily job | `.github/workflows/update-jobs.yml` | Runs every morning on GitHub's servers. Adzuna runs Sundays only; Google Jobs (SerpApi) only Mondays and Thursdays. Both stay inside their free plans. |
 | Board page | `docs/jobs/` | Search (job/employer + town), Spotlight, Featured, the full list with filters, browse boxes, and the employer tiers. |
 | Paid placements | `docs/jobs/sponsored.json` | Spotlight (max 2), Featured and Gold-row employers. Each entry hides itself after its `ends` date. |
 
@@ -50,14 +50,17 @@ GitHub → this repo → **Settings → Secrets and variables → Actions → Ne
 
 A missing key just skips that source.
 
-## SerpApi free plan
+## Free plans
 
+**Adzuna:** 25 calls a month. The collector makes 5 calls (up to 250 jobs) once a week on Sundays, about 22 a month, and stops at 24.
+
+**SerpApi:**
 The free plan is 250 searches a month. The collector does 22 searches per run, only on Mondays and Thursdays (~200 a month), checks SerpApi's own count before running, and stops at 230 so it can never go over. To change the searches, edit `SERPAPI_SEARCHES`; to change the cap, `SERPAPI_BUDGET`.
 
 ## Everyday tasks
 
-- **Refresh jobs now:** Actions → *Update jobs* → **Run workflow**. Tick the box to include Google Jobs (uses ~22 searches).
-- **See whether a source failed or how many SerpApi searches are used this month:** open `docs/jobs/jobs.json` and look at `"sources"` and `"serpapi_usage"` at the top.
+- **Refresh jobs now:** Actions → *Update jobs* → **Run workflow**. Tick the boxes to include Google Jobs (~22 of 250 searches) and/or Adzuna (5 of 25 calls).
+- **See whether a source failed or how many SerpApi searches are used this month:** open `docs/jobs/jobs.json` and look at `"sources"`, `"serpapi_usage"` and `"adzuna_usage"` at the top.
 - **Hide an employer:** add its name to `HIDE_COMPANIES` in the collector. Recruiter keywords are in `STAFFING`.
 - **Sell a placement:** add an entry to `docs/jobs/sponsored.json` (an example is in the file) and commit. It shows up within a minute or two.
 - **Link to a filtered view** (great for the newsletter): `…/jobs/?where=Loveland`, `?type=Part time`, `?cat=Healthcare`, `?q=barista`.

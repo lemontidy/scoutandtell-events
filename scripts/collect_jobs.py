@@ -3,7 +3,8 @@
 Scout & Tell jobs collector.
 
 Pulls Northern Colorado job openings from:
-  - Adzuna      (free API, runs every night)
+  - Adzuna      (free plan = 25 calls a month, so it runs once a week on
+                 Sundays, 5 calls, and never goes over ADZUNA_BUDGET)
   - SerpApi     (Google Jobs, which includes Indeed, ZipRecruiter, LinkedIn and
                  employers' own sites). Free plan = 250 searches a month, so it
                  only runs on Mondays and Thursdays and never goes over BUDGET.
@@ -48,12 +49,12 @@ TOWNS = [
 ]
 _TOWN_FIX = {"la porte": "Laporte", "ft collins": "Fort Collins", "ft. collins": "Fort Collins"}
 
-# Adzuna: town -> number of 50-job pages to pull each night (~16 calls a night;
-# the free tier allows well over that).
-ADZUNA_TOWNS = {
-    "Fort Collins": 4, "Greeley": 3, "Loveland": 3, "Windsor": 1, "Estes Park": 1,
-    "Berthoud": 1, "Wellington": 1, "Johnstown": 1, "Timnath": 1,
-}
+# Adzuna free plan: 25 calls a month. Once a week, 5 calls of 50 jobs each:
+# (search center, radius in km, pages). Fort Collins at 40 km also covers
+# Loveland, Windsor, Timnath, Wellington and Berthoud.
+ADZUNA_SEARCHES = [("Fort Collins", 40, 3), ("Greeley", 20, 1), ("Estes Park", 15, 1)]
+ADZUNA_DAYS = {6}              # Sunday (Mountain time)
+ADZUNA_BUDGET = 24             # hard stop per calendar month
 
 # SerpApi: one search each. 22 searches x ~9 runs a month = ~200, under the 250 free.
 SERPAPI_SEARCHES = [
@@ -73,7 +74,7 @@ SERPAPI_DAYS = {0, 3}          # Monday, Thursday (Mountain time)
 SERPAPI_BUDGET = 230           # hard stop per calendar month; leaves ~20 for testing
 
 # How long a job stays after its source last showed it.
-KEEP_DAYS = {"Adzuna": 3, "Google Jobs": 9}
+KEEP_DAYS = {"Adzuna": 9, "Google Jobs": 9}
 MAX_AGE_DAYS = 45              # drop anything posted longer ago than this
 
 # Recruiters and staffing agencies are left off (they aren't local employers).
@@ -255,22 +256,33 @@ def http() -> requests.Session:
 
 
 # ---------------------------------------------------------------- Adzuna
-def collect_adzuna() -> list[dict]:
+def collect_adzuna(state: dict, force: bool) -> list[dict]:
     app_id, app_key = os.environ.get("ADZUNA_APP_ID"), os.environ.get("ADZUNA_APP_KEY")
     if not (app_id and app_key):
         raise SkipSource("no ADZUNA_APP_ID / ADZUNA_APP_KEY secret yet")
+    today = now()
+    if not force and today.weekday() not in ADZUNA_DAYS:
+        raise SkipSource("only runs Sundays (free plan)")
+    month = today.strftime("%Y-%m")
+    if state.get("month") != month:
+        state.update({"month": month, "used": 0})
     s, jobs = http(), []
-    for town, pages in ADZUNA_TOWNS.items():
+    for town, km, pages in ADZUNA_SEARCHES:
         for page in range(1, pages + 1):
+            if state["used"] >= ADZUNA_BUDGET:
+                if not jobs:
+                    raise SkipSource(f"monthly budget used ({state['used']} calls in {month})")
+                return jobs
             r = s.get(
                 f"https://api.adzuna.com/v1/api/jobs/us/search/{page}",
                 params={
                     "app_id": app_id, "app_key": app_key, "where": f"{town}, Colorado",
-                    "distance": 8, "results_per_page": 50, "max_days_old": 30,
+                    "distance": km, "results_per_page": 50, "max_days_old": 8,
                     "sort_by": "date", "content-type": "application/json",
                 },
                 timeout=30,
             )
+            state["used"] += 1
             r.raise_for_status()
             results = r.json().get("results", [])
             for d in results:
@@ -397,6 +409,7 @@ def richness(j: dict) -> int:
 
 def main() -> int:
     force_serp = "--serpapi" in sys.argv or os.environ.get("FORCE_SERPAPI") == "true"
+    force_adz = "--adzuna" in sys.argv or os.environ.get("FORCE_ADZUNA") == "true"
     old = {}
     if OUT.exists():
         try:
@@ -404,12 +417,13 @@ def main() -> int:
         except Exception:
             old = {}
     serp_state = old.get("serpapi_usage", {})
+    adz_state = old.get("adzuna_usage", {})
     stamp = now()
     today = stamp.date().isoformat()
 
     by_source: dict[str, list[dict]] = {}
     status: dict[str, dict] = {}
-    for name, fn in (("Adzuna", collect_adzuna), ("Google Jobs", lambda: collect_serpapi(serp_state, force_serp))):
+    for name, fn in (("Adzuna", lambda: collect_adzuna(adz_state, force_adz)), ("Google Jobs", lambda: collect_serpapi(serp_state, force_serp))):
         try:
             got = fn()
             for j in got:
@@ -459,6 +473,7 @@ def main() -> int:
         "updated": stamp.isoformat(timespec="minutes"),
         "sources": status,
         "serpapi_usage": serp_state,
+        "adzuna_usage": adz_state,
         "towns": sorted({j["town"] for j in keep}, key=lambda t: TOWNS.index(t) if t in TOWNS else 99),
         "categories": [c for c, _ in CATEGORIES if any(j["category"] == c for j in keep)] + (["Other"] if any(j["category"] == "Other" for j in keep) else []),
         "jobs": keep,
