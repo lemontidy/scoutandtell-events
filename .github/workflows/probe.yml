@@ -2,22 +2,23 @@ name: Probe employer hiring systems (temporary)
 on:
   push:
     branches: [probe-ats]
-    paths: ["probe/**"]
+    paths: ["probe/**", "scripts/**"]
 permissions:
   contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests==2.32.3
-      - run: python probe/probe2.py
+      - run: ONLY_EMPLOYERS=true python scripts/collect_jobs.py 2>&1 | tee probe/run3.log
       - run: |
+          cp docs/jobs/jobs.json probe/jobs_run3.json
           git config user.name scout-and-tell-bot
           git config user.email actions@users.noreply.github.com
-          git add probe || true
-          git commit -m "probe report [skip ci]" || true
+          git add probe
+          git commit -m "probe run3 [skip ci]" || true
           git push
