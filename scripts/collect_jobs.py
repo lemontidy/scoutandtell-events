@@ -90,6 +90,8 @@ STAFFING = [
     "lucid staffing", "actalent", "apex systems", "peopleready", "trueblue", "snagajob",
     "jobs for humanity", "dice", "clickjobs", "lensa", "joblist", "talentify",
     "prn healthcare", "nomad health", "host healthcare", "travel nurse", "triage staffing",
+    "career.zycto", "postal jobs assist", "marijuana jobs", "hmg careers", "appleone",
+    "tradesmen international", "kpg nursing", "rdsolutions", "community college of philadelphia",
     # gig apps aren't local jobs
     "doordash", "uber", "instacart", "grubhub", "shipt", "roadie", "spark driver", "gopuff", "lyft",
 ]
