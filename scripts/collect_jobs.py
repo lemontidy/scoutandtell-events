@@ -86,7 +86,12 @@ STAFFING = [
     "trusted health", "vivian health", "medical solutions", "fusion medical", "incredible health",
     "lucid staffing", "actalent", "apex systems", "peopleready", "trueblue", "snagajob",
     "jobs for humanity", "dice", "clickjobs", "lensa", "joblist", "talentify",
+    "prn healthcare", "nomad health", "host healthcare", "travel nurse", "triage staffing",
+    # gig apps aren't local jobs
+    "doordash", "uber", "instacart", "grubhub", "shipt", "roadie", "spark driver", "gopuff", "lyft",
 ]
+# Job titles that are never local jobs.
+SKIP_TITLES = re.compile(r"^travel\b|\btravel (rn|nurse|tech|therapist)|locum|\bdelivery driver - be your own boss", re.I)
 # Leave national chains on (they hire locally). Add names here to hide one.
 HIDE_COMPANIES: list[str] = []
 
@@ -148,6 +153,10 @@ def find_town(*texts: str) -> str:
     return ""
 
 
+def skip_title(title: str) -> bool:
+    return bool(SKIP_TITLES.search(title or ""))
+
+
 def is_staffing(company: str) -> bool:
     c = (company or "").lower()
     return any(w in c for w in STAFFING) or any(h.lower() == c for h in HIDE_COMPANIES)
@@ -191,14 +200,14 @@ def fmt_pay(lo: float | None, hi: float | None, unit: str = "") -> tuple[str, fl
     lo, hi = min(vals), max(vals)
     if not unit:
         unit = "hr" if hi < 200 else "yr"
-    yearly = hi * 2080 if unit == "hr" else hi
+    yearly = hi * {"hr": 2080, "wk": 52, "mo": 12}.get(unit, 1)
     label = money(lo) if lo == hi else f"{money(lo)}–{money(hi)}"
     return f"{label}/{unit}", yearly
 
 
 _PAY_RE = re.compile(
     r"\$\s?(\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(k)?\s*(?:-|–|to)\s*\$?\s?(\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)\s*(k)?"
-    r"(?:\s*(?:per|an|a|/)\s*(hour|hr|year|yr|annually|annual))?",
+    r"(?:\s*(?:per|an|a|/)\s*(hour|hr|year|yr|annually|annual|week|wk|month|mo))?",
     re.I,
 )
 
@@ -212,7 +221,7 @@ def pay_from_text(text: str) -> tuple[str, float]:
     if lo <= 0 or hi < lo or hi > 1_000_000:
         return "", 0
     unit = (m.group(5) or "").lower()
-    unit = "hr" if unit.startswith("h") else "yr" if unit else ""
+    unit = {"h": "hr", "w": "wk", "m": "mo"}.get(unit[:1], "yr" if unit else "")
     if not unit and hi < 200:
         unit = "hr"
     if unit == "hr" and hi < 7:     # not a wage
@@ -299,7 +308,7 @@ def adzuna_to_job(d: dict) -> dict | None:
     company = clean((d.get("company") or {}).get("display_name"), 80)
     loc = d.get("location") or {}
     town = find_town(loc.get("display_name", ""), " ".join(loc.get("area") or []))
-    if not (title and company and town) or is_staffing(company):
+    if not (title and company and town) or is_staffing(company) or skip_title(title):
         return None
     desc = clean(d.get("description"), 600)
     if str(d.get("salary_is_predicted")) == "1":
@@ -383,7 +392,7 @@ def serp_to_job(d: dict) -> dict | None:
     title = clean(d.get("title"), 120)
     company = clean(d.get("company_name"), 80)
     town = find_town(d.get("location", ""))
-    if not (title and company and town) or is_staffing(company):
+    if not (title and company and town) or is_staffing(company) or skip_title(title):
         return None
     ext = d.get("detected_extensions") or {}
     desc = clean(d.get("description"), 600)
