@@ -1,15 +1,15 @@
 {
-"updated": "2026-11-23T05:42-07:00",
+"updated": "2026-11-24T05:43-07:00",
 "sources": {
 "Employer sites": {
 "ok": true,
-"count": 421,
-"ran": "2026-11-23"
+"count": 327,
+"ran": "2026-11-24"
 },
 "Google Jobs": {
-"ok": true,
 "count": 153,
-"ran": "2026-11-23"
+"ran": "2026-11-23",
+"skipped": "only runs Mondays and Thursdays (free plan)"
 }
 },
 "serpapi_usage": {
@@ -46,6 +46,42 @@
 ],
 "jobs": [
 {
+"id": "3cd93a544c7b",
+"title": "Customer Service Associate",
+"company": "Salud Family Health",
+"town": "Fort Collins",
+"type": "Full time",
+"category": "Office & Admin",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-24",
+"description": "",
+"via": "Salud Family Health",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000163342679?utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "eab04ee27d3d",
+"title": "Water Operator (Water Distribution)",
+"company": "City of Fort Collins",
+"town": "Fort Collins",
+"type": "",
+"category": "Trades & Construction",
+"pay": "$32.15–$34.96/hr",
+"pay_sort": 72716.8,
+"posted": "2026-11-23",
+"description": "Job Summary Work related to the construction, maintenance, inspection and/or repair of infrastructure including equipment operation and/or maintenance in the field for equipment specific to water distribution, wastewater collection, and storm drainage operations. The starting pay for this position is listed below, commensurate with experience: Associate Operator Levels I 2 - $32.15- $34.96 hourly Intermediate Operator Levels 3 4 - $37.05- $39.28 hourly Senior Operator Levels 5 6 -$41.64- $44.85 hourly Essential Duties and Responsibilities The following duties and responsibilities are…",
+"via": "City of Fort Collins",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8703?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
 "id": "9d40e5ac0bc6",
 "title": "Utility Process Operator",
 "company": "Anheuser-Busch",
@@ -62,6 +98,60 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
+},
+{
+"id": "6e875890e12a",
+"title": "Title I Student Advocate, Jackson Elementary School (Start Date: January 5, 2027)",
+"company": "Greeley-Evans School District 6",
+"town": "Greeley",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Greeley-Evans School District 6",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16186&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "a76a10cacb30",
+"title": "Title I Intervention Teacher, Jackson Elementary School",
+"company": "Greeley-Evans School District 6",
+"town": "Greeley",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Greeley-Evans School District 6",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16185&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "bc247034d9fc",
+"title": "Sr Coordinator, Communications",
+"company": "City of Fort Collins",
+"town": "Fort Collins",
+"type": "",
+"category": "Office & Admin",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "Job Summary The Sr Communications Coordinator position works with department staff and clients to support the delivery of internal and external marketing, advertising and public awareness campaigns, communications plans, policies and procedures for various City departments. This position encompasses a broad scope of duties including curating, writing, and editing written and visual content for online platforms and social media (Facebook, Twitter/X, Instagram and NextDoor), news releases, e-newsletters, web pages, reports and presentations, as well as print media print media (posters…",
+"via": "City of Fort Collins",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8704?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "id": "7464af295480",
@@ -186,7 +276,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000222&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -298,6 +388,24 @@
 "first_seen": "2026-11-23"
 },
 {
+"title": "Customer Support Manager II/III",
+"company": "Woodward",
+"town": "Fort Collins",
+"type": "Full time",
+"category": "Office & Admin",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "Woodward is committed to creating a great workplace for all team members. Our company and its members are committed to acting with integrity, being respectful and accountable to one another, and staying humble and driven, while maintaining the highest professional and ethical standards. We are steadfastly committed to attracting the best talent across our communities creating a rewarding workplace. Together we are fulfilling our purpose to design and deliver energy control solutions our partners count on to power a clean future. Woodward supports our members’ wellbeing and regularly…",
+"apply_url": "https://woodward.wd5.myworkdayjobs.com/woodward/job/Fort-Collins---Drake-Campus/Customer-Support-Manager_JR114038-1?utm_source=scoutandtell&utm_medium=jobboard",
+"id": "6fb2887af651",
+"via": "Woodward",
+"direct": true,
+"source": "Employer sites",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
 "id": "5f61bdcab801",
 "title": "Contracted/Hourly Mental Health Clinician",
 "company": "Foundations Incorporated",
@@ -316,6 +424,60 @@
 "first_seen": "2026-11-23"
 },
 {
+"title": "CNC Machinist (1st shift, 5x8)",
+"company": "Woodward",
+"town": "Fort Collins",
+"type": "Full time",
+"category": "Office & Admin",
+"pay": "$24.04–$38.46/hr",
+"pay_sort": 79996.8,
+"posted": "2026-11-23",
+"description": "Woodward is committed to creating a great workplace for all team members. Our company and its members are committed to acting with integrity, being respectful and accountable to one another, and staying humble and driven, while maintaining the highest professional and ethical standards. We are steadfastly committed to attracting the best talent across our communities, creating a rewarding workplace. Together we are fulfilling our purpose to design and deliver energy control solutions our partners count on to power a clean future. Woodward supports our members’ wellbeing and regularly…",
+"apply_url": "https://woodward.wd5.myworkdayjobs.com/woodward/job/Fort-Collins---Drake-Campus/CNC-Machinist--1st-shift--5x8-_JR114096?utm_source=scoutandtell&utm_medium=jobboard",
+"id": "5b0368ec7191",
+"via": "Woodward",
+"direct": true,
+"source": "Employer sites",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "20bead6a9cd8",
+"title": "Applicant Pool-Nurse Intern (Spring 2027)",
+"company": "Poudre School District",
+"town": "Fort Collins",
+"type": "",
+"category": "Healthcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Poudre School District",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=5911338&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "6ff6a506e2dc",
+"title": "Applicant Pool-Child Nutrition Team Member Substitute I/II-Child Nutrition Department",
+"company": "Poudre School District",
+"town": "Fort Collins",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Poudre School District",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=5982972&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
 "id": "fc4a9a82528c",
 "title": "2026-27 Teacher Elementary Special Education Long Term Substitute-Integrated Learning Supports (ILS)-Bethke Elementary School",
 "company": "Poudre School District",
@@ -330,8 +492,44 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996229&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
+},
+{
+"id": "de9aaebe4473",
+"title": "2026-27 School Secretary Secondary-Boltz Middle School",
+"company": "Poudre School District",
+"town": "Fort Collins",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Poudre School District",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=6001482&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
+},
+{
+"id": "0e5f7758bd51",
+"title": "2026-27 Paraprofessional I Special Education-Multi Categorical-Shepardson Elementary School",
+"company": "Poudre School District",
+"town": "Fort Collins",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-23",
+"description": "",
+"via": "Poudre School District",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=6001470&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "id": "f57228291fa3",
@@ -960,7 +1158,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -1122,7 +1320,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -1230,7 +1428,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -1608,7 +1806,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1123?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -1716,7 +1914,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -1824,7 +2022,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000563&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-21"
 },
 {
@@ -1842,7 +2040,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000561&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-21"
 },
 {
@@ -1860,7 +2058,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000565&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-21"
 },
 {
@@ -1878,7 +2076,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5960861&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-21"
 },
 {
@@ -1918,24 +2116,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "VLSI ASIC Logic Design Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-19",
-"description": "VLSI ASIC Logic Design Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-ASIC-Logic-Design-Engineer_1218196-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "fe088d18c76c",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "title": "Tenure-Track Assistant/ Associate Professor-MIP",
 "company": "Colorado State University",
 "town": "Fort Collins",
@@ -1968,7 +2148,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16184&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-21"
 },
 {
@@ -2184,7 +2364,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998924&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2328,7 +2508,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8607?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2706,7 +2886,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5981374&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2724,7 +2904,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5981366&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2904,7 +3084,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -2958,7 +3138,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998691&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2976,7 +3156,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998561&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -2994,7 +3174,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5999070&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3012,7 +3192,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998820&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3030,7 +3210,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998804&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3048,7 +3228,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998719&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3178,24 +3358,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Statistics Instructors - Open Pool",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Tech & Engineering",
-"pay": "$44k–$75k/yr",
-"pay_sort": 75000.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The Department of Statistics at Colorado State University currently comprises 19 faculty and over 50 graduate students, and has a network of faculty affiliates at nearby research agencies. Our faculty members have a wide range of expertise and are involved in various interdisciplinary graduate training and research activities. The Department of Statistics seeks ongoing applications from individuals who are interested in obtaining temporary, non-tenure track teaching positions within the department. Annual terms and reappointment may depend on performance…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Statistics-Instructors---Open-Pool_R2026108757-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "c82fc163b2c6",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "f2356b4156a7",
 "title": "Starbucks Barista",
 "company": "Safeway",
@@ -3228,7 +3390,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3266,24 +3428,6 @@
 "source": "Employer sites",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-21"
-},
-{
-"title": "Senior Program Manager, Southwest CO Workforce Development",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$95k–$101k/yr",
-"pay_sort": 101000.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The Senior Program Manager of the SW Colorado Workforce Development Project is a full-time, 12-month, special Administrative Professional position reporting to the Director of Workforce Development for Specialized Learning Communities in the Office of Engagement and Extension. The primary office location for this position will be located at Pueblo Community College Southwest. While this position is eligible for hybrid work arrangement, the individual in this position is expected to report for work at PCCSW a minimum of two days per week to effectively carry…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Mancos-CO/Senior-Program-Manager--Southwest-CO-Workforce-Development_R2026107720?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "8dc9ef34dacf",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "507939437ae0",
@@ -3466,42 +3610,6 @@
 "first_seen": "2026-11-23"
 },
 {
-"title": "Postdoctoral Fellow – Integrated Photonics and Optoelectronic Systems",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$65k–$70k/yr",
-"pay_sort": 70000.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The Postdoctoral Fellow will conduct research at the intersection of integrated photonics, mixed-signal electronics, and optical interconnects. The primary function of the position is to design, simulate, and analyze silicon-photonic devices and optoelectronic circuits (e.g., modulators, photodetectors, resonators, WDM components, driver and receiver front-ends), to develop end-to-end models of optical links, and to evaluate system-level performance metrics such as bandwidth, energy per bit, latency, crosstalk, and bit-error rate. The Fellow will contribute…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Postdoctoral-Fellow---Integrated-Photonics-and-Optoelectronic-Systems_R2026108719-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "19db200c63dc",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Payroll Supervisor",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary The Payroll Supervisor oversees the daily work of Payroll within Shared Services, supporting accurate, timely, compliant, and responsive payroll services. Reporting to the Director, Shared Services, this hands-on role assigns work, coaches staff, monitors payroll cycles and service standards, and participates in payroll processing and accounting activities in Workday and the financial system. The Supervisor applies established policies and procedures to resolve operational issues, coordinates with payroll subject matter experts and campus partners, and…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Payroll-Supervisor_R2026108569?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "4e17c902feee",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "4d3e34f0027c",
 "title": "Parts Associate",
 "company": "CAMPERS INN INC",
@@ -3570,7 +3678,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8690?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3590,42 +3698,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
-},
-{
-"title": "Mental Health Counselor - Academic Year",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$78k–$92k/yr",
-"pay_sort": 92475.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The CSU Health Network at Colorado State University provides a full range of cost-effective mental health and primary care medical services on campus, referral for community specialty care, and comprehensive health education and prevention services programming. The CSU Health Network is active in creating a healthy campus environment to support learning and success. For more information about the CSU Health Network, see https://health.colostate.edu/. The Mental Health Counselor – Academic Year position provides mental health counseling for Colorado State…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Mental-Health-Counselor---Academic-Year_R2026108380?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "237825ac6bf8",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Medical Lead of Oncology Clinical Trials",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$120k–$140k/yr",
-"pay_sort": 140000.0,
-"posted": "2026-11-18",
-"description": "Job Description The Department of Clinical Sciences mission is to assure the health and productivity of animals to meet societal needs through high quality educational programs for professional veterinary medical students, graduate veterinarians, and the public through a faculty and veterinary medical center of excellence, and to advance and disseminate comparative biomedical knowledge in an environment of interdisciplinary collaboration. The mission of the Flint Animal Cancer Center (FACC) is to improve the prevention, diagnosis, and treatment of cancer in pet animals, translating our…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Medical-Lead-of-Oncology-Clinical-Trials_R2026108720?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "48e7a5d7034c",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "bd0f9a484f3d",
@@ -3752,24 +3824,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
-},
-{
-"title": "Heavy Equipment Operator (HEO) - Camp Bullis, TX",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$55k–$60k/yr",
-"pay_sort": 60000.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: A Heavy Equipment Operator position is available with Colorado State University (CSU) and the Center for Environmental Management of Military Lands (CEMML) at Camp Bullis, Texas . This position operates heavy equipment to complete Land Rehabilitation and Maintenance (LRAM) projects supporting Army training missions. Primary responsibilities include soil stabilization, road maintenance, vegetation management, equipment maintenance, and tracking project activities for monthly and quarterly reports. Equipment includes 10- to 25-ton dump trucks, dozers, motor…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/San-Antonio-TX/Heavy-Equipment-Operator--HEO----Camp-Bullis--TX_R2026108670?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "870732229c77",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "5b2738f58fde",
@@ -3948,7 +4002,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=588600&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -3984,7 +4038,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -4020,7 +4074,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997645&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4076,42 +4130,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
-},
-{
-"title": "Athletic Trainer",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Salons & Wellness",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The Athletic Trainer position is responsible for the day-to-day oversight of athletic training and sports medicine services for an NCAA Division I intercollegiate athletics program with secondary sport coverage as determine by the Assistant Athletic Director for Sports Medicine. Located in the beautiful city of Fort Collins, Colorado State University is a premier land-grant university with world-class programs in education, outreach, and research. CSU has a student body of over 34,000 students, 7,400 employees, 258,000 living alumni, and annual research…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Athletic-Trainer_R2026104615-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "c3478b15cbb2",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Archaeologist - Guam",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$24.50–$60/hr",
-"pay_sort": 124800.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary An Archaeologist(s) technician will be duty stationed on Guam to provide on-site technical support and assistance to the Joint Region Marianas (JRM) Cultural Resources Manager (CRM) and actions related to the Programmatic Agreement between the Commander, Joint Region Marianas and the Guam State Historic Preservation Officer, Regarding Military Training and Testing on and within the Surrounding Waters of the Island of Guam , including research and assessment of potential impacts to cultural resources by military training and testing within the JRM Area of…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Santa-Rita-GU/Archaeologist---Guam_R2026108736?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "cc8f5d81b09b",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "64cee24173d6",
@@ -4200,7 +4218,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997496&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4218,7 +4236,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997586&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4236,43 +4254,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997516&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "1678: CE Digital Marketing and Content Coordinator",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$60k–$65k/yr",
-"pay_sort": 65000.0,
-"posted": "2026-11-18",
-"description": "Job Description Position Summary: The Department of Clinical Sciences mission is to assure the health and productivity of animals to meet societal needs through high quality educational programs for professional veterinary medical students, graduate veterinarians, and the public through a faculty and veterinary medical center of excellence, and to advance and disseminate comparative biomedical knowledge in an environment of interdisciplinary collaboration. Colorado State University's Veterinary Continuing Education program (CSUVetCE) seeks a creative marketing and digital content professional…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/XMLNAME-1678--CE-Digital-Marketing-and-Content-Coordinator_R2026106802?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "ed93369c37d8",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Tissue Trimming Laboratory Manager",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$58k–$65k/yr",
-"pay_sort": 65000.0,
-"posted": "2026-11-17",
-"description": "Job Description Position Summary: This position will serve as the Tissue Trimming Laboratory Manager. This position is full-time and in-person, in Fort Collins, Colorado. This position is full-time with a schedule based on section needs. This position may require after-hours and weekend work, based on caseload and urgent testing or laboratory needs. This is an essential position, and the employee may be required to report to work, without delay, on some weather closure days and various holidays throughout the year. This position will be required to report to work for emergency disease…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Veterinary-Diagnostic-Laboratory/Tissue-Trimming-Laboratory-Manager_R2026108420?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "719a0beac4a2",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4312,24 +4294,6 @@
 "first_seen": "2026-11-23"
 },
 {
-"title": "Sr. Principal VLSI Design Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-17",
-"description": "Sr. Principal VLSI Design Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Physical-Design-Lead-Engineer_1218217-4?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "ed4f4140c7db",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "id": "d79a0af9248b",
 "title": "Special Education Assistant (IFL), Franklin Middle School",
 "company": "Greeley-Evans School District 6",
@@ -4344,7 +4308,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16179&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4363,24 +4327,6 @@
 "direct": true,
 "source": "Google Jobs",
 "last_seen": "2026-11-20",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Small Animal Rehabilitation Veterinary Assistant",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$17–$20/hr",
-"pay_sort": 41600.0,
-"posted": "2026-11-17",
-"description": "Job Description Position Summary CSU’s Small Animal Rehabilitation service is seeking a veterinary assistant to support the daily operations and patient care within the Rehabilitation department. Our team is dedicated to enhancing mobility and quality of life for companion animals through personalized therapeutic treatments, including the use of underwater treadmill therapy, laser, therapeutic exercise, and other rehab modalities. This position is responsible for coordinating daily rehabilitation workflow, ensuring patients, documentation and treatment areas are prepared and maintained…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Veterinary-Hospital-and-Education-Complex/Small-Animal-Rehabilitation-Veterinary-Assistant_R2026108419?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "02681432f3e1",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
 "first_seen": "2026-11-20"
 },
 {
@@ -4434,7 +4380,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -4708,24 +4654,6 @@
 "first_seen": "2026-11-23"
 },
 {
-"title": "New World Screwworm Post Doctoral Fellow",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Government & Public Service",
-"pay": "$75k–$80k/yr",
-"pay_sort": 80000.0,
-"posted": "2026-11-17",
-"description": "Job Description Position Summary: The purpose of this project is to develop lures with improved specificity for trapping the New World Screwworm blowfly (NWS, Cochliomyia hominivorax) with the goal of delivering bacteria and bacterial-produced volatiles that are specifically attractive to NWS flies across life stages. The post-doctoral position will oversee and coordinate activities for Objective 1 to: 1) Connect networks of stakeholders across the regional southwestern United States for project support and information exchange; and 2) Develop a project communication plan that includes…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/New-World-Screwworm-Post-Doctoral-Fellow_R2026108643?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "525f64587798",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "4a84f357c8bd",
 "title": "Multisite Concierge Lead & Admin Support",
 "company": "The Group",
@@ -4834,24 +4762,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Human-Animal Bond in Colorado (HABIC) Center Director",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Education & Childcare",
-"pay": "$70k–$75k/yr",
-"pay_sort": 75000.0,
-"posted": "2026-11-17",
-"description": "Job Description Position Summary: The Director of the Human-Animal Bond in Colorado (HABIC) Center provides strategic and operational leadership for community engagement, fundraising, grant development, research collaboration, and student education and training. The Director advances HABIC’s mission as an educational and research resource by developing partnerships, securing sustainable funding, overseeing programs and budgets, and supporting human-animal interaction initiatives aligned with the School of Social Work’s mission of research, teaching, and service. The Director collaborates with…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Human-Animal-Bond-in-Colorado--HABIC--Center-Director_R2026108637?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "56d2456171a3",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "3f57fb75458a",
 "title": "Housekeeping Supervisor – Growth & Benefits",
 "company": "VISTA HOST INC",
@@ -4904,24 +4814,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
-},
-{
-"title": "HABIC Community Engagement Coordinator",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Part time",
-"category": "Office & Admin",
-"pay": "$20–$25/hr",
-"pay_sort": 52000.0,
-"posted": "2026-11-17",
-"description": "Job Description Position Summary The Community Outreach Coordinator will use motivational and inspirational skills set for developing relationships with both volunteers and agency partners to join HBIC in our mission of improving quality of life for people of all ages through the therapeutic benefits of companion animals Work Unit Description Human-Animal Bond in Colorado (HABIC), a center in the School of Social Work since 1993, improves quality of life for people of all ages through the therapeutic benefits of companion animals. Application Deadline November 30, 2026 Full Consideration Date…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/HABIC-Community-Engagement-Coordinator_R2026108712?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "538bef519277",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "37f2d5f510aa",
@@ -5050,24 +4942,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Fire Suppression Technician I",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$52k–$64k/yr",
-"pay_sort": 64446.0,
-"posted": "2026-11-17",
-"description": "Job Description The position is located Fort Collins, CO, working in the Facilities Management Department. This position does not have formal supervisory authority. This full time nonexempt position. Unit Statement Trades Maintenance Services exist to support Facilities Management, Administration Services Division, and Colorado State University strategic plans. To provide, within the limit of its allocated resources, quality trades maintenance services, which includes all structural, mechanical, and electrical systems, and small construction project management. These services are to create…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Fire-Suppression-Technician-I_R2026107467?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d9f1e78403bb",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "946c062579df",
 "title": "Facilities Trades : Carpentry, Painting & HVAC",
 "company": "State of Colorado",
@@ -5136,7 +5010,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16181&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5172,7 +5046,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=594351&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5244,7 +5118,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16180&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5280,7 +5154,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996206&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5298,7 +5172,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996238&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5316,7 +5190,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1121?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5426,24 +5300,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
 "first_seen": "2026-11-23"
-},
-{
-"title": "Senior VLSI Tools and Methodology Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-16",
-"description": "Senior VLSI Tools and Methodology Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Senior-VLSI-Tools-and-Methodology-Engineer_1218187-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "500d5367d531",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "id": "d7885d652e10",
@@ -5644,42 +5500,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Principal ASIC Engineering Program Manager",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-16",
-"description": "Principal ASIC Engineering Program Manager This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Principal-ASIC-Engineering-Program-Manager_1218195-4?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "afc424ab86f7",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
-"title": "Post Doc",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-16",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Post-Doc_R2026108342?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "c621f5d9e168",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "e8ac33835ad5",
 "title": "Police Chief",
 "company": "Town of Johnstown, CO",
@@ -5712,7 +5532,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8702?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -5824,24 +5644,6 @@
 "first_seen": "2026-11-23"
 },
 {
-"title": "Manager, Logistics and Warehouse",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Trades & Construction",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-16",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Manager--Logistics-and-Warehouse_R2026107961?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "16a8a5937ca3",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "9599faa1bc4e",
 "title": "Maintenance - Starting at $17.50/hr! Free Meals, College Tuition Reimbursement, and Flexible Schedule.",
 "company": "McDonald's",
@@ -5857,24 +5659,6 @@
 "direct": true,
 "source": "Google Jobs",
 "last_seen": "2026-11-20",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Mail Clerk / Administrative Assistant I",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$38k–$46k/yr",
-"pay_sort": 45996.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary The Departments of Central Receiving delivers trusted services and innovative, cost-effective solutions to our university community through collaboration, superior customer service and uninterrupted support. The department consists of the following units: Bike Rentals, Central Store, Document Scanning, Event Rentals, Lab Alcohol, Mail Services, Shipping & Receiving, Shredding, Surplus Property, The Spoke, FastPrint, and Warehouse Services. For more information please visit their website . Mail Services is the University's designated primary contact point with…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Mail-Clerk---Administrative-Assistant-I_R2026108115?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "29842972290c",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
 "first_seen": "2026-11-20"
 },
 {
@@ -5911,24 +5695,6 @@
 "direct": true,
 "source": "Google Jobs",
 "last_seen": "2026-11-20",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Journey Level Carpenter",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$51k–$62k/yr",
-"pay_sort": 61632.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary Facilities Management is entrusted with the development, care, maintenance, and operation of Colorado State University’s physical properties. Our purpose is to create and sustain environments that support CSU’s land-grant mission, fostering the success of students, faculty, and staff through world-class academic, research, and outreach programs. Remodel and Construction Services provides design, engineering, estimating, skilled trades craft labor, construction project management, and construction support for campus renovation, remodel, maintenance, and…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Journey-Level-Carpenter_R2026108343?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "9419bf0941cd",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
 "first_seen": "2026-11-20"
 },
 {
@@ -6018,25 +5784,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8700?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Grant Facilitator, Ag Business Center (ABC)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$58k–$68k/yr",
-"pay_sort": 68000.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary: The ABC Research Services Team provides both pre-award and post-award support for the College of Agricultural Sciences and the Agricultural Experiment Station, which includes the Dean’s office, 5 academic departments, and 8 research centers located across the state. The Team provides pre-award proposal support for CAS & AES and provides post-award guidance. For CAS/AES, this team reviews all proposals from the College and Deputy Director of AES perspective to be sure that proposals are in-line with CAS/AES strategic goals. This team also provides assurance…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Grant-Facilitator--Ag-Business-Center--ABC-_R2026108307?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "8224877fd2e8",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6076,78 +5824,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Fire Alarm PM Tech - Electronics Spec I",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$52k–$64k/yr",
-"pay_sort": 64446.0,
-"posted": "2026-11-16",
-"description": "Job Description The position is located Fort Collins, CO, working with the Trades Maintenance Services Department. This position does not have formal supervisory authority. This full-time, non/exempt position will be supervised by Chet Oleson. Unit Statement Trades Maintenance Services exist to support Facilities Management, Administration Services Division, and Colorado State University strategic plans. To provide, within the limit of its allocated resources, quality trades maintenance services, which includes all structural, mechanical, and electrical systems, and small construction project…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Fire-Alarm-PM-Tech---Electronics-Spec-I_R2026108577-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "4de185bf4b5c",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Employer Relations and Co-op Coordinator for Walter Scott, Jr. College of Engineering",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$58k–$61k/yr",
-"pay_sort": 61000.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary: The Employer Relations and Co-op Coordinator is a full-time position shared by the Career Center and The Walter Scott, Jr. College of Engineering (WSCOE) that reports directly to the Assistant Director of Career Education for WSCOE. This position will be responsible for supporting employer and events engagement for WSCOE. This role is also responsible for developing and maintaining relationships with WSCOE-related employers recruiting CSU students for jobs, co-ops, and internships, and creating employer outreach strategies. The coordinator will leverage the…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Employer-Relations-and-Co-op-Coordinator-for-Walter-Scott--Jr-College-of-Engineering_R2026108398?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "7d65f6fd24f5",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Custodian III AM Shift",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$51k–$62k/yr",
-"pay_sort": 61632.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary Facilities Management is entrusted with the development, care, maintenance, and operation of Colorado State University’s physical properties. Our purpose is to create and sustain environments that support CSU’s land-grant mission, fostering the success of students, faculty, and staff through world-class academic, research, and outreach programs. To learn more about this department, please visit our website . The Custodian III leads and participates in the daily cleaning and maintenance of assigned University buildings while overseeing the work of one Custodian…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Custodian-III-AM-Shift_R2026108219?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "86d4d2176882",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Cloud Developer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-16",
-"description": "Cloud Developer This role has been designed as ‘’Onsite’ with an expectation that you will primarily work from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds are valued and succeed here. We…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Developer_1217322-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "34ceab5388f0",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "id": "ac85c28fb21a",
 "title": "Child Nutrition Team Member-Bamford Elementary School",
 "company": "Poudre School District",
@@ -6162,7 +5838,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5979848&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6184,24 +5860,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Career Education Manager, Career Center and College of Agricultural Sciences",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Education & Childcare",
-"pay": "$69k–$72k/yr",
-"pay_sort": 72000.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary: The Career Education Manager is a full-time, year-round position that serves as the Career Center’s lead for career education in the College of Agricultural Sciences (CAS). The Career Education Manager designs, coordinates, and delivers career curriculum to: educate all CSU students (with a focus on CAS students) about career paths; engage them in experiential learning opportunities and career planning; prepare them for their job search; and connect them with potential employers. The Career Education Manager establishes and maintains successful relationships…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Career-Education-Manager--Career-Center-and-College_R2026108404?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "9c7a074a12ed",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "title": "Calibration Technician III",
 "company": "Woodward",
 "town": "Fort Collins",
@@ -6216,25 +5874,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Building Automation Services Technician (ESII)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "$63k–$78k/yr",
-"pay_sort": 78330.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Location and Supervision The position is located Fort Collins, CO, working in the Facilities Management Department. This position does not have formal supervisory authority. This full-time, non/exempt position will be supervised by Mike Snead. Unit Statement Trades Maintenance Services exist to support Facilities Management, Administration Services Division, and Colorado State University strategic plans. To provide, within the limit of its allocated resources, quality trades maintenance services, which includes all structural, mechanical, and electrical systems, and…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Building-Automation-Services-Technician--ESII-_R2026108378?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "9401b978a43c",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6253,24 +5893,6 @@
 "direct": false,
 "source": "Google Jobs",
 "last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Assistant Professor of Occupational Therapy (Tenure-Track)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Healthcare",
-"pay": "$75k–$85k/yr",
-"pay_sort": 85000.0,
-"posted": "2026-11-16",
-"description": "Job Description Position Summary: The Department of Occupational Therapy is seeking two (2) nine-month, tenure track regular full-time faculty members at the rank of Assistant Professor to conduct and disseminate research; teach and mentor occupational therapy graduate (OTD & PhD) students and provide service to the Department, College and University. Brief Description of Academic Unit: The occupational therapy department seeks to optimize human performance and participation in everyday occupations, across all contexts and throughout the lifespan. We do this through excellence in teaching…",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Assistant-Professor_R2026107703?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "a4ba6310ea13",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
 "first_seen": "2026-11-20"
 },
 {
@@ -6594,7 +6216,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16174&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6846,7 +6468,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8697?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6886,42 +6508,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Toxicology Lab Technician",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Trades & Construction",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Toxicology-Lab-Technician_R2026108078?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "50989c029d36",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Support Services Specialist (Full Time)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Support-Services-Specialist--Full-Time-_R2026108167?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "100782a0672d",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "d0a8f07dbc16",
 "title": "Specialist II, Transportation Demand",
 "company": "City of Fort Collins",
@@ -6936,7 +6522,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8698?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -6976,24 +6562,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Radiologic Technologist R.T.(R) PRN",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Contract / Seasonal",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Veterinary-Hospital-and-Education-Complex/Radiologic-Technologist-RT-R--PRN_R2026108591?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d21def251163",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "87eef1873301",
 "title": "Power Utility Distribution Designer — Field & Office",
 "company": "Michels Corp.",
@@ -7009,24 +6577,6 @@
 "direct": false,
 "source": "Google Jobs",
 "last_seen": "2026-11-20",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Pharmacy Cashier",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Pharmacy-Cashier_R2026108289?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "63530b674ce5",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
 "first_seen": "2026-11-20"
 },
 {
@@ -7138,24 +6688,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Grounds & Nursery II",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Grounds---Nursery-II_R2026108500?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "456c93a857e3",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "282f793db7c6",
 "title": "Food Crew Member - Sundays Off",
 "company": "Chick-fil-A",
@@ -7192,24 +6724,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Fire Alarm Specialist III - ESIII",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Fire-Alarm-Specialist-III---ESIII_R2026107983?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "f94c38fc99f5",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "afe65a84c2e3",
 "title": "Fabrication / Welder - Immediate Hire",
 "company": "Tradesmen International",
@@ -7242,7 +6756,7 @@
 "via": "New Belgium Brewing",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7278,43 +6792,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Chemistry/Toxicology Laboratory Professional",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Chemistry-Toxicology-Laboratory-Professional_R2026107599-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "202ffb92eae3",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Career Education Manager, Career Center and Warner College of Natural Resources",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Career-Education-Manager--Career-Center-and-Warner-College-of-Natural-Resources_R2026108469?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "a76877fdbbe2",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7350,7 +6828,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -7372,258 +6850,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Academic Administrative Coordinator",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Veterinary-Hospital-and-Education-Complex/Academic-Administrative-Coordinator_R2026108234-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "0a29f1eb936d",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Water Rights Specialist",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Water-Rights-Specialist_R2026108463?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "72fa15704e51",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Talent Acquisition Operations Specialist - Open Pool",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Talent-Acquisition-Operations-Specialist---Open-Pool_R2026107106?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "bc656191c31f",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Retail Manager",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Retail",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Retail-Manager_R2026108218?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "a501af697fcb",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Research Assistant",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Social-Sciences-Hall/Research-Assistant_R2026108544-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "9e39b1e306c7",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Renovation & Repair Assistant Supervisor",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Renovation---Repair-Assistant-Supervisor_R2026108596?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "40c8165f6950",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Primary Care Veterinary Educator - Large Animal",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Veterinary-Hospital-and-Education-Complex/Primary-Care-Veterinary-Educator---Large-Animal_R2026108217?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d05f461bff37",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Postdoctoral Researcher - C4 Photosynthesis in Large-Scale Models",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Postdoctoral-Researcher---C4-Photosynthesis-in-Large-Scale-Models_R2026108635?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "ee28edf46327",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Manager of Instructional Coordination Part-time",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Part time",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Manager-of-Instructional-Coordination-Part-time_R2026107916?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "3f865143424b",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Lead Cook - OPEN POOL",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Restaurants & Bars",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Lead-Cook---OPEN-POOL_R2026108474?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d63baba13a04",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Lead Commercial Dining Equipment Technician",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Trades & Construction",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Lead-Commercial-Dining-Equipment-Technician_R2026108602?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "5526fb91183e",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Human Resources Services & Solutions Supervisor",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Human-Resources-Services---Solutions-Supervisor_R2026108571?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d5515e7a3d8d",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Executive Director of Communications",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Executive-Director-of-Communications_R2026108043?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "46c39eb6a33c",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Environmental GIS Analyst II - Vandenberg SFB, California",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Lompoc-CA/Environmental-GIS-Analyst-II---Vandenberg-SFB--California_R2026108552?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "d0ea10c8ec77",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "id": "1a56b6a9038a",
 "title": "Dental Hygienist - Per-Diem",
 "company": "Sunrise Community Health",
@@ -7638,7 +6864,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970938&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7656,61 +6882,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16167&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Customer Engagement Associate",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Customer-Engagement-Associate_R2026108279?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "aabe6ec6a65f",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Assistant Professor in Marriage and Family Therapy (Tenure-Track)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Assistant-Professor-in-Marriage-and-Family-Therapy--Tenure-Track-_R2026108312?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "bb8e00571a57",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Assistant Professor in Elementary Education with a Specialization in Special Education",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Education & Childcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-12",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Assistant-Professor-in-Elementary-Education-with-a-Specialization-in-Special-Education_R2026108255?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "8bbc85b10de4",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7728,7 +6900,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7764,7 +6936,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5991326&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7782,7 +6954,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5991323&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7800,7 +6972,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972478&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7818,61 +6990,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "RAO Research and Proposal Development Manager",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/RAO-Research-and-Proposal-Development-Manager_R2026108382?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "728f7a598260",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Postdoctoral Psychology Fellowship – DBT-Informed Post-Hospitalization Program",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Postdoctoral-Psychology-Fellowship---DBT-Informed-Post-Hospitalization-Program_R2026108193?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "79e286f03213",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Postdoctoral Psychology Fellowship – Alcohol and Other Drugs (AOD)",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Postdoctoral-Psychology-Fellowship---Alcohol-and-Other-Drugs--AOD-_R2026108191?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "e81201e33adc",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7890,25 +7008,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989964&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "ECRC Ranch Operations Technician",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Trades & Construction",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Akron-CO/ECRC-Ranch-Operations-Technician_R2026105754?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "65d1adb9b540",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7926,7 +7026,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989725&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7944,7 +7044,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599355&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -7962,44 +7062,8 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
-},
-{
-"title": "Assistant Professor in Elementary Education with a Specialization in Mental Health and Curriculum Education",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/Assistant-Professor-in-Elementary-Education-with-a-Specialization-in-Mental-Health-and-Curriculum-Education_R2026108362?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "b686d4085964",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
-"title": "26-125 Risk Communication Researcher, Part-Time",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "Part time",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Fort-Collins-CO/XMLNAME-26-125-Risk-Communication-Researcher--Part-Time_R2026108505?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "830693cf023f",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
 },
 {
 "id": "d68a3cf45f38",
@@ -8016,7 +7080,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5936573&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8034,7 +7098,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5969688&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8052,7 +7116,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989740&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8070,7 +7134,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989935&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8088,25 +7152,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989715&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Water Program Support - Oahu, HI",
-"company": "Colorado State University",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-10",
-"description": "",
-"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Honolulu-HI/Water-Program-Support---Oahu--HI_R2026104862?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "ccf66bcb5015",
-"via": "Colorado State University",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8124,7 +7170,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16170&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8142,7 +7188,7 @@
 "via": "New Belgium Brewing",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8182,24 +7228,6 @@
 "first_seen": "2026-11-21"
 },
 {
-"title": "HPC Software & Storage Engineering Strategist",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-10",
-"description": "HPC Software & Storage Engineering Strategist This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/HPC-Software---Storage-Engineering-Strategist_1216872-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "8d0fae78d5cb",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "id": "876606b7c915",
 "title": "Building Manager I, Centennial Elementary School",
 "company": "Greeley-Evans School District 6",
@@ -8214,7 +7242,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16169&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8232,7 +7260,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5826080&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8268,7 +7296,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1116?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8286,7 +7314,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5903255&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8304,7 +7332,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16168&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8358,7 +7386,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16165&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8376,7 +7404,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1112?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8394,7 +7422,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1119?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8412,7 +7440,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5928516&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8430,7 +7458,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970806&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8448,7 +7476,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970805&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8466,7 +7494,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970760&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8484,7 +7512,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8686?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8538,7 +7566,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1117?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8556,7 +7584,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16164&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8574,7 +7602,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5497752&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8592,7 +7620,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5986041&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8610,7 +7638,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5954813&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8646,7 +7674,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16163&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8718,7 +7746,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16162&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8736,7 +7764,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16161&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8754,7 +7782,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7980?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8790,7 +7818,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972416&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8808,26 +7836,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972415&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Systems Software Expert",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-04",
-"description": "Systems Software Expert This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds are…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Systems-Software-Expert_1217474-3?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "e2d67eb72bac",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "id": "9ffc45b598da",
@@ -8844,26 +7854,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=490069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Principal Software Engineer (Storage)",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-04",
-"description": "Principal Software Engineer (Storage) This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/Principal-Software-Engineer--Storage-_1215293-1?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "3b4ae2eaea57",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "title": "Principal Product Manager",
@@ -8898,7 +7890,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -8916,7 +7908,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=596203&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8934,7 +7926,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000159660849?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8970,7 +7962,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5982903&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -8988,7 +7980,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5751706&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9024,7 +8016,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -9096,7 +8088,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9114,7 +8106,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970539&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9132,7 +8124,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16159&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9149,8 +8141,8 @@
 "via": "Poudre School District",
 "direct": true,
 "source": "Employer sites",
-"apply_url": "https://psdschools.schoolspring.com/?jobid=5979678&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=5979668&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9186,7 +8178,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970527&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9204,7 +8196,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970533&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9222,7 +8214,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970531&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9240,7 +8232,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970534&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9258,7 +8250,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970529&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9276,7 +8268,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970248&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9294,7 +8286,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16157&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9312,26 +8304,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5948683&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "VLSI Physical Design Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-29",
-"description": "VLSI Physical Design Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Physical-Design-Engineer_1218237-3?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "c9e074a57a0c",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "title": "Slingshot Pre-Silicon Diagnostics & Validation Engineer",
@@ -9366,7 +8340,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158606074?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9384,7 +8358,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9402,7 +8376,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158584799?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9420,7 +8394,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16154&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9438,7 +8412,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158606899?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9456,7 +8430,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16156&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9510,7 +8484,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d30b7861-ea36-4a20-9426-8f090e74d18a&ccId=19000101_000001&lang=en_US&jobId=598700&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9528,26 +8502,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16155&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "ASIC Design Verification Engineer - Slingshot",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-29",
-"description": "ASIC Design Verification Engineer - Slingshot This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/ASIC-Design-Verification-Engineer---Slingshot_1218138-3?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "9629b132250a",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "id": "37dec72c5957",
@@ -9564,7 +8520,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5976674&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9582,7 +8538,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599859&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9600,8 +8556,26 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5960856&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
+},
+{
+"id": "d9cd00107134",
+"title": "INTERNAL ONLY (WAITLIST) Become a Teacher Program Participant-January 2027 Cohort",
+"company": "Poudre School District",
+"town": "Fort Collins",
+"type": "",
+"category": "Healthcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-10-28",
+"description": "",
+"via": "Poudre School District",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://psdschools.schoolspring.com/?jobid=5975411&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "title": "Sr Communications Business Partner",
@@ -9618,26 +8592,8 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Senior VLSI ASIC Logic Design Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-27",
-"description": "Senior VLSI ASIC Logic Design Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Senior-VLSI-ASIC-Logic-Design-Engineer_1218189-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "b14a92076bbf",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "title": "Registered Nurse RN Operating Room Inpatient",
@@ -9654,7 +8610,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9672,7 +8628,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16152&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9684,13 +8640,13 @@
 "pay": "$36.14–$60.23/hr",
 "pay_sort": 125278.4,
 "posted": "2026-10-26",
-"description": "Primary City/State: Greeley, Colorado Department Name: Med/Surg Float-Hosp Work Shift: Night Job Category: Nursing HIRING INCENTIVES AVAIALABLE- $20,000 for Night Shift and Relocation Assistance Also Available. Better Than Ever for Nurses. At Banner Health, we are more committed than ever to investing in our nurses with better pay, benefits, opportunities, well-being, flexibility, better experiences - better nursing. Banner Health has earned Great Place To Work® Certification™ for the third consecutive year. We’re committed to a workplace culture where team members trust the people they work…",
-"apply_url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-North-Colorado-Medical-Center-1801-16th-St/Registered-Nurse-RN-Progressive-Care-Unit-PCU-Float-Pool-Nights_R4458774?utm_source=scoutandtell&utm_medium=jobboard",
+"description": "Primary City/State: Greeley, Colorado Department Name: Med/Surg Float-Hosp Work Shift: Night Job Category: Nursing HIRING INCENTIVES AVAIALABLE- $20,000 for Night Shift and Relocation Assistance also available. Better Than Ever for Nurses. At Banner Health, we are more committed than ever to investing in our nurses with better pay, benefits, opportunities, well-being, flexibility, better experiences - better nursing. Banner Health has earned Great Place To Work® Certification™ for the third consecutive year. We’re committed to a workplace culture where team members trust the people they work…",
+"apply_url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-North-Colorado-Medical-Center-1801-16th-St/Registered-Nurse-RN-Progressive-Care-Unit-PCU-Float-Pool_R4451320?utm_source=scoutandtell&utm_medium=jobboard",
 "id": "f5134e55dfa3",
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-23"
 },
 {
@@ -9726,7 +8682,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16150&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9744,7 +8700,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5895695&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9762,7 +8718,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970235&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9780,7 +8736,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970234&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9798,7 +8754,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16151&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9816,7 +8772,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9834,7 +8790,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1103?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9852,7 +8808,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5885746&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9870,8 +8826,26 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1109?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
+},
+{
+"id": "cc71bd814ed4",
+"title": "Assistant Building Manager, Tointon Academy of Pre-Enigineering",
+"company": "Greeley-Evans School District 6",
+"town": "Greeley",
+"type": "",
+"category": "Office & Admin",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-10-23",
+"description": "",
+"via": "Greeley-Evans School District 6",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16149&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "id": "d3f5ba072b0d",
@@ -9888,7 +8862,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5970328&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9906,7 +8880,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5957765&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -9996,7 +8970,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10014,7 +8988,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1107?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10036,24 +9010,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Manager, Engineering",
-"company": "Water Pik",
-"town": "Fort Collins",
-"type": "",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-21",
-"description": "",
-"apply_url": "https://churchdwight.wd1.myworkdayjobs.com/waterpikcareers/job/USA-Fort-Collins-CO/Manager--Engineering_R2026-15058?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "1a620ab6cde7",
-"via": "Water Pik",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-20"
-},
-{
 "title": "HVAC Technician",
 "company": "Woodward",
 "town": "Fort Collins",
@@ -10068,7 +9024,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10086,7 +9042,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16147&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10140,7 +9096,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1105?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10158,7 +9114,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10176,7 +9132,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10194,7 +9150,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10230,7 +9186,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5889006&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10266,7 +9222,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16145&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10302,7 +9258,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1106?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10320,7 +9276,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16140&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10338,7 +9294,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5905086&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10374,7 +9330,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969913&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10392,7 +9348,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969908&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10410,7 +9366,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16138&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10428,7 +9384,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599353&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10446,7 +9402,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16136&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10464,7 +9420,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5954040&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10482,7 +9438,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5909864&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10500,7 +9456,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5900723&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10590,7 +9546,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599306&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10608,7 +9564,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=597652&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10630,22 +9586,22 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Marketplace Geo Expansion Program Manager",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
+"id": "b97346ff2dd9",
+"title": "Assistant Unified Basketball Coach, Greeley West High School",
+"company": "Greeley-Evans School District 6",
+"town": "Greeley",
+"type": "",
+"category": "Education & Childcare",
 "pay": "",
 "pay_sort": 0,
-"posted": "2026-10-09",
-"description": "Marketplace Geo Expansion Program Manager This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Marketplace-Go-Expansion-Program-Manager_1215291-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "bc1124760f2a",
-"via": "Hewlett Packard Enterprise",
+"posted": "2026-10-12",
+"description": "",
+"via": "Greeley-Evans School District 6",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
+"apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16134&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "title": "Senior ASIC Physical Design Engineer",
@@ -10680,7 +9636,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=576361&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10698,7 +9654,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8207?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10716,7 +9672,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5955350&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10734,7 +9690,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=595733&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10752,7 +9708,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16132&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10774,24 +9730,6 @@
 "first_seen": "2026-11-20"
 },
 {
-"title": "Senior Inference SW Engineer",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-06",
-"description": "Senior Inference SW Engineer This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds are…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Senior-Inference-SW-Engineer_1215001-3?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "e83867e32323",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "id": "3596fac0045a",
 "title": "Assistant Wrestling Coach, James Madison STEAM Academy",
 "company": "Greeley-Evans School District 6",
@@ -10806,7 +9744,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16130&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10824,7 +9762,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1102?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10842,7 +9780,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1101?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10860,7 +9798,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16125&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10896,7 +9834,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16118&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10914,7 +9852,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16119&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10932,7 +9870,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5928520&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -10950,26 +9888,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16121&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Cloud Commit Channel Program Manager",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-05",
-"description": "Cloud Commit Channel Program Manager This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Cloud-Commit-Channel-Program-Manager_1215480-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "425b39f96f03",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "id": "136ec8489913",
@@ -10986,7 +9906,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16120&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11004,7 +9924,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16124&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11022,7 +9942,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969438&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11040,7 +9960,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969412&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11062,24 +9982,6 @@
 "first_seen": "2026-11-21"
 },
 {
-"title": "Hardware Mechanical Engineer II",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Trades & Construction",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-01",
-"description": "Hardware Mechanical Engineer II This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Mechanical-Engineer-II_1212312-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "2d98854eb435",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
 "id": "e3a2f9998986",
 "title": "Guest Teacher 2026-2027 (Certified Substitute)",
 "company": "Greeley-Evans School District 6",
@@ -11094,7 +9996,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16111&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11130,7 +10032,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1098?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11148,7 +10050,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16112&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11166,7 +10068,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1100?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11184,7 +10086,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16108&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11202,8 +10104,26 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5941871&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
+},
+{
+"id": "a10d31c0f916",
+"title": "Behavioral Health Therapist - Encompass (Child/Family)",
+"company": "SummitStone Health Partners",
+"town": "Loveland",
+"type": "Full time",
+"category": "Healthcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-09-26",
+"description": "",
+"via": "SummitStone Health Partners",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=598715&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-24",
+"first_seen": "2026-11-24"
 },
 {
 "id": "2c9d0d351693",
@@ -11220,7 +10140,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16106&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11238,7 +10158,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16101&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11256,7 +10176,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16102&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11274,7 +10194,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1092?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11292,7 +10212,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1093?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11310,44 +10230,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16099&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Senior Software Engineer, Inference",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Tech & Engineering",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-09-16",
-"description": "Senior Software Engineer, Inference This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Senior-Software-Engineer--Inference_1211356-2?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "a024d36460c5",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
-},
-{
-"title": "Product Manager, HPC/AI Software",
-"company": "Hewlett Packard Enterprise",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-09-16",
-"description": "Product Manager, HPC/AI Software This role has been designed as 'Hybrid' with a requirement that you will work on average 2 days per week from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds…",
-"apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas/Product-Manager--HPC-AI-Software_1209409-3?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "da472c95b3ae",
-"via": "Hewlett Packard Enterprise",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-21",
-"first_seen": "2026-11-21"
 },
 {
 "title": "Distinguished Technologist, Product Management, Hybrid Cloud Portfolio & AI Innovation",
@@ -11382,7 +10266,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16095&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11400,7 +10284,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5900736&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11436,7 +10320,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1086?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11454,7 +10338,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16093&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11472,7 +10356,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1088?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11490,7 +10374,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1087?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11508,7 +10392,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5747646&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11526,7 +10410,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16092&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11544,7 +10428,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16088&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11598,7 +10482,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16089&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11616,7 +10500,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16085&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11634,7 +10518,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16082&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11652,7 +10536,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5900905&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11670,7 +10554,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5876676&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11688,7 +10572,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5913529&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11706,7 +10590,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16078&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11724,7 +10608,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16079&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11742,7 +10626,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1078?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11760,7 +10644,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16077&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11778,7 +10662,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16076&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11796,7 +10680,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1075?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11814,7 +10698,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16075&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11832,7 +10716,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11850,7 +10734,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16071&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11886,7 +10770,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1073?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11904,7 +10788,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5895185&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11922,7 +10806,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5892234&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11940,7 +10824,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16048&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11958,7 +10842,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16043&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11976,7 +10860,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5885629&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -11994,7 +10878,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16041&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12012,7 +10896,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5881503&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12030,7 +10914,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5877877&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12048,7 +10932,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1064?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12066,7 +10950,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1061?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12084,7 +10968,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16030&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12102,7 +10986,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16032&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12120,7 +11004,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1058?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12138,7 +11022,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16027&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12156,7 +11040,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16026&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12174,7 +11058,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16020&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12192,7 +11076,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16011&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12210,7 +11094,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/936?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12228,7 +11112,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5835203&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12246,7 +11130,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15975&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12264,7 +11148,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15976&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12282,7 +11166,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1035?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12300,7 +11184,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1031?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12318,7 +11202,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/978?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12336,7 +11220,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1018?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12354,7 +11238,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1001?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12372,7 +11256,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1006?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12390,7 +11274,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1007?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12408,7 +11292,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1004?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12426,7 +11310,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1005?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12444,7 +11328,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1009?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12462,7 +11346,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1008?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12480,7 +11364,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/968?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12498,7 +11382,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/969?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12516,7 +11400,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/941?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12534,7 +11418,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1003?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12552,7 +11436,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/990?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12570,7 +11454,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1002?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12588,7 +11472,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1010?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12606,7 +11490,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/992?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12624,7 +11508,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/937?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12642,7 +11526,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/935?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12660,7 +11544,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/970?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12678,7 +11562,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/947?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12696,7 +11580,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/958?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12714,7 +11598,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/959?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12732,7 +11616,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/960?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12750,7 +11634,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1016?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12768,7 +11652,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12786,7 +11670,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756070&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12804,7 +11688,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756068&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12822,7 +11706,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756071&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12840,7 +11724,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756063&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12858,7 +11742,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/999?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12876,7 +11760,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/983?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12894,7 +11778,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/961?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12912,7 +11796,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/993?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12930,7 +11814,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/963?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12948,7 +11832,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/964?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12966,7 +11850,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/945?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -12984,7 +11868,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1000?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13002,7 +11886,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/962?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13020,7 +11904,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/998?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13038,7 +11922,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/997?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13056,7 +11940,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/989?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13074,7 +11958,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/984?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13092,7 +11976,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/991?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13110,7 +11994,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/988?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13128,7 +12012,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/944?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13146,7 +12030,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/965?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13164,7 +12048,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/981?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13182,7 +12066,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/979?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13200,7 +12084,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/980?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13218,7 +12102,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/982?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13236,7 +12120,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/986?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13254,7 +12138,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/987?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13272,7 +12156,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/994?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13290,7 +12174,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/971?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13308,7 +12192,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15736&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13326,7 +12210,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510742&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13344,7 +12228,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510732&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13362,7 +12246,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510685&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13380,7 +12264,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15323&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13398,7 +12282,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/655?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13416,7 +12300,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8002?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13434,7 +12318,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7826?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13452,7 +12336,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=14397&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13470,7 +12354,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=14348&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13488,7 +12372,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7491?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13506,7 +12390,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7493?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13524,7 +12408,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/5832?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13542,7 +12426,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=11227&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13560,7 +12444,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=10151&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 },
 {
@@ -13578,7 +12462,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=7530&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "first_seen": "2026-11-20"
 }
 ]
