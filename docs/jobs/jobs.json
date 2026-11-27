@@ -1,15 +1,15 @@
 {
-"updated": "2026-11-26T05:44-07:00",
+"updated": "2026-11-27T05:42-07:00",
 "sources": {
 "Employer sites": {
 "ok": true,
-"count": 445,
-"ran": "2026-11-26"
+"count": 432,
+"ran": "2026-11-27"
 },
 "Google Jobs": {
-"ok": true,
 "count": 141,
-"ran": "2026-11-26"
+"ran": "2026-11-26",
+"skipped": "only runs Mondays and Thursdays (free plan)"
 }
 },
 "serpapi_usage": {
@@ -244,6 +244,24 @@
 "first_seen": "2026-11-26"
 },
 {
+"title": "Botany Subject Matter Expert - Fort Polk, LA",
+"company": "Colorado State University",
+"town": "Fort Collins",
+"type": "Full time",
+"category": "Government & Public Service",
+"pay": "$50k–$60k/yr",
+"pay_sort": 60000.0,
+"posted": "2026-11-26",
+"description": "Job Description The Botany Subject Matter Expert (SME) position is a Center for Environmental Management of Military Lands (CEMML) Team member and Colorado State University employee who is stationed at Fort Polk Louisiana. Fort Polk is located in west-central Louisiana among the longleaf pine forests of the Kisatchie National Forest. In this role, the Botany SME position serves as a member of the CEMML team, acting as an independent cooperator providing support for botany fieldwork, database management, and the development and submission of deliverables. This position will support the…",
+"apply_url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Leesville-LA/Botany-Subject-Matter-Expert---Fort-Polk--LA_R2026107954?utm_source=scoutandtell&utm_medium=jobboard",
+"id": "e88648c3621f",
+"via": "Colorado State University",
+"direct": true,
+"source": "Employer sites",
+"last_seen": "2026-11-27",
+"first_seen": "2026-11-27"
+},
+{
 "id": "9a6110fedb6d",
 "title": "Aquatics Manager",
 "company": "Estes Valley Recreation and Park District",
@@ -260,6 +278,24 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-26",
 "first_seen": "2026-11-26"
+},
+{
+"title": "WBS Director",
+"company": "Woodward",
+"town": "Fort Collins",
+"type": "Full time",
+"category": "Office & Admin",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-11-25",
+"description": "Woodward is committed to creating a great workplace for all team members. Our company and its members are committed to acting with integrity, being respectful and accountable to one another, and staying humble and driven, while maintaining the highest professional and ethical standards. We are steadfastly committed to attracting the best talent across our communities creating a rewarding workplace. Together we are fulfilling our purpose to design and deliver energy control solutions our partners count on to power a clean future. Woodward supports our members’ wellbeing and regularly…",
+"apply_url": "https://woodward.wd5.myworkdayjobs.com/woodward/job/Fort-Collins---Lincoln-Campus/WBS-Director_JR114553?utm_source=scoutandtell&utm_medium=jobboard",
+"id": "739d7c421b15",
+"via": "Woodward",
+"direct": true,
+"source": "Employer sites",
+"last_seen": "2026-11-27",
+"first_seen": "2026-11-27"
 },
 {
 "id": "f8e7cdd66d1f",
@@ -330,7 +366,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -564,7 +600,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8121?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -636,7 +672,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8705?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -780,7 +816,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000163342679?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -798,7 +834,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8709?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -978,7 +1014,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8703?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1014,7 +1050,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16186&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1032,7 +1068,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16185&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1050,7 +1086,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8707?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1464,7 +1500,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000222&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -1572,7 +1608,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1626,7 +1662,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1698,7 +1734,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5911338&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1716,7 +1752,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5982972&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1770,7 +1806,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996229&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -1788,7 +1824,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6001482&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -1806,7 +1842,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6001470&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -2904,26 +2940,8 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
-},
-{
-"title": "Supplier Relationship Manager II",
-"company": "Woodward",
-"town": "Fort Collins",
-"type": "Full time",
-"category": "Office & Admin",
-"pay": "$88k–$130k/yr",
-"pay_sort": 130000.0,
-"posted": "2026-11-20",
-"description": "Woodward is committed to creating a great workplace for all team members. Our company and its members are committed to acting with integrity, being respectful and accountable to one another, and staying humble and driven, while maintaining the highest professional and ethical standards. We are steadfastly committed to attracting the best talent across our communities, creating a rewarding workplace. Together we are fulfilling our purpose to design and deliver energy control solutions our partners count on to power a clean future. Woodward supports our members’ wellbeing and regularly…",
-"apply_url": "https://woodward.wd5.myworkdayjobs.com/woodward/job/Fort-Collins---Lincoln-Campus/Supplier-Relationship-Manager-II_JR114041?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "4b64a6fd73c2",
-"via": "Woodward",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-24",
-"first_seen": "2026-11-23"
 },
 {
 "id": "0e0cfa53dfe0",
@@ -3174,7 +3192,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3192,7 +3210,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3588,7 +3606,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3642,7 +3660,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1123?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3660,7 +3678,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3678,7 +3696,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -3714,7 +3732,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3732,7 +3750,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3768,7 +3786,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3786,7 +3804,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3804,7 +3822,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3840,7 +3858,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3858,7 +3876,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3876,7 +3894,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3894,7 +3912,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000563&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3912,7 +3930,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000561&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3930,7 +3948,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=6000565&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3948,7 +3966,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5960861&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -3966,7 +3984,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -3984,7 +4002,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4020,7 +4038,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4038,7 +4056,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16184&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-21"
 },
 {
@@ -4074,7 +4092,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4128,7 +4146,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4236,7 +4254,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4308,7 +4326,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998924&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4326,7 +4344,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4344,7 +4362,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -4362,7 +4380,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -4380,7 +4398,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4398,7 +4416,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4416,7 +4434,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4474,24 +4492,6 @@
 "first_seen": "2026-11-26"
 },
 {
-"id": "288a5ff525a7",
-"title": "Parts Runner",
-"company": "City of Fort Collins",
-"town": "Fort Collins",
-"type": "",
-"category": "Government & Public Service",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-19",
-"description": "SUMMARY The Parts Runner is responsible for the pick-up and delivery of parts, supplies, and vehicles for Fleet Services, also cleaning and re-stock the parts room and fuel island. This is an hourly position that will work a maximum of 29 hours/week. ESSENTIAL DUTIES AND RESPONSIBILITIES The following duties and responsibilities are illustrative of the primary function of this position and are not intended to be all inclusive. Drives vehicle to transport parts and supplies to and from a variety of locations. Re-stock and cleans the Parts Room. Assists the Shop Operations with vehicle shuttle…",
-"via": "City of Fort Collins",
-"direct": true,
-"source": "Employer sites",
-"apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8607?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-24",
-"first_seen": "2026-11-20"
-},
-{
 "title": "Nutrition Lab Assistant",
 "company": "Colorado State University",
 "town": "Fort Collins",
@@ -4506,7 +4506,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4560,7 +4560,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4578,7 +4578,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4614,7 +4614,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4668,7 +4668,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4758,7 +4758,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4794,7 +4794,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4830,7 +4830,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4884,7 +4884,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4902,7 +4902,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5981374&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -4920,7 +4920,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5981366&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5010,7 +5010,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5028,7 +5028,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5046,7 +5046,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5064,7 +5064,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5082,7 +5082,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5100,7 +5100,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-24",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -5190,7 +5190,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998561&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5208,7 +5208,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5999070&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5226,7 +5226,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998820&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5244,7 +5244,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998804&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5262,7 +5262,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5998719&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5388,7 +5388,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -5424,7 +5424,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5460,7 +5460,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5496,7 +5496,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5694,7 +5694,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5712,7 +5712,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5784,7 +5784,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8690?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -5820,7 +5820,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5838,7 +5838,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -5964,7 +5964,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6126,7 +6126,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=588600&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6162,7 +6162,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -6198,7 +6198,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997645&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6270,7 +6270,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6288,7 +6288,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6324,7 +6324,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6342,7 +6342,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -6396,7 +6396,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997496&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6414,25 +6414,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5997586&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
-"first_seen": "2026-11-20"
-},
-{
-"id": "eb4774c5a0ef",
-"title": "2026-27 Integrated Services Center-Based Floating Support-Webber Middle School",
-"company": "Poudre School District",
-"town": "Fort Collins",
-"type": "",
-"category": "Education & Childcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-18",
-"description": "",
-"via": "Poudre School District",
-"direct": true,
-"source": "Employer sites",
-"apply_url": "https://psdschools.schoolspring.com/?jobid=5997516&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-24",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6450,7 +6432,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6468,7 +6450,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6522,7 +6504,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16179&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6558,7 +6540,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6612,7 +6594,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6648,7 +6630,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -6882,7 +6864,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -6990,7 +6972,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -7062,7 +7044,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -7206,7 +7188,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -7278,7 +7260,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16181&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7314,7 +7296,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=594351&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7386,7 +7368,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16180&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7404,7 +7386,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996206&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7422,7 +7404,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5996238&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7440,7 +7422,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1121?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7638,7 +7620,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -7782,7 +7764,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8702?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8088,7 +8070,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8700?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8178,7 +8160,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -8214,7 +8196,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5979848&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8250,7 +8232,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -8268,7 +8250,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8322,7 +8304,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-25"
 },
 {
@@ -8628,7 +8610,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16174&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8880,7 +8862,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8697?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -8952,7 +8934,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8698?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9060,7 +9042,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -9276,7 +9258,7 @@
 "via": "New Belgium Brewing",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9312,7 +9294,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9368,24 +9350,6 @@
 "source": "Google Jobs",
 "last_seen": "2026-11-20",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Banner Staffing Services Physical Therapist",
-"company": "Banner Health",
-"town": "Greeley",
-"type": "Part time",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-13",
-"description": "Primary City/State: Greeley, Colorado Department Name: Banner Staffing Services-WR Work Shift: Day Job Category: Clinical Care A rewarding career that fits your life. Banner Staffing Services offers a world of opportunities to make an impact on one of the country’s leading health systems. If you’re looking to leverage your abilities – you belong at Banner Staffing Services. Our team is currently looking for a Physical Therapist to be a part of our large multidisciplinary team. This position will support our three Facilities in Greeley, Loveland, and Fort Collins and is perfect for a therapist…",
-"apply_url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Staffing-Svcs-Greeley-7251-W-4th-St/Banner-Staffing-Services-Physical-Therapist_R4460838?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "0d2d462e8dd5",
-"via": "Banner Health",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-24",
-"first_seen": "2026-11-23"
 },
 {
 "id": "800ea73d0856",
@@ -9672,7 +9636,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970938&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9690,7 +9654,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16167&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9762,7 +9726,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9798,7 +9762,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5991326&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9834,7 +9798,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972478&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9852,7 +9816,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -9924,7 +9888,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -9942,7 +9906,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -9960,7 +9924,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -9978,7 +9942,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -9996,7 +9960,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989964&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10032,7 +9996,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989725&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10050,26 +10014,8 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599355&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
-},
-{
-"title": "Banner Staffing Services Occupational Therapist",
-"company": "Banner Health",
-"town": "Greeley",
-"type": "Part time",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "Primary City/State: Greeley, Colorado Department Name: Banner Staffing Services-WR Work Shift: Day Job Category: Clinical Care A rewarding career that fits your life. Banner Staffing Services offers a world of opportunities to make an impact on one of the country’s leading health systems. If you’re looking to leverage your abilities – you belong at Banner Staffing Services. This position provides Occupational Therapist coverage for inpatient acute therapy at Banner North Colorado Medical Center with the potential to float to Banner Fort Collins Medical Center and our Loveland Campus as…",
-"apply_url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Staffing-Svcs-Greeley-7251-W-4th-St/Banner-Staffing-Services-Occupational-Therapist_R4460576?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "8cd819c7fbf5",
-"via": "Banner Health",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-24",
-"first_seen": "2026-11-23"
 },
 {
 "title": "Assistant Professor in Elementary Education with a Specialization in Mental Health and Curriculum Education",
@@ -10104,7 +10050,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -10140,7 +10086,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5936573&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10158,7 +10104,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5969688&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10194,25 +10140,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5989935&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
-"first_seen": "2026-11-20"
-},
-{
-"id": "2b1abc05ad0b",
-"title": "2026-27 Counselor Elementary Long Term Substitute-Putnam Elementary School",
-"company": "Poudre School District",
-"town": "Fort Collins",
-"type": "",
-"category": "Education & Childcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-11-11",
-"description": "",
-"via": "Poudre School District",
-"direct": true,
-"source": "Employer sites",
-"apply_url": "https://psdschools.schoolspring.com/?jobid=5989715&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-24",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10266,7 +10194,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16170&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10284,7 +10212,7 @@
 "via": "New Belgium Brewing",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10356,7 +10284,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16169&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10392,7 +10320,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5826080&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10410,7 +10338,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1116?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10428,7 +10356,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5903255&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10446,7 +10374,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16168&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10500,7 +10428,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16165&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10554,7 +10482,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1112?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10572,7 +10500,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1119?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10590,7 +10518,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5928516&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10608,7 +10536,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970806&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10626,7 +10554,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970805&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10698,7 +10626,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970760&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10770,7 +10698,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8686?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10806,7 +10734,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1117?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10824,7 +10752,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16164&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10842,7 +10770,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5497752&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10860,7 +10788,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5986041&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10878,7 +10806,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5954813&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -10950,7 +10878,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16163&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11004,7 +10932,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16162&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11022,7 +10950,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16161&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11058,7 +10986,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7980?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11112,7 +11040,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972416&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11130,7 +11058,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5972415&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11166,7 +11094,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=490069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11202,7 +11130,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -11256,7 +11184,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=596203&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11274,7 +11202,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000159660849?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11292,7 +11220,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5982903&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11310,7 +11238,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5751706&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11382,7 +11310,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -11472,7 +11400,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11508,7 +11436,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11526,7 +11454,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970539&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11544,7 +11472,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16159&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11580,7 +11508,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5979668&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11616,7 +11544,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970527&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11634,7 +11562,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970533&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11652,7 +11580,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970531&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11670,7 +11598,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970534&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11688,7 +11616,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970529&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11706,7 +11634,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970248&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11724,7 +11652,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16157&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11760,7 +11688,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5948683&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11814,7 +11742,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158606074?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11832,7 +11760,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11850,7 +11778,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158584799?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11886,7 +11814,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16154&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11904,7 +11832,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://jobs.smartrecruiters.com/SaludFamilyHealthCenters/744000158606899?utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11958,7 +11886,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16156&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -11994,7 +11922,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d30b7861-ea36-4a20-9426-8f090e74d18a&ccId=19000101_000001&lang=en_US&jobId=598700&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12030,7 +11958,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16155&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12048,7 +11976,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5976674&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12066,7 +11994,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599859&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12084,7 +12012,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5960856&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12102,7 +12030,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5975411&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -12120,7 +12048,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12138,7 +12066,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12174,7 +12102,7 @@
 "via": "Water Pik",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -12192,7 +12120,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16152&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12318,7 +12246,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-23"
 },
 {
@@ -12570,7 +12498,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16150&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12822,7 +12750,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5895695&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12840,7 +12768,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970235&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12858,7 +12786,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=970234&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12876,25 +12804,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16151&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
-"first_seen": "2026-11-20"
-},
-{
-"title": "Physical Therapist",
-"company": "Banner Health",
-"town": "Loveland",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-10-23",
-"description": "",
-"apply_url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-North-Colorado-Medical-Center---Loveland-Campus-2000-N-Boise-Ave/Physical-Therapist_R4458326?utm_source=scoutandtell&utm_medium=jobboard",
-"id": "cc6d85b41c3f",
-"via": "Banner Health",
-"direct": true,
-"source": "Employer sites",
-"last_seen": "2026-11-24",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12912,7 +12822,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1103?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12930,7 +12840,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5885746&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12948,7 +12858,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1109?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -12966,7 +12876,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16149&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -12984,7 +12894,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5970328&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13002,7 +12912,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5957765&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13092,7 +13002,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13110,7 +13020,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1107?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13146,7 +13056,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13164,7 +13074,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16147&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13200,7 +13110,7 @@
 "via": "Colorado State University",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13218,7 +13128,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1105?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13236,7 +13146,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13254,7 +13164,7 @@
 "via": "Banner Health",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13272,7 +13182,7 @@
 "via": "Woodward",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13308,7 +13218,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5889006&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13326,7 +13236,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16145&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13344,7 +13254,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1106?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13362,7 +13272,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -13380,7 +13290,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16140&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13398,7 +13308,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5905086&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13416,7 +13326,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969913&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13434,7 +13344,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969908&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13452,7 +13362,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16138&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13470,7 +13380,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599353&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13488,7 +13398,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16136&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13506,7 +13416,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5954040&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13524,7 +13434,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5909864&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13542,7 +13452,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5900723&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13578,7 +13488,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=599306&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13596,7 +13506,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=597652&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13614,7 +13524,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16134&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -13632,7 +13542,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -13650,7 +13560,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=576361&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13668,7 +13578,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8207?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13686,7 +13596,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5955350&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13704,7 +13614,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=595733&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13722,7 +13632,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16132&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13740,7 +13650,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16130&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13758,7 +13668,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1102?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13776,7 +13686,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1101?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13794,7 +13704,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16125&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13812,7 +13722,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16118&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13830,7 +13740,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16119&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13848,7 +13758,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5928520&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13866,7 +13776,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16121&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13884,7 +13794,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16120&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13902,7 +13812,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -13920,7 +13830,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16124&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13938,7 +13848,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969438&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13956,7 +13866,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a70b4e51-0f48-41f7-bde6-f9a90b335781&ccId=19000101_000001&lang=en_US&jobId=969412&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13974,7 +13884,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16111&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -13992,7 +13902,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1098?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14010,7 +13920,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16112&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14028,7 +13938,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1100?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14046,7 +13956,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14064,7 +13974,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14082,7 +13992,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14100,7 +14010,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16108&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14118,7 +14028,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14136,7 +14046,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14154,7 +14064,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5941871&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14172,7 +14082,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=efc2917c-9851-47b5-9929-8d0a710b4ca2&ccId=19000101_000001&lang=en_US&jobId=598715&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-24"
 },
 {
@@ -14190,7 +14100,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16106&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14208,7 +14118,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16101&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14226,7 +14136,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16102&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14244,7 +14154,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1092?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14262,7 +14172,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1093?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14280,7 +14190,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16099&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14298,7 +14208,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14316,25 +14226,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16095&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
-"first_seen": "2026-11-20"
-},
-{
-"id": "e455b290865b",
-"title": "Maintenance Carpenter Journeyman-Facilities Services Department",
-"company": "Poudre School District",
-"town": "Fort Collins",
-"type": "",
-"category": "Healthcare",
-"pay": "",
-"pay_sort": 0,
-"posted": "2026-09-10",
-"description": "",
-"via": "Poudre School District",
-"direct": true,
-"source": "Employer sites",
-"apply_url": "https://psdschools.schoolspring.com/?jobid=5900736&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-24",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14370,7 +14262,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1086?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14388,7 +14280,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16093&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14406,7 +14298,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1088?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14424,7 +14316,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1087?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14442,7 +14334,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5747646&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14460,7 +14352,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16092&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14478,7 +14370,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16088&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14514,7 +14406,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16089&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14532,7 +14424,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16085&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14550,7 +14442,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14568,7 +14460,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16082&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14586,7 +14478,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5900905&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14604,7 +14496,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5876676&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14622,7 +14514,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5913529&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14640,7 +14532,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14658,7 +14550,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16078&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14676,7 +14568,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16079&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14694,7 +14586,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14712,7 +14604,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1078?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14730,7 +14622,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16077&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14748,7 +14640,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16076&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14766,7 +14658,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1075?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14802,7 +14694,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14824,6 +14716,24 @@
 "first_seen": "2026-11-20"
 },
 {
+"id": "15a24f07bef3",
+"title": "Homebound Teacher, Special Education",
+"company": "Greeley-Evans School District 6",
+"town": "Greeley",
+"type": "",
+"category": "Education & Childcare",
+"pay": "",
+"pay_sort": 0,
+"posted": "2026-08-25",
+"description": "",
+"via": "Greeley-Evans School District 6",
+"direct": true,
+"source": "Employer sites",
+"apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16071&utm_source=scoutandtell&utm_medium=jobboard",
+"last_seen": "2026-11-27",
+"first_seen": "2026-11-27"
+},
+{
 "title": "Part-Time: Instructor I, ELL",
 "company": "Aims Community College",
 "town": "Loveland",
@@ -14838,7 +14748,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14874,7 +14784,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -14892,7 +14802,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1073?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14910,7 +14820,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5895185&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14928,7 +14838,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5892234&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14946,7 +14856,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16048&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14964,7 +14874,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16043&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -14982,7 +14892,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5885629&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15000,7 +14910,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16041&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15018,7 +14928,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5881503&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15036,7 +14946,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5877877&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15054,7 +14964,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1064?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15072,7 +14982,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1061?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15090,7 +15000,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16030&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15108,7 +15018,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16032&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15126,7 +15036,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1058?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15144,7 +15054,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16027&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15162,7 +15072,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16026&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15180,7 +15090,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16020&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15198,7 +15108,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=16011&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15216,7 +15126,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/936?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15234,7 +15144,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15252,7 +15162,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5835203&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15270,7 +15180,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15288,7 +15198,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15306,7 +15216,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15324,7 +15234,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15975&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15342,7 +15252,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15976&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15360,7 +15270,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1035?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15378,7 +15288,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15396,7 +15306,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1031?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15414,7 +15324,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/978?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15432,7 +15342,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15450,7 +15360,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1018?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15468,7 +15378,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1001?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15486,7 +15396,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1006?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15504,7 +15414,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1007?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15522,7 +15432,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1004?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15540,7 +15450,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1005?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15558,7 +15468,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1009?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15576,7 +15486,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1008?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15594,7 +15504,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/968?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15612,7 +15522,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/969?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15630,7 +15540,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/941?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15648,7 +15558,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1003?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15666,7 +15576,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/990?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15684,7 +15594,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1002?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15702,7 +15612,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1010?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15720,7 +15630,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/992?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15738,7 +15648,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/937?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15756,7 +15666,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/935?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15774,7 +15684,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/970?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15792,7 +15702,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/947?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15810,7 +15720,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/958?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15828,7 +15738,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/959?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15846,7 +15756,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/960?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15864,7 +15774,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1016?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15882,7 +15792,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -15900,7 +15810,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756069&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15918,7 +15828,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756070&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15936,7 +15846,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756068&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15954,7 +15864,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756071&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15972,7 +15882,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5756063&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -15990,7 +15900,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16008,7 +15918,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/999?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16026,7 +15936,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/983?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16044,7 +15954,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/961?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16062,7 +15972,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/993?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16080,7 +15990,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/963?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16098,7 +16008,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/964?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16116,7 +16026,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/945?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16134,7 +16044,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/1000?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16152,7 +16062,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/962?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16170,7 +16080,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/998?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16188,7 +16098,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/997?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16206,7 +16116,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/989?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16224,7 +16134,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/984?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16242,7 +16152,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/991?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16260,7 +16170,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/988?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16278,7 +16188,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/944?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16296,7 +16206,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/965?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16314,7 +16224,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/981?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16332,7 +16242,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/979?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16350,7 +16260,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/980?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16368,7 +16278,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/982?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16386,7 +16296,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/986?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16404,7 +16314,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/987?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16422,7 +16332,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/994?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16440,7 +16350,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16458,7 +16368,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16476,7 +16386,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16494,7 +16404,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16512,7 +16422,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16530,7 +16440,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16548,7 +16458,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16566,7 +16476,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16584,7 +16494,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/971?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16602,7 +16512,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16620,7 +16530,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16638,7 +16548,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16656,7 +16566,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15736&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16674,7 +16584,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16692,7 +16602,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510742&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16710,7 +16620,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510732&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16728,7 +16638,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://psdschools.schoolspring.com/?jobid=5510685&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16746,7 +16656,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16764,7 +16674,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16782,7 +16692,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16800,7 +16710,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16818,7 +16728,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16836,7 +16746,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=15323&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16854,7 +16764,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16872,7 +16782,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16890,7 +16800,7 @@
 "via": "Aims Community College",
 "direct": true,
 "source": "Employer sites",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-26"
 },
 {
@@ -16908,7 +16818,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://unco.csod.com/ux/ats/careersite/1/home/requisition/655?c=unco&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16926,7 +16836,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/8002?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16944,7 +16854,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7826?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16962,7 +16872,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=14397&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16980,7 +16890,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=14348&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -16998,7 +16908,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7491?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -17016,7 +16926,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/7493?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -17034,7 +16944,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://fcgov.csod.com/ux/ats/careersite/12/home/requisition/5832?c=fcgov&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -17052,7 +16962,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=11227&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -17070,7 +16980,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=10151&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 },
 {
@@ -17088,7 +16998,7 @@
 "direct": true,
 "source": "Employer sites",
 "apply_url": "https://www.applitrack.com/greeley/onlineapp/default.aspx?AppliTrackJobId=7530&utm_source=scoutandtell&utm_medium=jobboard",
-"last_seen": "2026-11-26",
+"last_seen": "2026-11-27",
 "first_seen": "2026-11-20"
 }
 ]
